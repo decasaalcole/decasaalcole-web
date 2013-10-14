@@ -1,0 +1,1576 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "CP": "12526", "NOMBRE": "La Vilavella", "CODIGOINE": "12136", "JURISDICCI": "12136" }, "geometry": { "type": "Point", "coordinates": [ -0.185288583489197, 39.858514730851027 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46197", "NOMBRE": "Alfarp", "CODIGOINE": "46026", "JURISDICCI": "46026" }, "geometry": { "type": "Point", "coordinates": [ -0.560570853747398, 39.276233746808643 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46118", "NOMBRE": "Serra", "CODIGOINE": "46228", "JURISDICCI": "46228" }, "geometry": { "type": "Point", "coordinates": [ -0.427732561650518, 39.685058170668135 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12222", "NOMBRE": "A�n", "CODIGOINE": "12002", "JURISDICCI": "12002" }, "geometry": { "type": "Point", "coordinates": [ -0.341010253856231, 39.900216077272724 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46400", "NOMBRE": "Cullera", "CODIGOINE": "46105", "JURISDICCI": "46105" }, "geometry": { "type": "Point", "coordinates": [ -0.2543691796109, 39.162724983682146 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46117", "NOMBRE": "B�tera", "CODIGOINE": "46070", "JURISDICCI": "46070" }, "geometry": { "type": "Point", "coordinates": [ -0.45930955312824, 39.590345075531978 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03111", "NOMBRE": "Busot", "CODIGOINE": "03046", "JURISDICCI": "03046" }, "geometry": { "type": "Point", "coordinates": [ -0.420593774614727, 38.481197250000072 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03430", "NOMBRE": "Onil", "CODIGOINE": "03096", "JURISDICCI": "03096" }, "geometry": { "type": "Point", "coordinates": [ -0.669773626444822, 38.628864234205238 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03727", "NOMBRE": "Xal�", "CODIGOINE": "03081", "JURISDICCI": "03081" }, "geometry": { "type": "Point", "coordinates": [ -0.010261805013534, 38.737994975863053 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03793", "NOMBRE": "Castell de Castells", "CODIGOINE": "03054", "JURISDICCI": "03054" }, "geometry": { "type": "Point", "coordinates": [ -0.193552977015118, 38.724690547042137 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03811", "NOMBRE": "Quatretondeta", "CODIGOINE": "03060", "JURISDICCI": "03060" }, "geometry": { "type": "Point", "coordinates": [ -0.316232610859732, 38.723118719859201 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03720", "NOMBRE": "Benissa", "CODIGOINE": "03041", "JURISDICCI": "03041" }, "geometry": { "type": "Point", "coordinates": [ 0.053043630064783, 38.71643454255333 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03729", "NOMBRE": "Senija", "CODIGOINE": "03125", "JURISDICCI": "03125" }, "geometry": { "type": "Point", "coordinates": [ 0.04176153173808, 38.727443850264038 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03813", "NOMBRE": "Famorca", "CODIGOINE": "03068", "JURISDICCI": "03068" }, "geometry": { "type": "Point", "coordinates": [ -0.246302132924588, 38.73095396001758 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03813", "NOMBRE": "Facheca", "CODIGOINE": "03067", "JURISDICCI": "03067" }, "geometry": { "type": "Point", "coordinates": [ -0.267453543095142, 38.734647843204399 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03517", "NOMBRE": "Benifato", "CODIGOINE": "03033", "JURISDICCI": "03033" }, "geometry": { "type": "Point", "coordinates": [ -0.229416998416416, 38.673433458510686 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03005", "NOMBRE": "Alacant\/Alicante", "CODIGOINE": "03014", "JURISDICCI": "03014" }, "geometry": { "type": "Point", "coordinates": [ -0.495116708235152, 38.352310344358266 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03690", "NOMBRE": "San Vicente del Raspeig\/Sant Vicent del Raspeig", "CODIGOINE": "03122", "JURISDICCI": "03122" }, "geometry": { "type": "Point", "coordinates": [ -0.523241460918004, 38.398489292765781 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03410", "NOMBRE": "Biar", "CODIGOINE": "03043", "JURISDICCI": "03043" }, "geometry": { "type": "Point", "coordinates": [ -0.764282913569577, 38.628281386832171 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03516", "NOMBRE": "Benimantell", "CODIGOINE": "03037", "JURISDICCI": "03037" }, "geometry": { "type": "Point", "coordinates": [ -0.209682807024173, 38.676197982978692 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03518", "NOMBRE": "Bolulla", "CODIGOINE": "03045", "JURISDICCI": "03045" }, "geometry": { "type": "Point", "coordinates": [ -0.112015726913103, 38.676227172249952 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03517", "NOMBRE": "El Castell de Guadalest", "CODIGOINE": "03075", "JURISDICCI": "03075" }, "geometry": { "type": "Point", "coordinates": [ -0.197857148318451, 38.675556526567014 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03810", "NOMBRE": "Benilloba", "CODIGOINE": "03035", "JURISDICCI": "03035" }, "geometry": { "type": "Point", "coordinates": [ -0.38764916142448, 38.700419089361709 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03814", "NOMBRE": "Benasau", "CODIGOINE": "03022", "JURISDICCI": "03022" }, "geometry": { "type": "Point", "coordinates": [ -0.34388253463757, 38.689615380165321 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03815", "NOMBRE": "Pen�guila", "CODIGOINE": "03103", "JURISDICCI": "03103" }, "geometry": { "type": "Point", "coordinates": [ -0.35919255017581, 38.67942476941937 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03460", "NOMBRE": "Beneixama", "CODIGOINE": "03023", "JURISDICCI": "03023" }, "geometry": { "type": "Point", "coordinates": [ -0.76448222218875, 38.700368031680561 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03815", "NOMBRE": "Pilar de la Horadada", "CODIGOINE": "03902", "JURISDICCI": "03902" }, "geometry": { "type": "Point", "coordinates": [ -0.789743137317414, 37.86322631752347 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03183", "NOMBRE": "Torrevieja", "CODIGOINE": "03133", "JURISDICCI": "03133" }, "geometry": { "type": "Point", "coordinates": [ -0.668658746425619, 37.991850709516818 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03187", "NOMBRE": "Los Montesinos", "CODIGOINE": "03903", "JURISDICCI": "03903" }, "geometry": { "type": "Point", "coordinates": [ -0.744986589187938, 38.02747343648894 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03380", "NOMBRE": "Bigastro", "CODIGOINE": "03044", "JURISDICCI": "03044" }, "geometry": { "type": "Point", "coordinates": [ -0.896908980834173, 38.062266385106355 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03310", "NOMBRE": "Jacarilla", "CODIGOINE": "03080", "JURISDICCI": "03080" }, "geometry": { "type": "Point", "coordinates": [ -0.867449858596846, 38.061772960895766 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03169", "NOMBRE": "Algorfa", "CODIGOINE": "03012", "JURISDICCI": "03012" }, "geometry": { "type": "Point", "coordinates": [ -0.796143094056887, 38.08550990957454 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03390", "NOMBRE": "Benej�zar", "CODIGOINE": "03024", "JURISDICCI": "03024" }, "geometry": { "type": "Point", "coordinates": [ -0.836071909544368, 38.075449835399482 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03177", "NOMBRE": "San Fulgencio", "CODIGOINE": "03118", "JURISDICCI": "03118" }, "geometry": { "type": "Point", "coordinates": [ -0.718196515348394, 38.114874082967525 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03300", "NOMBRE": "Orihuela", "CODIGOINE": "03099", "JURISDICCI": "03099" }, "geometry": { "type": "Point", "coordinates": [ -0.945360484492695, 38.083773071651656 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03813", "NOMBRE": "Tollos", "CODIGOINE": "03130", "JURISDICCI": "03130" }, "geometry": { "type": "Point", "coordinates": [ -0.274869340488616, 38.756941416936634 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03829", "NOMBRE": "L'Alqueria d'Asnar", "CODIGOINE": "03017", "JURISDICCI": "03017" }, "geometry": { "type": "Point", "coordinates": [ -0.425568398481516, 38.772007499999972 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03820", "NOMBRE": "Cocentaina", "CODIGOINE": "03056", "JURISDICCI": "03056" }, "geometry": { "type": "Point", "coordinates": [ -0.440522961764582, 38.73756333309872 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03409", "NOMBRE": "Villena", "CODIGOINE": "03140", "JURISDICCI": "03140" }, "geometry": { "type": "Point", "coordinates": [ -0.866111639946961, 38.637233014557282 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03728", "NOMBRE": "Alcalal�", "CODIGOINE": "03006", "JURISDICCI": "03006" }, "geometry": { "type": "Point", "coordinates": [ -0.040529467143338, 38.750498758510631 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03750", "NOMBRE": "Pedreguer", "CODIGOINE": "03101", "JURISDICCI": "03101" }, "geometry": { "type": "Point", "coordinates": [ 0.033081987765797, 38.792976050000107 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03778", "NOMBRE": "Beniarbeig", "CODIGOINE": "03026", "JURISDICCI": "03026" }, "geometry": { "type": "Point", "coordinates": [ -0.002258268018273, 38.822380580440779 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03837", "NOMBRE": "Agres", "CODIGOINE": "03003", "JURISDICCI": "03003" }, "geometry": { "type": "Point", "coordinates": [ -0.515691285588682, 38.779154686953497 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03828", "NOMBRE": "Planes", "CODIGOINE": "03106", "JURISDICCI": "03106" }, "geometry": { "type": "Point", "coordinates": [ -0.342720850502662, 38.783570853573949 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03830", "NOMBRE": "Muro de Alcoy", "CODIGOINE": "03092", "JURISDICCI": "03092" }, "geometry": { "type": "Point", "coordinates": [ -0.438038476953045, 38.779793363767396 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03840", "NOMBRE": "Gaianes", "CODIGOINE": "03072", "JURISDICCI": "03072" }, "geometry": { "type": "Point", "coordinates": [ -0.409271475026866, 38.812457300338451 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03789", "NOMBRE": "La Vall d'Ebo", "CODIGOINE": "03135", "JURISDICCI": "03135" }, "geometry": { "type": "Point", "coordinates": [ -0.15914774261697, 38.80524558989444 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03769", "NOMBRE": "Benimeli", "CODIGOINE": "03040", "JURISDICCI": "03040" }, "geometry": { "type": "Point", "coordinates": [ -0.041676838255638, 38.822722677659641 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03770", "NOMBRE": "El Verger", "CODIGOINE": "03138", "JURISDICCI": "03138" }, "geometry": { "type": "Point", "coordinates": [ 0.009026574140901, 38.848444253485972 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03779", "NOMBRE": "Els Poblets", "CODIGOINE": "03901", "JURISDICCI": "03901" }, "geometry": { "type": "Point", "coordinates": [ 0.018183758227499, 38.85188088676049 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03700", "NOMBRE": "D�nia", "CODIGOINE": "03063", "JURISDICCI": "03063" }, "geometry": { "type": "Point", "coordinates": [ 0.104493899329868, 38.839322105915777 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03780", "NOMBRE": "Pego", "CODIGOINE": "03102", "JURISDICCI": "03102" }, "geometry": { "type": "Point", "coordinates": [ -0.116335770919868, 38.841831510017627 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46729", "NOMBRE": "Adsubia", "CODIGOINE": "03001", "JURISDICCI": "03001" }, "geometry": { "type": "Point", "coordinates": [ -0.15141110779097, 38.847485484368654 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03860", "NOMBRE": "Lorcha\/L'Orxa", "CODIGOINE": "03084", "JURISDICCI": "03084" }, "geometry": { "type": "Point", "coordinates": [ -0.310844243317131, 38.843119376831041 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03340", "NOMBRE": "Albatera", "CODIGOINE": "03005", "JURISDICCI": "03005" }, "geometry": { "type": "Point", "coordinates": [ -0.871300515974987, 38.180454015957523 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03689", "NOMBRE": "Hond�n de los Frailes", "CODIGOINE": "03078", "JURISDICCI": "03078" }, "geometry": { "type": "Point", "coordinates": [ -0.929323445564197, 38.273013238249646 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03680", "NOMBRE": "Aspe", "CODIGOINE": "03019", "JURISDICCI": "03019" }, "geometry": { "type": "Point", "coordinates": [ -0.76671288583373, 38.34267842203861 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03109", "NOMBRE": "Tibi", "CODIGOINE": "03129", "JURISDICCI": "03129" }, "geometry": { "type": "Point", "coordinates": [ -0.574628327274778, 38.532091028783071 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03640", "NOMBRE": "Mon�var\/Mon�ver", "CODIGOINE": "03089", "JURISDICCI": "03089" }, "geometry": { "type": "Point", "coordinates": [ -0.838217902963261, 38.436255649477069 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03100", "NOMBRE": "Jijona\/Xixona", "CODIGOINE": "03083", "JURISDICCI": "03083" }, "geometry": { "type": "Point", "coordinates": [ -0.506801866542544, 38.539965826639268 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03108", "NOMBRE": "Torremanzanas\/La Torre de les Ma�anes", "CODIGOINE": "03132", "JURISDICCI": "03132" }, "geometry": { "type": "Point", "coordinates": [ -0.420464010895718, 38.608388829828989 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03517", "NOMBRE": "Beniard�", "CODIGOINE": "03027", "JURISDICCI": "03027" }, "geometry": { "type": "Point", "coordinates": [ -0.216320688429294, 38.68326558801656 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03450", "NOMBRE": "Banyeres de Mariola", "CODIGOINE": "03021", "JURISDICCI": "03021" }, "geometry": { "type": "Point", "coordinates": [ -0.658890327287203, 38.717370759090961 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03792", "NOMBRE": "Parcent", "CODIGOINE": "03100", "JURISDICCI": "03100" }, "geometry": { "type": "Point", "coordinates": [ -0.066643923851759, 38.744986743204372 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03812", "NOMBRE": "Balones", "CODIGOINE": "03020", "JURISDICCI": "03020" }, "geometry": { "type": "Point", "coordinates": [ -0.342674934022296, 38.73647923719021 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03827", "NOMBRE": "Almudaina", "CODIGOINE": "03016", "JURISDICCI": "03016" }, "geometry": { "type": "Point", "coordinates": [ -0.354144170469442, 38.760523623691519 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03740", "NOMBRE": "Gata de Gorgos", "CODIGOINE": "03071", "JURISDICCI": "03071" }, "geometry": { "type": "Point", "coordinates": [ 0.084839254401298, 38.773200806531797 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03729", "NOMBRE": "Ll�ber", "CODIGOINE": "03085", "JURISDICCI": "03085" }, "geometry": { "type": "Point", "coordinates": [ 0.008299114489971, 38.742422366021337 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03812", "NOMBRE": "Benimassot", "CODIGOINE": "03039", "JURISDICCI": "03039" }, "geometry": { "type": "Point", "coordinates": [ -0.291213089514197, 38.748777315957526 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03791", "NOMBRE": "La Vall de Laguar", "CODIGOINE": "03137", "JURISDICCI": "03137" }, "geometry": { "type": "Point", "coordinates": [ -0.127017421082954, 38.772563886496606 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03838", "NOMBRE": "Alfafara", "CODIGOINE": "03010", "JURISDICCI": "03010" }, "geometry": { "type": "Point", "coordinates": [ -0.554872479013689, 38.773502154255425 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03769", "NOMBRE": "Sanet y Negrals", "CODIGOINE": "03117", "JURISDICCI": "03117" }, "geometry": { "type": "Point", "coordinates": [ -0.034851945027862, 38.81940856654942 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03759", "NOMBRE": "Benidoleig", "CODIGOINE": "03030", "JURISDICCI": "03030" }, "geometry": { "type": "Point", "coordinates": [ -0.029019217714966, 38.7923221007566 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03769", "NOMBRE": "El R�fol d'Alm�nia", "CODIGOINE": "03110", "JURISDICCI": "03110" }, "geometry": { "type": "Point", "coordinates": [ -0.051831120819272, 38.820898913591428 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03795", "NOMBRE": "Sagra", "CODIGOINE": "03115", "JURISDICCI": "03115" }, "geometry": { "type": "Point", "coordinates": [ -0.065871598996081, 38.809748193732247 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03795", "NOMBRE": "Tormos", "CODIGOINE": "03131", "JURISDICCI": "03131" }, "geometry": { "type": "Point", "coordinates": [ -0.071052443712493, 38.802669826743056 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03850", "NOMBRE": "Beniarr�s", "CODIGOINE": "03028", "JURISDICCI": "03028" }, "geometry": { "type": "Point", "coordinates": [ -0.379635069183111, 38.820184197796145 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03178", "NOMBRE": "Benij�far", "CODIGOINE": "03034", "JURISDICCI": "03034" }, "geometry": { "type": "Point", "coordinates": [ -0.737852935898548, 38.077249434042571 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03369", "NOMBRE": "Rafal", "CODIGOINE": "03109", "JURISDICCI": "03109" }, "geometry": { "type": "Point", "coordinates": [ -0.84927711365447, 38.103225425784721 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03688", "NOMBRE": "El Fond� de les Neus\/Hond�n de las Nieves", "CODIGOINE": "03077", "JURISDICCI": "03077" }, "geometry": { "type": "Point", "coordinates": [ -0.852210528579048, 38.308796191056516 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03201", "NOMBRE": "Elche\/Elx", "CODIGOINE": "03065", "JURISDICCI": "03065" }, "geometry": { "type": "Point", "coordinates": [ -0.701608683934624, 38.267628324075403 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03668", "NOMBRE": "Algue�a", "CODIGOINE": "03013", "JURISDICCI": "03013" }, "geometry": { "type": "Point", "coordinates": [ -1.003613221271242, 38.338045924242408 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03110", "NOMBRE": "Mutxamel", "CODIGOINE": "03090", "JURISDICCI": "03090" }, "geometry": { "type": "Point", "coordinates": [ -0.445506511022979, 38.411195262082003 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03580", "NOMBRE": "L'Alf�s del Pi", "CODIGOINE": "03011", "JURISDICCI": "03011" }, "geometry": { "type": "Point", "coordinates": [ -0.098503409003197, 38.579117388249706 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03579", "NOMBRE": "Orxeta", "CODIGOINE": "03098", "JURISDICCI": "03098" }, "geometry": { "type": "Point", "coordinates": [ -0.262971974625814, 38.562899656851435 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03502", "NOMBRE": "Benidorm", "CODIGOINE": "03031", "JURISDICCI": "03031" }, "geometry": { "type": "Point", "coordinates": [ -0.139047603853416, 38.541653822946785 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03420", "NOMBRE": "Castalla", "CODIGOINE": "03053", "JURISDICCI": "03053" }, "geometry": { "type": "Point", "coordinates": [ -0.669807923244361, 38.591017907446869 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03509", "NOMBRE": "Finestrat", "CODIGOINE": "03069", "JURISDICCI": "03069" }, "geometry": { "type": "Point", "coordinates": [ -0.212248573592286, 38.568137430352188 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03578", "NOMBRE": "Relleu", "CODIGOINE": "03112", "JURISDICCI": "03112" }, "geometry": { "type": "Point", "coordinates": [ -0.311278956856907, 38.586954522123257 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03530", "NOMBRE": "La Nucia", "CODIGOINE": "03094", "JURISDICCI": "03094" }, "geometry": { "type": "Point", "coordinates": [ -0.126347587304442, 38.613143605282112 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03177", "NOMBRE": "Daya Vieja", "CODIGOINE": "03062", "JURISDICCI": "03062" }, "geometry": { "type": "Point", "coordinates": [ -0.736535582066218, 38.104202853329973 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03159", "NOMBRE": "Daya Nueva", "CODIGOINE": "03061", "JURISDICCI": "03061" }, "geometry": { "type": "Point", "coordinates": [ -0.760964909615893, 38.11186275 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03160", "NOMBRE": "Almorad�", "CODIGOINE": "03015", "JURISDICCI": "03015" }, "geometry": { "type": "Point", "coordinates": [ -0.792633131039244, 38.110616779614368 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03140", "NOMBRE": "Guardamar del Segura", "CODIGOINE": "03076", "JURISDICCI": "03076" }, "geometry": { "type": "Point", "coordinates": [ -0.651950135666196, 38.08439689053337 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03350", "NOMBRE": "Cox", "CODIGOINE": "03058", "JURISDICCI": "03058" }, "geometry": { "type": "Point", "coordinates": [ -0.889428831141517, 38.141680742102544 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03349", "NOMBRE": "San Isidro", "CODIGOINE": "03904", "JURISDICCI": "03904" }, "geometry": { "type": "Point", "coordinates": [ -0.837979757623183, 38.171997659458881 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03440", "NOMBRE": "Ibi", "CODIGOINE": "03079", "JURISDICCI": "03079" }, "geometry": { "type": "Point", "coordinates": [ -0.574838944749156, 38.622419442102675 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03816", "NOMBRE": "Benifallim", "CODIGOINE": "03032", "JURISDICCI": "03032" }, "geometry": { "type": "Point", "coordinates": [ -0.399956137080249, 38.662688115957415 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03788", "NOMBRE": "La Vall d'Alcal�", "CODIGOINE": "03134", "JURISDICCI": "03134" }, "geometry": { "type": "Point", "coordinates": [ -0.251856257841592, 38.794678086408652 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03790", "NOMBRE": "Orba", "CODIGOINE": "03097", "JURISDICCI": "03097" }, "geometry": { "type": "Point", "coordinates": [ -0.064152964927637, 38.779095456795702 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03669", "NOMBRE": "La Romana", "CODIGOINE": "03114", "JURISDICCI": "03114" }, "geometry": { "type": "Point", "coordinates": [ -0.896920705047289, 38.365476309658241 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03550", "NOMBRE": "Sant Joan d'Alacant", "CODIGOINE": "03119", "JURISDICCI": "03119" }, "geometry": { "type": "Point", "coordinates": [ -0.434080651000853, 38.400407673500908 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03670", "NOMBRE": "Monforte del Cid", "CODIGOINE": "03088", "JURISDICCI": "03088" }, "geometry": { "type": "Point", "coordinates": [ -0.72707198459193, 38.381312679637489 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03610", "NOMBRE": "Petrer", "CODIGOINE": "03104", "JURISDICCI": "03104" }, "geometry": { "type": "Point", "coordinates": [ -0.77722818776892, 38.48316543016076 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03600", "NOMBRE": "Elda", "CODIGOINE": "03066", "JURISDICCI": "03066" }, "geometry": { "type": "Point", "coordinates": [ -0.793137227969639, 38.476932098953867 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03710", "NOMBRE": "Calp", "CODIGOINE": "03047", "JURISDICCI": "03047" }, "geometry": { "type": "Point", "coordinates": [ 0.046105922730825, 38.646994195744689 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03520", "NOMBRE": "Polop", "CODIGOINE": "03107", "JURISDICCI": "03107" }, "geometry": { "type": "Point", "coordinates": [ -0.130406533643823, 38.621736705090719 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03590", "NOMBRE": "Altea", "CODIGOINE": "03018", "JURISDICCI": "03018" }, "geometry": { "type": "Point", "coordinates": [ -0.050961547086586, 38.599140669619366 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03409", "NOMBRE": "Ca�ada", "CODIGOINE": "03052", "JURISDICCI": "03052" }, "geometry": { "type": "Point", "coordinates": [ -0.812140261959795, 38.673885243732201 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03794", "NOMBRE": "Benigembla", "CODIGOINE": "03029", "JURISDICCI": "03029" }, "geometry": { "type": "Point", "coordinates": [ -0.109714127436755, 38.754575558510638 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03579", "NOMBRE": "Sella", "CODIGOINE": "03124", "JURISDICCI": "03124" }, "geometry": { "type": "Point", "coordinates": [ -0.272571567323875, 38.608351723500824 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03170", "NOMBRE": "Rojales", "CODIGOINE": "03113", "JURISDICCI": "03113" }, "geometry": { "type": "Point", "coordinates": [ -0.723564691794861, 38.086333600191473 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03179", "NOMBRE": "Formentera del Segura", "CODIGOINE": "03070", "JURISDICCI": "03070" }, "geometry": { "type": "Point", "coordinates": [ -0.745503043430581, 38.08601512454694 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03812", "NOMBRE": "Millena", "CODIGOINE": "03086", "JURISDICCI": "03086" }, "geometry": { "type": "Point", "coordinates": [ -0.363893179822869, 38.730336937112547 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03348", "NOMBRE": "Granja de Rocamora", "CODIGOINE": "03074", "JURISDICCI": "03074" }, "geometry": { "type": "Point", "coordinates": [ -0.89032937456432, 38.153253485167824 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03827", "NOMBRE": "Benimarfull", "CODIGOINE": "03038", "JURISDICCI": "03038" }, "geometry": { "type": "Point", "coordinates": [ -0.390807131131282, 38.775939207446932 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03730", "NOMBRE": "J�vea\/X�bia", "CODIGOINE": "03082", "JURISDICCI": "03082" }, "geometry": { "type": "Point", "coordinates": [ 0.164396310842292, 38.787218032658778 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03725", "NOMBRE": "Teulada", "CODIGOINE": "03128", "JURISDICCI": "03128" }, "geometry": { "type": "Point", "coordinates": [ 0.104870942364004, 38.728800719419326 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03650", "NOMBRE": "El Pin�s\/Pinoso", "CODIGOINE": "03105", "JURISDICCI": "03105" }, "geometry": { "type": "Point", "coordinates": [ -1.041257482789457, 38.401589182252948 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03560", "NOMBRE": "El Campello", "CODIGOINE": "03050", "JURISDICCI": "03050" }, "geometry": { "type": "Point", "coordinates": [ -0.39646744882125, 38.427154840673367 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03841", "NOMBRE": "Alcocer de Planes", "CODIGOINE": "03007", "JURISDICCI": "03007" }, "geometry": { "type": "Point", "coordinates": [ -0.402727728599532, 38.794920637234142 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03630", "NOMBRE": "Sax", "CODIGOINE": "03123", "JURISDICCI": "03123" }, "geometry": { "type": "Point", "coordinates": [ -0.820384078087992, 38.535756420502537 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03193", "NOMBRE": "San Miguel de Salinas", "CODIGOINE": "03120", "JURISDICCI": "03120" }, "geometry": { "type": "Point", "coordinates": [ -0.788399867325199, 37.976536166235476 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03760", "NOMBRE": "Ondara", "CODIGOINE": "03095", "JURISDICCI": "03095" }, "geometry": { "type": "Point", "coordinates": [ 0.020127533276083, 38.825540983362636 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03814", "NOMBRE": "Alcoleja", "CODIGOINE": "03008", "JURISDICCI": "03008" }, "geometry": { "type": "Point", "coordinates": [ -0.331279588564144, 38.674653296808636 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03801", "NOMBRE": "Alcoy\/Alcoi", "CODIGOINE": "03009", "JURISDICCI": "03009" }, "geometry": { "type": "Point", "coordinates": [ -0.477141787082977, 38.696740117021285 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03510", "NOMBRE": "Callosa d'En Sarri�", "CODIGOINE": "03048", "JURISDICCI": "03048" }, "geometry": { "type": "Point", "coordinates": [ -0.120928117292598, 38.653115245123985 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12190", "NOMBRE": "Borriol", "CODIGOINE": "12031", "JURISDICCI": "12031" }, "geometry": { "type": "Point", "coordinates": [ -0.069827172070643, 40.041430664893603 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12499", "NOMBRE": "Ch�var", "CODIGOINE": "12056", "JURISDICCI": "12056" }, "geometry": { "type": "Point", "coordinates": [ -0.320315976411199, 39.850964494653823 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12400", "NOMBRE": "Segorbe", "CODIGOINE": "12104", "JURISDICCI": "12104" }, "geometry": { "type": "Point", "coordinates": [ -0.487181207622514, 39.847625129809614 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12560", "NOMBRE": "Benicasim\/Benic�ssim", "CODIGOINE": "12028", "JURISDICCI": "12028" }, "geometry": { "type": "Point", "coordinates": [ 0.059251289795432, 40.051787149862271 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12180", "NOMBRE": "Cabanes", "CODIGOINE": "12033", "JURISDICCI": "12033" }, "geometry": { "type": "Point", "coordinates": [ 0.046072738561231, 40.154638053191498 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12134", "NOMBRE": "Benafigos", "CODIGOINE": "12025", "JURISDICCI": "12025" }, "geometry": { "type": "Point", "coordinates": [ -0.208845791430549, 40.276457061157096 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12132", "NOMBRE": "Atzeneta del Maestrat", "CODIGOINE": "12001", "JURISDICCI": "12001" }, "geometry": { "type": "Point", "coordinates": [ -0.170691673471172, 40.215873220523449 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12184", "NOMBRE": "La Torre d'en Dom�nec", "CODIGOINE": "12120", "JURISDICCI": "12120" }, "geometry": { "type": "Point", "coordinates": [ 0.069935257962743, 40.262648492625644 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12183", "NOMBRE": "Vilanova d'Alcolea", "CODIGOINE": "12132", "JURISDICCI": "12132" }, "geometry": { "type": "Point", "coordinates": [ 0.073304279588641, 40.231470271740108 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12182", "NOMBRE": "Sierra Engarcer�n", "CODIGOINE": "12105", "JURISDICCI": "12105" }, "geometry": { "type": "Point", "coordinates": [ -0.019254276251388, 40.269125377022377 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12161", "NOMBRE": "La Torre d'En Besora", "CODIGOINE": "12119", "JURISDICCI": "12119" }, "geometry": { "type": "Point", "coordinates": [ -0.079981115393013, 40.32701982878293 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12570", "NOMBRE": "Alcal� de Xivert", "CODIGOINE": "12004", "JURISDICCI": "12004" }, "geometry": { "type": "Point", "coordinates": [ 0.223499325728005, 40.303657665957495 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12185", "NOMBRE": "Les Coves de Vinrom�", "CODIGOINE": "12050", "JURISDICCI": "12050" }, "geometry": { "type": "Point", "coordinates": [ 0.119636196507674, 40.310625486297354 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12140", "NOMBRE": "Alboc�sser", "CODIGOINE": "12003", "JURISDICCI": "12003" }, "geometry": { "type": "Point", "coordinates": [ 0.025247974804292, 40.35729775851074 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12179", "NOMBRE": "T�rig", "CODIGOINE": "12111", "JURISDICCI": "12111" }, "geometry": { "type": "Point", "coordinates": [ 0.078527576856313, 40.423308368933391 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12597", "NOMBRE": "Santa Magdalena de Pulpis", "CODIGOINE": "12102", "JURISDICCI": "12102" }, "geometry": { "type": "Point", "coordinates": [ 0.30370237799882, 40.356100225070023 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12186", "NOMBRE": "La Salzadella", "CODIGOINE": "12098", "JURISDICCI": "12098" }, "geometry": { "type": "Point", "coordinates": [ 0.175050454432993, 40.417142849285455 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12598", "NOMBRE": "Pen�scola\/Pe��scola", "CODIGOINE": "12089", "JURISDICCI": "12089" }, "geometry": { "type": "Point", "coordinates": [ 0.399581499017818, 40.362293988964133 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12580", "NOMBRE": "Benicarl�", "CODIGOINE": "12027", "JURISDICCI": "12027" }, "geometry": { "type": "Point", "coordinates": [ 0.425589167749519, 40.41743909077136 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12150", "NOMBRE": "Villafranca del Cid\/Vilafranca", "CODIGOINE": "12129", "JURISDICCI": "12129" }, "geometry": { "type": "Point", "coordinates": [ -0.257333503655294, 40.430386551237717 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12412", "NOMBRE": "Geldo", "CODIGOINE": "12067", "JURISDICCI": "12067" }, "geometry": { "type": "Point", "coordinates": [ -0.465940732365596, 39.836894950000044 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12410", "NOMBRE": "Altura", "CODIGOINE": "12012", "JURISDICCI": "12012" }, "geometry": { "type": "Point", "coordinates": [ -0.512708901250584, 39.851182394214888 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12480", "NOMBRE": "Soneja", "CODIGOINE": "12106", "JURISDICCI": "12106" }, "geometry": { "type": "Point", "coordinates": [ -0.429428589393195, 39.815095029583013 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12163", "NOMBRE": "Culla", "CODIGOINE": "12051", "JURISDICCI": "12051" }, "geometry": { "type": "Point", "coordinates": [ -0.164974177425058, 40.3366567377781 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12165", "NOMBRE": "Ares del Maestrat", "CODIGOINE": "12014", "JURISDICCI": "12014" }, "geometry": { "type": "Point", "coordinates": [ -0.131980917107719, 40.456437425482058 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12340", "NOMBRE": "La Jana", "CODIGOINE": "12070", "JURISDICCI": "12070" }, "geometry": { "type": "Point", "coordinates": [ 0.252196364578584, 40.512110153521377 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12159", "NOMBRE": "Castellfort", "CODIGOINE": "12038", "JURISDICCI": "12038" }, "geometry": { "type": "Point", "coordinates": [ -0.189535772217069, 40.500737874547006 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12320", "NOMBRE": "Sant Jordi\/San Jorge", "CODIGOINE": "12099", "JURISDICCI": "12099" }, "geometry": { "type": "Point", "coordinates": [ 0.33166737858878, 40.50909761136748 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12330", "NOMBRE": "Traiguera", "CODIGOINE": "12121", "JURISDICCI": "12121" }, "geometry": { "type": "Point", "coordinates": [ 0.290427978508605, 40.524481649093943 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12312", "NOMBRE": "La Mata de Morella", "CODIGOINE": "12075", "JURISDICCI": "12075" }, "geometry": { "type": "Point", "coordinates": [ -0.27729880091897, 40.611269150000112 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12194", "NOMBRE": "Vall d'Alba", "CODIGOINE": "12124", "JURISDICCI": "12124" }, "geometry": { "type": "Point", "coordinates": [ -0.034238580794089, 40.179240939175124 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12221", "NOMBRE": "Tales", "CODIGOINE": "12109", "JURISDICCI": "12109" }, "geometry": { "type": "Point", "coordinates": [ -0.306052103816739, 39.94835515 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12170", "NOMBRE": "Sant Mateu", "CODIGOINE": "12100", "JURISDICCI": "12100" }, "geometry": { "type": "Point", "coordinates": [ 0.179509059125599, 40.464396133158914 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12513", "NOMBRE": "Cat�", "CODIGOINE": "12042", "JURISDICCI": "12042" }, "geometry": { "type": "Point", "coordinates": [ 0.022443040137481, 40.472108969316295 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12578", "NOMBRE": "Cervera del Maestre", "CODIGOINE": "12044", "JURISDICCI": "12044" }, "geometry": { "type": "Point", "coordinates": [ 0.276126586166918, 40.454336537203545 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12510", "NOMBRE": "San Rafael del R�o", "CODIGOINE": "12101", "JURISDICCI": "12101" }, "geometry": { "type": "Point", "coordinates": [ 0.347129998002126, 40.606503730020613 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12318", "NOMBRE": "Cinctorres", "CODIGOINE": "12045", "JURISDICCI": "12045" }, "geometry": { "type": "Point", "coordinates": [ -0.218576521681882, 40.576397750000012 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12311", "NOMBRE": "Palanques", "CODIGOINE": "12087", "JURISDICCI": "12087" }, "geometry": { "type": "Point", "coordinates": [ -0.179289640147425, 40.717308784891891 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12599", "NOMBRE": "La Pobla de Benifass�", "CODIGOINE": "12093", "JURISDICCI": "12093" }, "geometry": { "type": "Point", "coordinates": [ 0.156936039394164, 40.656567447333288 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12300", "NOMBRE": "Morella", "CODIGOINE": "12080", "JURISDICCI": "12080" }, "geometry": { "type": "Point", "coordinates": [ -0.100434610095948, 40.618125466230069 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12317", "NOMBRE": "Herb�s", "CODIGOINE": "12068", "JURISDICCI": "12068" }, "geometry": { "type": "Point", "coordinates": [ -0.003239630116744, 40.721026476787252 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12311", "NOMBRE": "Zorita del Maestrazgo", "CODIGOINE": "12141", "JURISDICCI": "12141" }, "geometry": { "type": "Point", "coordinates": [ -0.166330086362657, 40.728633669827779 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12232", "NOMBRE": "Ara�uel", "CODIGOINE": "12013", "JURISDICCI": "12013" }, "geometry": { "type": "Point", "coordinates": [ -0.4817653584562, 40.071096587327844 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12135", "NOMBRE": "Vistabella del Maestrazgo", "CODIGOINE": "12139", "JURISDICCI": "12139" }, "geometry": { "type": "Point", "coordinates": [ -0.293465176432507, 40.293202870694117 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12162", "NOMBRE": "Vilar de Canes", "CODIGOINE": "12134", "JURISDICCI": "12134" }, "geometry": { "type": "Point", "coordinates": [ -0.065725816745059, 40.357802283159124 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12160", "NOMBRE": "Benasal", "CODIGOINE": "12026", "JURISDICCI": "12026" }, "geometry": { "type": "Point", "coordinates": [ -0.140072266635688, 40.379436823553803 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12550", "NOMBRE": "Almazora\/Almassora", "CODIGOINE": "12009", "JURISDICCI": "12009" }, "geometry": { "type": "Point", "coordinates": [ -0.062627218477928, 39.947572096832069 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12415", "NOMBRE": "Matet", "CODIGOINE": "12076", "JURISDICCI": "12076" }, "geometry": { "type": "Point", "coordinates": [ -0.467640484182165, 39.937594151644689 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12415", "NOMBRE": "Gaibiel", "CODIGOINE": "12065", "JURISDICCI": "12065" }, "geometry": { "type": "Point", "coordinates": [ -0.495617438649705, 39.926527066006734 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12500", "NOMBRE": "Vinar�s", "CODIGOINE": "12138", "JURISDICCI": "12138" }, "geometry": { "type": "Point", "coordinates": [ 0.475875815609267, 40.473954088721307 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12589", "NOMBRE": "C�lig", "CODIGOINE": "12034", "JURISDICCI": "12034" }, "geometry": { "type": "Point", "coordinates": [ 0.35517567473749, 40.461441603853061 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12596", "NOMBRE": "Torreblanca", "CODIGOINE": "12117", "JURISDICCI": "12117" }, "geometry": { "type": "Point", "coordinates": [ 0.195918715952372, 40.219043621724438 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12181", "NOMBRE": "Benlloch", "CODIGOINE": "12029", "JURISDICCI": "12029" }, "geometry": { "type": "Point", "coordinates": [ 0.026730294769104, 40.210774523404346 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12184", "NOMBRE": "Sarratella", "CODIGOINE": "12103", "JURISDICCI": "12103" }, "geometry": { "type": "Point", "coordinates": [ 0.031168684314112, 40.312559849477061 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12318", "NOMBRE": "Portell de Morella", "CODIGOINE": "12091", "JURISDICCI": "12091" }, "geometry": { "type": "Point", "coordinates": [ -0.262372360378427, 40.532150801046143 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12511", "NOMBRE": "Rossell", "CODIGOINE": "12096", "JURISDICCI": "12096" }, "geometry": { "type": "Point", "coordinates": [ 0.223154316508187, 40.617803575261512 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12315", "NOMBRE": "Vallibona", "CODIGOINE": "12127", "JURISDICCI": "12127" }, "geometry": { "type": "Point", "coordinates": [ 0.047331661410753, 40.602537684728169 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12312", "NOMBRE": "Olocau del Rey", "CODIGOINE": "12083", "JURISDICCI": "12083" }, "geometry": { "type": "Point", "coordinates": [ -0.339512824387757, 40.637579656726743 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12311", "NOMBRE": "Villores", "CODIGOINE": "12137", "JURISDICCI": "12137" }, "geometry": { "type": "Point", "coordinates": [ -0.200798271153462, 40.675903548524452 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12312", "NOMBRE": "Todolella", "CODIGOINE": "12112", "JURISDICCI": "12112" }, "geometry": { "type": "Point", "coordinates": [ -0.247210007137671, 40.646655486118121 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12319", "NOMBRE": "Castell de Cabres", "CODIGOINE": "12037", "JURISDICCI": "12037" }, "geometry": { "type": "Point", "coordinates": [ 0.042520075164838, 40.660842326163767 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12310", "NOMBRE": "Forcall", "CODIGOINE": "12061", "JURISDICCI": "12061" }, "geometry": { "type": "Point", "coordinates": [ -0.200156501892237, 40.645014159455691 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12590", "NOMBRE": "Almenara", "CODIGOINE": "12011", "JURISDICCI": "12011" }, "geometry": { "type": "Point", "coordinates": [ -0.223618051467945, 39.752378303030362 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12592", "NOMBRE": "Chilches\/Xilxes", "CODIGOINE": "12053", "JURISDICCI": "12053" }, "geometry": { "type": "Point", "coordinates": [ -0.186558806593836, 39.782269001607396 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12489", "NOMBRE": "Sot de Ferrer", "CODIGOINE": "12107", "JURISDICCI": "12107" }, "geometry": { "type": "Point", "coordinates": [ -0.411217450419006, 39.805682487744967 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12593", "NOMBRE": "Moncofa", "CODIGOINE": "12077", "JURISDICCI": "12077" }, "geometry": { "type": "Point", "coordinates": [ -0.144854144949392, 39.806906820417041 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12609", "NOMBRE": "Alfondeguilla", "CODIGOINE": "12007", "JURISDICCI": "12007" }, "geometry": { "type": "Point", "coordinates": [ -0.270185768468417, 39.836479296808619 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12600", "NOMBRE": "La Vall d'Uix�", "CODIGOINE": "12126", "JURISDICCI": "12126" }, "geometry": { "type": "Point", "coordinates": [ -0.232865653378591, 39.822260749874559 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12413", "NOMBRE": "Almed�jar", "CODIGOINE": "12010", "JURISDICCI": "12010" }, "geometry": { "type": "Point", "coordinates": [ -0.40901493209444, 39.87260175964186 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12549", "NOMBRE": "Betx�", "CODIGOINE": "12021", "JURISDICCI": "12021" }, "geometry": { "type": "Point", "coordinates": [ -0.199465707733117, 39.929226701063904 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12527", "NOMBRE": "Artana", "CODIGOINE": "12016", "JURISDICCI": "12016" }, "geometry": { "type": "Point", "coordinates": [ -0.256471210823315, 39.8904115330579 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12450", "NOMBRE": "J�rica", "CODIGOINE": "12071", "JURISDICCI": "12071" }, "geometry": { "type": "Point", "coordinates": [ -0.572720552656667, 39.913074038264824 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12222", "NOMBRE": "Alcudia de Veo", "CODIGOINE": "12006", "JURISDICCI": "12006" }, "geometry": { "type": "Point", "coordinates": [ -0.354753252232514, 39.91570736215013 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12449", "NOMBRE": "Pav�as", "CODIGOINE": "12088", "JURISDICCI": "12088" }, "geometry": { "type": "Point", "coordinates": [ -0.482309688364808, 39.97366745000005 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12224", "NOMBRE": "Villamalur", "CODIGOINE": "12131", "JURISDICCI": "12131" }, "geometry": { "type": "Point", "coordinates": [ -0.395718914901851, 39.964890664648095 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12420", "NOMBRE": "Barracas", "CODIGOINE": "12020", "JURISDICCI": "12020" }, "geometry": { "type": "Point", "coordinates": [ -0.696465070005241, 40.014683550413267 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12449", "NOMBRE": "Benafer", "CODIGOINE": "12024", "JURISDICCI": "12024" }, "geometry": { "type": "Point", "coordinates": [ -0.577671420951565, 39.934911620936745 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12460", "NOMBRE": "Viver", "CODIGOINE": "12140", "JURISDICCI": "12140" }, "geometry": { "type": "Point", "coordinates": [ -0.596781929657957, 39.921107376383446 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12224", "NOMBRE": "Ay�dar", "CODIGOINE": "12017", "JURISDICCI": "12017" }, "geometry": { "type": "Point", "coordinates": [ -0.374890606830253, 39.999030806336215 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12440", "NOMBRE": "Caudiel", "CODIGOINE": "12043", "JURISDICCI": "12043" }, "geometry": { "type": "Point", "coordinates": [ -0.566865724570948, 39.947696072889038 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46350", "NOMBRE": "Chera", "CODIGOINE": "46108", "JURISDICCI": "46108" }, "geometry": { "type": "Point", "coordinates": [ -0.973383042215123, 39.592595134919648 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46138", "NOMBRE": "Rafelbu�ol\/Rafelbunyol", "CODIGOINE": "46207", "JURISDICCI": "46207" }, "geometry": { "type": "Point", "coordinates": [ -0.334370503538193, 39.587888499285469 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46136", "NOMBRE": "Museros", "CODIGOINE": "46177", "JURISDICCI": "46177" }, "geometry": { "type": "Point", "coordinates": [ -0.340807349632294, 39.563422241388047 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46595", "NOMBRE": "Torres Torres", "CODIGOINE": "46245", "JURISDICCI": "46245" }, "geometry": { "type": "Point", "coordinates": [ -0.357915580284441, 39.743056299748943 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46511", "NOMBRE": "Benifair� de les Valls", "CODIGOINE": "46058", "JURISDICCI": "46058" }, "geometry": { "type": "Point", "coordinates": [ -0.270522180974393, 39.726754770090032 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46169", "NOMBRE": "G�tova", "CODIGOINE": "46902", "JURISDICCI": "46902" }, "geometry": { "type": "Point", "coordinates": [ -0.521007247440906, 39.770077925364333 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46163", "NOMBRE": "Marines", "CODIGOINE": "46161", "JURISDICCI": "46161" }, "geometry": { "type": "Point", "coordinates": [ -0.561816069647794, 39.675318014615492 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46514", "NOMBRE": "Benavites", "CODIGOINE": "46052", "JURISDICCI": "46052" }, "geometry": { "type": "Point", "coordinates": [ -0.2588685774504, 39.741023713298631 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46512", "NOMBRE": "Faura", "CODIGOINE": "46122", "JURISDICCI": "46122" }, "geometry": { "type": "Point", "coordinates": [ -0.265033765543009, 39.725713568163556 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46515", "NOMBRE": "Quart de les Valls", "CODIGOINE": "46101", "JURISDICCI": "46101" }, "geometry": { "type": "Point", "coordinates": [ -0.273055303069565, 39.740326598392699 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46173", "NOMBRE": "Benag�ber", "CODIGOINE": "46050", "JURISDICCI": "46050" }, "geometry": { "type": "Point", "coordinates": [ -1.100252807382056, 39.706595937603325 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46727", "NOMBRE": "Real de Gand�a", "CODIGOINE": "46211", "JURISDICCI": "46211" }, "geometry": { "type": "Point", "coordinates": [ -0.1911588004067, 38.949414796602234 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46624", "NOMBRE": "Jalance", "CODIGOINE": "46142", "JURISDICCI": "46142" }, "geometry": { "type": "Point", "coordinates": [ -1.07544102162349, 39.191423369456473 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46198", "NOMBRE": "Millares", "CODIGOINE": "46167", "JURISDICCI": "46167" }, "geometry": { "type": "Point", "coordinates": [ -0.77316400149391, 39.237472643008694 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46610", "NOMBRE": "Guadassuar", "CODIGOINE": "46139", "JURISDICCI": "46139" }, "geometry": { "type": "Point", "coordinates": [ -0.479775125489258, 39.186965137535005 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46687", "NOMBRE": "Albalat de la Ribera", "CODIGOINE": "46008", "JURISDICCI": "46008" }, "geometry": { "type": "Point", "coordinates": [ -0.387024352285031, 39.202430883850468 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46680", "NOMBRE": "Algemes�", "CODIGOINE": "46029", "JURISDICCI": "46029" }, "geometry": { "type": "Point", "coordinates": [ -0.431672360043008, 39.192637841489415 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46230", "NOMBRE": "Alginet", "CODIGOINE": "46031", "JURISDICCI": "46031" }, "geometry": { "type": "Point", "coordinates": [ -0.469893099852321, 39.262857326595707 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46240", "NOMBRE": "Carlet", "CODIGOINE": "46085", "JURISDICCI": "46085" }, "geometry": { "type": "Point", "coordinates": [ -0.52501182982177, 39.227834502127784 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46625", "NOMBRE": "Cofrentes", "CODIGOINE": "46097", "JURISDICCI": "46097" }, "geometry": { "type": "Point", "coordinates": [ -1.064317118555385, 39.228165553993065 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46196", "NOMBRE": "Catadau", "CODIGOINE": "46093", "JURISDICCI": "46093" }, "geometry": { "type": "Point", "coordinates": [ -0.570220355586329, 39.274585595815502 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46410", "NOMBRE": "Sueca", "CODIGOINE": "46235", "JURISDICCI": "46235" }, "geometry": { "type": "Point", "coordinates": [ -0.310296104122099, 39.202514849425427 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46940", "NOMBRE": "Manises", "CODIGOINE": "46159", "JURISDICCI": "46159" }, "geometry": { "type": "Point", "coordinates": [ -0.462806170311745, 39.493059766126429 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46930", "NOMBRE": "Quart de Poblet", "CODIGOINE": "46102", "JURISDICCI": "46102" }, "geometry": { "type": "Point", "coordinates": [ -0.444655594057134, 39.482122228259961 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46100", "NOMBRE": "Burjassot", "CODIGOINE": "46078", "JURISDICCI": "46078" }, "geometry": { "type": "Point", "coordinates": [ -0.412213228166763, 39.508773250000104 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46115", "NOMBRE": "Alfara del Patriarca", "CODIGOINE": "46025", "JURISDICCI": "46025" }, "geometry": { "type": "Point", "coordinates": [ -0.384187156831577, 39.544038873404311 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46114", "NOMBRE": "Vinalesa", "CODIGOINE": "46260", "JURISDICCI": "46260" }, "geometry": { "type": "Point", "coordinates": [ -0.370969604352136, 39.536973879829141 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46134", "NOMBRE": "Foios", "CODIGOINE": "46126", "JURISDICCI": "46126" }, "geometry": { "type": "Point", "coordinates": [ -0.354565872879, 39.537009163842654 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46315", "NOMBRE": "Caudete de las Fuentes", "CODIGOINE": "46095", "JURISDICCI": "46095" }, "geometry": { "type": "Point", "coordinates": [ -1.278908099561331, 39.559380769839414 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46722", "NOMBRE": "Benifl�", "CODIGOINE": "46061", "JURISDICCI": "46061" }, "geometry": { "type": "Point", "coordinates": [ -0.189382313403725, 38.926843523404294 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46722", "NOMBRE": "Beniarj�", "CODIGOINE": "46055", "JURISDICCI": "46055" }, "geometry": { "type": "Point", "coordinates": [ -0.186147337226552, 38.933790905509667 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46839", "NOMBRE": "Bell�s", "CODIGOINE": "46049", "JURISDICCI": "46049" }, "geometry": { "type": "Point", "coordinates": [ -0.487304867958959, 38.944939996694259 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46850", "NOMBRE": "L'Olleria", "CODIGOINE": "46183", "JURISDICCI": "46183" }, "geometry": { "type": "Point", "coordinates": [ -0.549199091922804, 38.913331713415509 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46723", "NOMBRE": "Almoines", "CODIGOINE": "46034", "JURISDICCI": "46034" }, "geometry": { "type": "Point", "coordinates": [ -0.18110898007136, 38.943170320385605 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46838", "NOMBRE": "Pinet", "CODIGOINE": "46196", "JURISDICCI": "46196" }, "geometry": { "type": "Point", "coordinates": [ -0.338088051182324, 38.982552193292378 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46818", "NOMBRE": "La Granja de la Costera", "CODIGOINE": "46137", "JURISDICCI": "46137" }, "geometry": { "type": "Point", "coordinates": [ -0.556673623017757, 38.996123365259258 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46894", "NOMBRE": "Genov�s", "CODIGOINE": "46132", "JURISDICCI": "46132" }, "geometry": { "type": "Point", "coordinates": [ -0.468251218799949, 38.987605169947287 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46294", "NOMBRE": "C�rcer", "CODIGOINE": "46084", "JURISDICCI": "46084" }, "geometry": { "type": "Point", "coordinates": [ -0.566448182044866, 39.068952534396573 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46270", "NOMBRE": "Villanueva de Castell�n", "CODIGOINE": "46257", "JURISDICCI": "46257" }, "geometry": { "type": "Point", "coordinates": [ -0.513385185304954, 39.078013588249583 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46267", "NOMBRE": "Gavarda", "CODIGOINE": "46130", "JURISDICCI": "46130" }, "geometry": { "type": "Point", "coordinates": [ -0.545877694699825, 39.090850864557346 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46292", "NOMBRE": "Massalav�s", "CODIGOINE": "46162", "JURISDICCI": "46162" }, "geometry": { "type": "Point", "coordinates": [ -0.523120658614204, 39.143253346478588 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46623", "NOMBRE": "Jarafuel", "CODIGOINE": "46144", "JURISDICCI": "46144" }, "geometry": { "type": "Point", "coordinates": [ -1.074388593760086, 39.139964782444366 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46418", "NOMBRE": "Fortaleny", "CODIGOINE": "46125", "JURISDICCI": "46125" }, "geometry": { "type": "Point", "coordinates": [ -0.314346768753173, 39.183286818601758 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46824", "NOMBRE": "Quesa", "CODIGOINE": "46206", "JURISDICCI": "46206" }, "geometry": { "type": "Point", "coordinates": [ -0.739775081249662, 39.118682247576167 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46825", "NOMBRE": "Bicorp", "CODIGOINE": "46071", "JURISDICCI": "46071" }, "geometry": { "type": "Point", "coordinates": [ -0.787108375526424, 39.131631946672719 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46600", "NOMBRE": "Alzira", "CODIGOINE": "46017", "JURISDICCI": "46017" }, "geometry": { "type": "Point", "coordinates": [ -0.43276210739584, 39.152425193296054 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46417", "NOMBRE": "Riola", "CODIGOINE": "46215", "JURISDICCI": "46215" }, "geometry": { "type": "Point", "coordinates": [ -0.335421871857408, 39.196355250714674 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46910", "NOMBRE": "Alfafar", "CODIGOINE": "46022", "JURISDICCI": "46022" }, "geometry": { "type": "Point", "coordinates": [ -0.388141517130569, 39.420034032570001 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46725", "NOMBRE": "Alfauir", "CODIGOINE": "46023", "JURISDICCI": "46023" }, "geometry": { "type": "Point", "coordinates": [ -0.251454977371806, 38.929218955319193 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46670", "NOMBRE": "La Pobla Llarga", "CODIGOINE": "46203", "JURISDICCI": "46203" }, "geometry": { "type": "Point", "coordinates": [ -0.476586708027838, 39.085210704567615 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46660", "NOMBRE": "Manuel", "CODIGOINE": "46160", "JURISDICCI": "46160" }, "geometry": { "type": "Point", "coordinates": [ -0.492636770493667, 39.0513104173641 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46791", "NOMBRE": "Benifair� de la Valldigna", "CODIGOINE": "46059", "JURISDICCI": "46059" }, "geometry": { "type": "Point", "coordinates": [ -0.303282788354201, 39.05448745495184 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46669", "NOMBRE": "Sant Joanet", "CODIGOINE": "46222", "JURISDICCI": "46222" }, "geometry": { "type": "Point", "coordinates": [ -0.48781500136522, 39.0722998 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46669", "NOMBRE": "Senyera", "CODIGOINE": "46227", "JURISDICCI": "46227" }, "geometry": { "type": "Point", "coordinates": [ -0.511057378867927, 39.062693442102663 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46293", "NOMBRE": "Beneixida", "CODIGOINE": "46053", "JURISDICCI": "46053" }, "geometry": { "type": "Point", "coordinates": [ -0.547585733860324, 39.058541363223263 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46250", "NOMBRE": "L'Alc�dia", "CODIGOINE": "46019", "JURISDICCI": "46019" }, "geometry": { "type": "Point", "coordinates": [ -0.504608203157993, 39.196034817887139 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46291", "NOMBRE": "Benimodo", "CODIGOINE": "46063", "JURISDICCI": "46063" }, "geometry": { "type": "Point", "coordinates": [ -0.526729562611163, 39.213199673404326 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46450", "NOMBRE": "Benifai�", "CODIGOINE": "46060", "JURISDICCI": "46060" }, "geometry": { "type": "Point", "coordinates": [ -0.42588115824989, 39.286043436170296 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46970", "NOMBRE": "Alaqu�s", "CODIGOINE": "46005", "JURISDICCI": "46005" }, "geometry": { "type": "Point", "coordinates": [ -0.45889100531964, 39.455510159238415 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46920", "NOMBRE": "Mislata", "CODIGOINE": "46169", "JURISDICCI": "46169" }, "geometry": { "type": "Point", "coordinates": [ -0.420351360617587, 39.476454850000039 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46950", "NOMBRE": "Xirivella", "CODIGOINE": "46110", "JURISDICCI": "46110" }, "geometry": { "type": "Point", "coordinates": [ -0.428669662494876, 39.46440074895385 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46310", "NOMBRE": "Venta del Moro", "CODIGOINE": "46254", "JURISDICCI": "46254" }, "geometry": { "type": "Point", "coordinates": [ -1.357711258297827, 39.484329218984868 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46002", "NOMBRE": "Valencia", "CODIGOINE": "46250", "JURISDICCI": "46250" }, "geometry": { "type": "Point", "coordinates": [ -0.374292885333312, 39.470398977328287 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46110", "NOMBRE": "Godella", "CODIGOINE": "46135", "JURISDICCI": "46135" }, "geometry": { "type": "Point", "coordinates": [ -0.41621629110019, 39.521333491911044 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46980", "NOMBRE": "Paterna", "CODIGOINE": "46190", "JURISDICCI": "46190" }, "geometry": { "type": "Point", "coordinates": [ -0.4443311948041, 39.506073759252978 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46550", "NOMBRE": "Albuixech", "CODIGOINE": "46014", "JURISDICCI": "46014" }, "geometry": { "type": "Point", "coordinates": [ -0.326177401309654, 39.544520109574492 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46868", "NOMBRE": "B�lgida", "CODIGOINE": "46047", "JURISDICCI": "46047" }, "geometry": { "type": "Point", "coordinates": [ -0.474296376700679, 38.857993970212895 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46113", "NOMBRE": "Moncada", "CODIGOINE": "46171", "JURISDICCI": "46171" }, "geometry": { "type": "Point", "coordinates": [ -0.395772349101086, 39.544861720502524 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46164", "NOMBRE": "Pedralba", "CODIGOINE": "46191", "JURISDICCI": "46191" }, "geometry": { "type": "Point", "coordinates": [ -0.725854457700923, 39.604327661878564 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46823", "NOMBRE": "Navarr�s", "CODIGOINE": "46179", "JURISDICCI": "46179" }, "geometry": { "type": "Point", "coordinates": [ -0.695459908427405, 39.100555482635976 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46180", "NOMBRE": "Benaguasil", "CODIGOINE": "46051", "JURISDICCI": "46051" }, "geometry": { "type": "Point", "coordinates": [ -0.589087036434333, 39.594532453305803 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46317", "NOMBRE": "Villargordo del Cabriel", "CODIGOINE": "46259", "JURISDICCI": "46259" }, "geometry": { "type": "Point", "coordinates": [ -1.440437098481397, 39.535619284396631 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46711", "NOMBRE": "Miramar", "CODIGOINE": "46168", "JURISDICCI": "46168" }, "geometry": { "type": "Point", "coordinates": [ -0.139959330079118, 38.95114198345069 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46760", "NOMBRE": "Tavernes de la Valldigna", "CODIGOINE": "46238", "JURISDICCI": "46238" }, "geometry": { "type": "Point", "coordinates": [ -0.266548371822521, 39.072847175784588 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46266", "NOMBRE": "Antella", "CODIGOINE": "46040", "JURISDICCI": "46040" }, "geometry": { "type": "Point", "coordinates": [ -0.591520324522538, 39.080315916391108 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46295", "NOMBRE": "Sumac�rcer", "CODIGOINE": "46236", "JURISDICCI": "46236" }, "geometry": { "type": "Point", "coordinates": [ -0.630647682961317, 39.097314615271863 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46839", "NOMBRE": "Sempere", "CODIGOINE": "46226", "JURISDICCI": "46226" }, "geometry": { "type": "Point", "coordinates": [ -0.480284693833082, 38.919538148274597 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46839", "NOMBRE": "Guadass�quies", "CODIGOINE": "46138", "JURISDICCI": "46138" }, "geometry": { "type": "Point", "coordinates": [ -0.487424426625419, 38.92395644982399 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46293", "NOMBRE": "Alc�ntera de X�quer", "CODIGOINE": "46016", "JURISDICCI": "46016" }, "geometry": { "type": "Point", "coordinates": [ -0.56127630069749, 39.068318018379685 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46181", "NOMBRE": "Benisan�", "CODIGOINE": "46067", "JURISDICCI": "46067" }, "geometry": { "type": "Point", "coordinates": [ -0.575002796239978, 39.61278293085104 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46165", "NOMBRE": "Bugarra", "CODIGOINE": "46076", "JURISDICCI": "46076" }, "geometry": { "type": "Point", "coordinates": [ -0.774288611964228, 39.609108991489443 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46166", "NOMBRE": "Gestalgar", "CODIGOINE": "46133", "JURISDICCI": "46133" }, "geometry": { "type": "Point", "coordinates": [ -0.834387634600362, 39.604222226690752 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46167", "NOMBRE": "Chulilla", "CODIGOINE": "46112", "JURISDICCI": "46112" }, "geometry": { "type": "Point", "coordinates": [ -0.891790440005052, 39.655405841210637 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46168", "NOMBRE": "Losa del Obispo", "CODIGOINE": "46149", "JURISDICCI": "46149" }, "geometry": { "type": "Point", "coordinates": [ -0.869971936130614, 39.694798889854262 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46843", "NOMBRE": "Salem", "CODIGOINE": "46221", "JURISDICCI": "46221" }, "geometry": { "type": "Point", "coordinates": [ -0.381650573923707, 38.853073509841593 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46460", "NOMBRE": "Silla", "CODIGOINE": "46230", "JURISDICCI": "46230" }, "geometry": { "type": "Point", "coordinates": [ -0.410621233644871, 39.362929995623944 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46290", "NOMBRE": "Alc�sser", "CODIGOINE": "46015", "JURISDICCI": "46015" }, "geometry": { "type": "Point", "coordinates": [ -0.443533850827986, 39.368554431914923 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46220", "NOMBRE": "Picassent", "CODIGOINE": "46194", "JURISDICCI": "46194" }, "geometry": { "type": "Point", "coordinates": [ -0.461737441364138, 39.361967964225677 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46192", "NOMBRE": "Montserrat", "CODIGOINE": "46172", "JURISDICCI": "46172" }, "geometry": { "type": "Point", "coordinates": [ -0.603503688207757, 39.35722086122729 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46389", "NOMBRE": "Tur�s", "CODIGOINE": "46248", "JURISDICCI": "46248" }, "geometry": { "type": "Point", "coordinates": [ -0.711094339015902, 39.391291361087298 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46369", "NOMBRE": "Alborache", "CODIGOINE": "46012", "JURISDICCI": "46012" }, "geometry": { "type": "Point", "coordinates": [ -0.775061453689951, 39.393991523404388 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46960", "NOMBRE": "Aldaia", "CODIGOINE": "46021", "JURISDICCI": "46021" }, "geometry": { "type": "Point", "coordinates": [ -0.463135717825837, 39.464716034042667 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46880", "NOMBRE": "Bocairent", "CODIGOINE": "46072", "JURISDICCI": "46072" }, "geometry": { "type": "Point", "coordinates": [ -0.61335936104399, 38.763734249558588 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46635", "NOMBRE": "Fontanars dels Alforins", "CODIGOINE": "46124", "JURISDICCI": "46124" }, "geometry": { "type": "Point", "coordinates": [ -0.784534622793434, 38.782675403397839 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46869", "NOMBRE": "Benissoda", "CODIGOINE": "46068", "JURISDICCI": "46068" }, "geometry": { "type": "Point", "coordinates": [ -0.529354018206482, 38.831672556383111 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46892", "NOMBRE": "Montaverner", "CODIGOINE": "46173", "JURISDICCI": "46173" }, "geometry": { "type": "Point", "coordinates": [ -0.49413711239558, 38.886908046602287 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46720", "NOMBRE": "Villalonga", "CODIGOINE": "46255", "JURISDICCI": "46255" }, "geometry": { "type": "Point", "coordinates": [ -0.20843816104784, 38.885508253222014 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46842", "NOMBRE": "Aielo de Rugat", "CODIGOINE": "46043", "JURISDICCI": "46043" }, "geometry": { "type": "Point", "coordinates": [ -0.343921346318987, 38.881777597743422 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46841", "NOMBRE": "Castell� de Rugat", "CODIGOINE": "46090", "JURISDICCI": "46090" }, "geometry": { "type": "Point", "coordinates": [ -0.381845015871966, 38.873580320211211 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46726", "NOMBRE": "Castellonet de la Conquesta", "CODIGOINE": "46091", "JURISDICCI": "46091" }, "geometry": { "type": "Point", "coordinates": [ -0.262542195919822, 38.91532900304594 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46715", "NOMBRE": "L'Alqueria de la Comtessa", "CODIGOINE": "46037", "JURISDICCI": "46037" }, "geometry": { "type": "Point", "coordinates": [ -0.154041841849086, 38.9362385292958 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46714", "NOMBRE": "Palmera", "CODIGOINE": "46188", "JURISDICCI": "46188" }, "geometry": { "type": "Point", "coordinates": [ -0.153498381737078, 38.941525433362791 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46712", "NOMBRE": "Piles", "CODIGOINE": "46195", "JURISDICCI": "46195" }, "geometry": { "type": "Point", "coordinates": [ -0.132577875812159, 38.941111448450719 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46725", "NOMBRE": "R�tova", "CODIGOINE": "46218", "JURISDICCI": "46218" }, "geometry": { "type": "Point", "coordinates": [ -0.257895765021849, 38.932485510193615 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46728", "NOMBRE": "Palma de Gand�a", "CODIGOINE": "46187", "JURISDICCI": "46187" }, "geometry": { "type": "Point", "coordinates": [ -0.238554872499186, 38.955149302958048 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46713", "NOMBRE": "Bellreguard", "CODIGOINE": "46048", "JURISDICCI": "46048" }, "geometry": { "type": "Point", "coordinates": [ -0.162750762486587, 38.946236427272652 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46703", "NOMBRE": "Benirredr�", "CODIGOINE": "46066", "JURISDICCI": "46066" }, "geometry": { "type": "Point", "coordinates": [ -0.192444383775894, 38.961419122252451 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46710", "NOMBRE": "Daim�s", "CODIGOINE": "46113", "JURISDICCI": "46113" }, "geometry": { "type": "Point", "coordinates": [ -0.150258509430219, 38.968911683450663 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46711", "NOMBRE": "Guardamar de la Safor", "CODIGOINE": "46140", "JURISDICCI": "46140" }, "geometry": { "type": "Point", "coordinates": [ -0.148001817161631, 38.96109465052313 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46690", "NOMBRE": "L'Alc�dia de Crespins", "CODIGOINE": "46020", "JURISDICCI": "46020" }, "geometry": { "type": "Point", "coordinates": [ -0.592544706485534, 38.972826579964838 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46692", "NOMBRE": "Montesa", "CODIGOINE": "46174", "JURISDICCI": "46174" }, "geometry": { "type": "Point", "coordinates": [ -0.648497904410835, 38.947599879612788 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46813", "NOMBRE": "Cerd�", "CODIGOINE": "46096", "JURISDICCI": "46096" }, "geometry": { "type": "Point", "coordinates": [ -0.573320808658943, 38.986142136479948 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46819", "NOMBRE": "Novel�\/Novetl�", "CODIGOINE": "46180", "JURISDICCI": "46180" }, "geometry": { "type": "Point", "coordinates": [ -0.548240980963423, 38.978795893292244 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46650", "NOMBRE": "Canals", "CODIGOINE": "46081", "JURISDICCI": "46081" }, "geometry": { "type": "Point", "coordinates": [ -0.585322880959412, 38.96272084042554 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46814", "NOMBRE": "Torrella", "CODIGOINE": "46243", "JURISDICCI": "46243" }, "geometry": { "type": "Point", "coordinates": [ -0.571577472574721, 38.988455603194005 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46818", "NOMBRE": "Vall�s", "CODIGOINE": "46253", "JURISDICCI": "46253" }, "geometry": { "type": "Point", "coordinates": [ -0.5565928540407, 38.985249705677333 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46817", "NOMBRE": "Estubeny", "CODIGOINE": "46121", "JURISDICCI": "46121" }, "geometry": { "type": "Point", "coordinates": [ -0.614247293389383, 39.016124500000046 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46702", "NOMBRE": "Gandia", "CODIGOINE": "46131", "JURISDICCI": "46131" }, "geometry": { "type": "Point", "coordinates": [ -0.185368322114705, 38.963194811361923 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46790", "NOMBRE": "Xeresa", "CODIGOINE": "46146", "JURISDICCI": "46146" }, "geometry": { "type": "Point", "coordinates": [ -0.217069266301395, 39.011431822977833 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46810", "NOMBRE": "Enguera", "CODIGOINE": "46118", "JURISDICCI": "46118" }, "geometry": { "type": "Point", "coordinates": [ -0.687644100896101, 38.978817179524896 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46816", "NOMBRE": "Rotgl� i Corber�", "CODIGOINE": "46217", "JURISDICCI": "46217" }, "geometry": { "type": "Point", "coordinates": [ -0.563984921737292, 39.005399206883794 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46667", "NOMBRE": "Barxeta", "CODIGOINE": "46045", "JURISDICCI": "46045" }, "geometry": { "type": "Point", "coordinates": [ -0.418445346665292, 39.02170844063366 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46770", "NOMBRE": "Xeraco", "CODIGOINE": "46143", "JURISDICCI": "46143" }, "geometry": { "type": "Point", "coordinates": [ -0.216238255929186, 39.03202423701201 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46614", "NOMBRE": "Favara", "CODIGOINE": "46123", "JURISDICCI": "46123" }, "geometry": { "type": "Point", "coordinates": [ -0.290939351318818, 39.126874309135161 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46621", "NOMBRE": "Zarra", "CODIGOINE": "46263", "JURISDICCI": "46263" }, "geometry": { "type": "Point", "coordinates": [ -1.074324469087506, 39.091117654376006 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46620", "NOMBRE": "Ayora", "CODIGOINE": "46044", "JURISDICCI": "46044" }, "geometry": { "type": "Point", "coordinates": [ -1.056218308126473, 39.059425728787936 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46611", "NOMBRE": "Benimuslem", "CODIGOINE": "46064", "JURISDICCI": "46064" }, "geometry": { "type": "Point", "coordinates": [ -0.493015709922745, 39.133897587234188 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46740", "NOMBRE": "Carcaixent", "CODIGOINE": "46083", "JURISDICCI": "46083" }, "geometry": { "type": "Point", "coordinates": [ -0.448703552520385, 39.12129646595745 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46613", "NOMBRE": "Llaur�", "CODIGOINE": "46155", "JURISDICCI": "46155" }, "geometry": { "type": "Point", "coordinates": [ -0.329873121255134, 39.145525208612106 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46260", "NOMBRE": "Alberic", "CODIGOINE": "46011", "JURISDICCI": "46011" }, "geometry": { "type": "Point", "coordinates": [ -0.521635710926883, 39.117373643616986 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46622", "NOMBRE": "Teresa de Cofrentes", "CODIGOINE": "46239", "JURISDICCI": "46239" }, "geometry": { "type": "Point", "coordinates": [ -1.051476748615597, 39.104669344194882 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46368", "NOMBRE": "Macastre", "CODIGOINE": "46158", "JURISDICCI": "46158" }, "geometry": { "type": "Point", "coordinates": [ -0.786768292735571, 39.382138061087367 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46132", "NOMBRE": "Alm�ssera", "CODIGOINE": "46032", "JURISDICCI": "46032" }, "geometry": { "type": "Point", "coordinates": [ -0.35646575660487, 39.511930196832004 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46380", "NOMBRE": "Cheste", "CODIGOINE": "46109", "JURISDICCI": "46109" }, "geometry": { "type": "Point", "coordinates": [ -0.685190084000146, 39.494808778923073 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46135", "NOMBRE": "Emperador", "CODIGOINE": "46117", "JURISDICCI": "46117" }, "geometry": { "type": "Point", "coordinates": [ -0.338609431513987, 39.553927449999946 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46560", "NOMBRE": "Massalfassar", "CODIGOINE": "46163", "JURISDICCI": "46163" }, "geometry": { "type": "Point", "coordinates": [ -0.326152087205709, 39.557247593863231 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46184", "NOMBRE": "San Antonio de Benag�ber", "CODIGOINE": "46903", "JURISDICCI": "46903" }, "geometry": { "type": "Point", "coordinates": [ -0.504870986692051, 39.563638869647995 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46183", "NOMBRE": "L'Eliana", "CODIGOINE": "46116", "JURISDICCI": "46116" }, "geometry": { "type": "Point", "coordinates": [ -0.529695247885456, 39.561670850000098 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46135", "NOMBRE": "Albalat dels Sorells", "CODIGOINE": "46009", "JURISDICCI": "46009" }, "geometry": { "type": "Point", "coordinates": [ -0.346997338474687, 39.54448474148937 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46593", "NOMBRE": "Algar de Palancia", "CODIGOINE": "46028", "JURISDICCI": "46028" }, "geometry": { "type": "Point", "coordinates": [ -0.368019113594442, 39.780858084042485 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46172", "NOMBRE": "Alcublas", "CODIGOINE": "46018", "JURISDICCI": "46018" }, "geometry": { "type": "Point", "coordinates": [ -0.701648466434823, 39.796252623404278 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46176", "NOMBRE": "Chelva", "CODIGOINE": "46106", "JURISDICCI": "46106" }, "geometry": { "type": "Point", "coordinates": [ -0.996347410374119, 39.750344034028387 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46800", "NOMBRE": "X�tiva", "CODIGOINE": "46145", "JURISDICCI": "46145" }, "geometry": { "type": "Point", "coordinates": [ -0.522300200319821, 38.988166321355116 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46295", "NOMBRE": "Sellent", "CODIGOINE": "46225", "JURISDICCI": "46225" }, "geometry": { "type": "Point", "coordinates": [ -0.587046884208619, 39.0311550233452 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46294", "NOMBRE": "Cotes", "CODIGOINE": "46100", "JURISDICCI": "46100" }, "geometry": { "type": "Point", "coordinates": [ -0.575344528497663, 39.069707023169286 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46717", "NOMBRE": "La Font d'En Carr�s", "CODIGOINE": "46127", "JURISDICCI": "46127" }, "geometry": { "type": "Point", "coordinates": [ -0.170496660641791, 38.916397576566929 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46910", "NOMBRE": "Sedav�", "CODIGOINE": "46223", "JURISDICCI": "46223" }, "geometry": { "type": "Point", "coordinates": [ -0.383786468983387, 39.425081527545387 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46780", "NOMBRE": "Oliva", "CODIGOINE": "46181", "JURISDICCI": "46181" }, "geometry": { "type": "Point", "coordinates": [ -0.116873783237714, 38.918330999384153 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46440", "NOMBRE": "Almussafes", "CODIGOINE": "46035", "JURISDICCI": "46035" }, "geometry": { "type": "Point", "coordinates": [ -0.414285281164851, 39.292321898484879 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46838", "NOMBRE": "Benicolet", "CODIGOINE": "46057", "JURISDICCI": "46057" }, "geometry": { "type": "Point", "coordinates": [ -0.346834768822744, 38.918572116528992 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46716", "NOMBRE": "Rafelcofer", "CODIGOINE": "46208", "JURISDICCI": "46208" }, "geometry": { "type": "Point", "coordinates": [ -0.168670617663541, 38.931421718274684 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46838", "NOMBRE": "Llutxent", "CODIGOINE": "46150", "JURISDICCI": "46150" }, "geometry": { "type": "Point", "coordinates": [ -0.355562343972807, 38.941340226830889 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46016", "NOMBRE": "Tavernes Blanques", "CODIGOINE": "46237", "JURISDICCI": "46237" }, "geometry": { "type": "Point", "coordinates": [ -0.363195679581281, 39.5072277 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46120", "NOMBRE": "Alboraya", "CODIGOINE": "46013", "JURISDICCI": "46013" }, "geometry": { "type": "Point", "coordinates": [ -0.350410300120867, 39.499855088297963 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46111", "NOMBRE": "Rocafort", "CODIGOINE": "46216", "JURISDICCI": "46216" }, "geometry": { "type": "Point", "coordinates": [ -0.414409142174691, 39.537388900000053 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46131", "NOMBRE": "Bonrep�s i Mirambell", "CODIGOINE": "46074", "JURISDICCI": "46074" }, "geometry": { "type": "Point", "coordinates": [ -0.364320790015159, 39.516810076595817 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46133", "NOMBRE": "Meliana", "CODIGOINE": "46166", "JURISDICCI": "46166" }, "geometry": { "type": "Point", "coordinates": [ -0.350464961621793, 39.528308576248428 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46168", "NOMBRE": "Sot de Chera", "CODIGOINE": "46234", "JURISDICCI": "46234" }, "geometry": { "type": "Point", "coordinates": [ -0.909636330811478, 39.620790230688243 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46340", "NOMBRE": "Requena", "CODIGOINE": "46213", "JURISDICCI": "46213" }, "geometry": { "type": "Point", "coordinates": [ -1.100520749054322, 39.488316856902806 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46530", "NOMBRE": "Pu�ol", "CODIGOINE": "46205", "JURISDICCI": "46205" }, "geometry": { "type": "Point", "coordinates": [ -0.306803694977589, 39.619033550000097 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46540", "NOMBRE": "Puig", "CODIGOINE": "46204", "JURISDICCI": "46204" }, "geometry": { "type": "Point", "coordinates": [ -0.302638630054341, 39.588142988581083 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46119", "NOMBRE": "N�quera", "CODIGOINE": "46178", "JURISDICCI": "46178" }, "geometry": { "type": "Point", "coordinates": [ -0.426620637569218, 39.659012851105182 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46171", "NOMBRE": "Casinos", "CODIGOINE": "46089", "JURISDICCI": "46089" }, "geometry": { "type": "Point", "coordinates": [ -0.708154874795227, 39.696902445323168 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46529", "NOMBRE": "Canet d'En Berenguer", "CODIGOINE": "46082", "JURISDICCI": "46082" }, "geometry": { "type": "Point", "coordinates": [ -0.219328377385753, 39.679267767021365 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46330", "NOMBRE": "Camporrobles", "CODIGOINE": "46080", "JURISDICCI": "46080" }, "geometry": { "type": "Point", "coordinates": [ -1.397611796027203, 39.647386613829752 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46300", "NOMBRE": "Utiel", "CODIGOINE": "46249", "JURISDICCI": "46249" }, "geometry": { "type": "Point", "coordinates": [ -1.205428681958628, 39.568256849053299 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46149", "NOMBRE": "Gilet", "CODIGOINE": "46134", "JURISDICCI": "46134" }, "geometry": { "type": "Point", "coordinates": [ -0.326627499619077, 39.677947739477702 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12230", "NOMBRE": "Argelita", "CODIGOINE": "12015", "JURISDICCI": "12015" }, "geometry": { "type": "Point", "coordinates": [ -0.350345125469858, 40.054009531680428 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46501", "NOMBRE": "Petr�s", "CODIGOINE": "46192", "JURISDICCI": "46192" }, "geometry": { "type": "Point", "coordinates": [ -0.309614497708977, 39.684579846481604 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46591", "NOMBRE": "Albalat dels Tarongers", "CODIGOINE": "46010", "JURISDICCI": "46010" }, "geometry": { "type": "Point", "coordinates": [ -0.336103893627495, 39.702724844680823 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46592", "NOMBRE": "Segart", "CODIGOINE": "46224", "JURISDICCI": "46224" }, "geometry": { "type": "Point", "coordinates": [ -0.372147877592261, 39.682304248141683 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46169", "NOMBRE": "Olocau", "CODIGOINE": "46182", "JURISDICCI": "46182" }, "geometry": { "type": "Point", "coordinates": [ -0.531229513829004, 39.699779728830002 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46590", "NOMBRE": "Estivella", "CODIGOINE": "46120", "JURISDICCI": "46120" }, "geometry": { "type": "Point", "coordinates": [ -0.348687071069778, 39.715092436137724 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46162", "NOMBRE": "Higueruelas", "CODIGOINE": "46141", "JURISDICCI": "46141" }, "geometry": { "type": "Point", "coordinates": [ -0.861841907365759, 39.789348687493948 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46170", "NOMBRE": "Villar del Arzobispo", "CODIGOINE": "46258", "JURISDICCI": "46258" }, "geometry": { "type": "Point", "coordinates": [ -0.826691084937262, 39.733724923506088 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46510", "NOMBRE": "Quartell", "CODIGOINE": "46103", "JURISDICCI": "46103" }, "geometry": { "type": "Point", "coordinates": [ -0.263468671788121, 39.737540543194392 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46160", "NOMBRE": "Ll�ria", "CODIGOINE": "46147", "JURISDICCI": "46147" }, "geometry": { "type": "Point", "coordinates": [ -0.596308498232917, 39.628306534303924 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46320", "NOMBRE": "Sinarcas", "CODIGOINE": "46232", "JURISDICCI": "46232" }, "geometry": { "type": "Point", "coordinates": [ -1.231536556771961, 39.732057214364374 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46148", "NOMBRE": "Algimia de Alfara", "CODIGOINE": "46030", "JURISDICCI": "46030" }, "geometry": { "type": "Point", "coordinates": [ -0.364418233089556, 39.751141638297938 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46594", "NOMBRE": "Alfara de la Baronia", "CODIGOINE": "46024", "JURISDICCI": "46024" }, "geometry": { "type": "Point", "coordinates": [ -0.355210649526886, 39.76284883829792 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46191", "NOMBRE": "Vilamarxant", "CODIGOINE": "46256", "JURISDICCI": "46256" }, "geometry": { "type": "Point", "coordinates": [ -0.624375731241081, 39.569955004044601 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46162", "NOMBRE": "Andilla", "CODIGOINE": "46038", "JURISDICCI": "46038" }, "geometry": { "type": "Point", "coordinates": [ -0.813931548574028, 39.83571640946316 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46178", "NOMBRE": "Titaguas", "CODIGOINE": "46241", "JURISDICCI": "46241" }, "geometry": { "type": "Point", "coordinates": [ -1.082160421260045, 39.864303325866317 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46178", "NOMBRE": "La Yesa", "CODIGOINE": "46262", "JURISDICCI": "46262" }, "geometry": { "type": "Point", "coordinates": [ -0.960979566433294, 39.891078753842294 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46178", "NOMBRE": "Alpuente", "CODIGOINE": "46036", "JURISDICCI": "46036" }, "geometry": { "type": "Point", "coordinates": [ -1.013932124980567, 39.88440908354027 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46179", "NOMBRE": "Aras de los Olmos", "CODIGOINE": "46041", "JURISDICCI": "46041" }, "geometry": { "type": "Point", "coordinates": [ -1.132882125587869, 39.923717267906419 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46147", "NOMBRE": "Casas Altas", "CODIGOINE": "46087", "JURISDICCI": "46087" }, "geometry": { "type": "Point", "coordinates": [ -1.262990169824872, 40.039651157446848 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46146", "NOMBRE": "Casas Bajas", "CODIGOINE": "46088", "JURISDICCI": "46088" }, "geometry": { "type": "Point", "coordinates": [ -1.260692469568775, 40.02380995 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46844", "NOMBRE": "Otos", "CODIGOINE": "46185", "JURISDICCI": "46185" }, "geometry": { "type": "Point", "coordinates": [ -0.443356198950571, 38.853553970035279 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46729", "NOMBRE": "Ador", "CODIGOINE": "46002", "JURISDICCI": "46002" }, "geometry": { "type": "Point", "coordinates": [ -0.223837515223768, 38.920901125387807 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46393", "NOMBRE": "Loriguilla", "CODIGOINE": "46148", "JURISDICCI": "46148" }, "geometry": { "type": "Point", "coordinates": [ -0.571577616052145, 39.491718839295849 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46891", "NOMBRE": "Bufali", "CODIGOINE": "46075", "JURISDICCI": "46075" }, "geometry": { "type": "Point", "coordinates": [ -0.51420530482068, 38.867768232978641 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46370", "NOMBRE": "Chiva", "CODIGOINE": "46111", "JURISDICCI": "46111" }, "geometry": { "type": "Point", "coordinates": [ -0.715793827601523, 39.471071812082073 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46392", "NOMBRE": "Siete Aguas", "CODIGOINE": "46229", "JURISDICCI": "46229" }, "geometry": { "type": "Point", "coordinates": [ -0.916427112376157, 39.47249075594528 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46758", "NOMBRE": "Barx", "CODIGOINE": "46046", "JURISDICCI": "46046" }, "geometry": { "type": "Point", "coordinates": [ -0.301101874763016, 39.013581196005546 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46669", "NOMBRE": "L'�nova", "CODIGOINE": "46119", "JURISDICCI": "46119" }, "geometry": { "type": "Point", "coordinates": [ -0.479497444736351, 39.043256670170862 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46612", "NOMBRE": "Corbera", "CODIGOINE": "46098", "JURISDICCI": "46098" }, "geometry": { "type": "Point", "coordinates": [ -0.353477284512206, 39.158068415795022 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46689", "NOMBRE": "Benicull de X�quer", "CODIGOINE": "46904", "JURISDICCI": "46904" }, "geometry": { "type": "Point", "coordinates": [ -0.38381980375204, 39.185856175378312 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46688", "NOMBRE": "Poliny� de X�quer", "CODIGOINE": "46197", "JURISDICCI": "46197" }, "geometry": { "type": "Point", "coordinates": [ -0.370303564145236, 39.19700755965814 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46199", "NOMBRE": "Cortes de Pall�s", "CODIGOINE": "46099", "JURISDICCI": "46099" }, "geometry": { "type": "Point", "coordinates": [ -0.940987799946194, 39.242392717364218 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46198", "NOMBRE": "Dos Aguas", "CODIGOINE": "46115", "JURISDICCI": "46115" }, "geometry": { "type": "Point", "coordinates": [ -0.799573138832456, 39.288576160895886 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46194", "NOMBRE": "Real", "CODIGOINE": "46212", "JURISDICCI": "46212" }, "geometry": { "type": "Point", "coordinates": [ -0.60954240004105, 39.335323490724875 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46193", "NOMBRE": "Montroy", "CODIGOINE": "46176", "JURISDICCI": "46176" }, "geometry": { "type": "Point", "coordinates": [ -0.615210121069781, 39.340150192817219 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46195", "NOMBRE": "Llombai", "CODIGOINE": "46156", "JURISDICCI": "46156" }, "geometry": { "type": "Point", "coordinates": [ -0.57307377842407, 39.281645284013685 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46430", "NOMBRE": "Sollana", "CODIGOINE": "46233", "JURISDICCI": "46233" }, "geometry": { "type": "Point", "coordinates": [ -0.381924113191675, 39.277427176307796 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46470", "NOMBRE": "Albal", "CODIGOINE": "46007", "JURISDICCI": "46007" }, "geometry": { "type": "Point", "coordinates": [ -0.410582742032423, 39.397683867419005 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46469", "NOMBRE": "Beniparrell", "CODIGOINE": "46065", "JURISDICCI": "46065" }, "geometry": { "type": "Point", "coordinates": [ -0.410525775236916, 39.381825171276624 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46470", "NOMBRE": "Massanassa", "CODIGOINE": "46165", "JURISDICCI": "46165" }, "geometry": { "type": "Point", "coordinates": [ -0.398769280389621, 39.411282590201729 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46200", "NOMBRE": "Paiporta", "CODIGOINE": "46186", "JURISDICCI": "46186" }, "geometry": { "type": "Point", "coordinates": [ -0.417870671010931, 39.425728233158964 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46910", "NOMBRE": "Benet�sser", "CODIGOINE": "46054", "JURISDICCI": "46054" }, "geometry": { "type": "Point", "coordinates": [ -0.397939564708338, 39.421985600000028 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46910", "NOMBRE": "Llocnou de la Corona", "CODIGOINE": "46152", "JURISDICCI": "46152" }, "geometry": { "type": "Point", "coordinates": [ -0.381803770773843, 39.421066950000011 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46388", "NOMBRE": "Godelleta", "CODIGOINE": "46136", "JURISDICCI": "46136" }, "geometry": { "type": "Point", "coordinates": [ -0.687439340696579, 39.422795845432447 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46360", "NOMBRE": "Bu�ol", "CODIGOINE": "46077", "JURISDICCI": "46077" }, "geometry": { "type": "Point", "coordinates": [ -0.789687048792565, 39.420112993617046 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46900", "NOMBRE": "Torrent", "CODIGOINE": "46244", "JURISDICCI": "46244" }, "geometry": { "type": "Point", "coordinates": [ -0.473371263239544, 39.431720927736805 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46210", "NOMBRE": "Picanya", "CODIGOINE": "46193", "JURISDICCI": "46193" }, "geometry": { "type": "Point", "coordinates": [ -0.434429873365908, 39.434434816317953 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46314", "NOMBRE": "Fuenterrobles", "CODIGOINE": "46129", "JURISDICCI": "46129" }, "geometry": { "type": "Point", "coordinates": [ -1.362703283088, 39.585839839487249 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46844", "NOMBRE": "Beniatjar", "CODIGOINE": "46056", "JURISDICCI": "46056" }, "geometry": { "type": "Point", "coordinates": [ -0.416844382210215, 38.847800052892588 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46860", "NOMBRE": "Albaida", "CODIGOINE": "46006", "JURISDICCI": "46006" }, "geometry": { "type": "Point", "coordinates": [ -0.518693054252521, 38.837553350775835 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46891", "NOMBRE": "El Palomar", "CODIGOINE": "46189", "JURISDICCI": "46189" }, "geometry": { "type": "Point", "coordinates": [ -0.501166313283044, 38.854551817253245 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46691", "NOMBRE": "Vallada", "CODIGOINE": "46251", "JURISDICCI": "46251" }, "geometry": { "type": "Point", "coordinates": [ -0.692059082733475, 38.897060623345162 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46640", "NOMBRE": "Mogente\/Moixent", "CODIGOINE": "46170", "JURISDICCI": "46170" }, "geometry": { "type": "Point", "coordinates": [ -0.755571726397747, 38.87343470931372 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46630", "NOMBRE": "La Font de la Figuera", "CODIGOINE": "46128", "JURISDICCI": "46128" }, "geometry": { "type": "Point", "coordinates": [ -0.879157678463173, 38.805793944260145 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46842", "NOMBRE": "Montitxelvo\/Montichelvo", "CODIGOINE": "46175", "JURISDICCI": "46175" }, "geometry": { "type": "Point", "coordinates": [ -0.339157544593355, 38.890912120035267 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46470", "NOMBRE": "Catarroja", "CODIGOINE": "46094", "JURISDICCI": "46094" }, "geometry": { "type": "Point", "coordinates": [ -0.403320303901145, 39.40374236703267 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46367", "NOMBRE": "Y�tova", "CODIGOINE": "46261", "JURISDICCI": "46261" }, "geometry": { "type": "Point", "coordinates": [ -0.806712667475948, 39.385284597576138 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46814", "NOMBRE": "Llanera de Ranes", "CODIGOINE": "46154", "JURISDICCI": "46154" }, "geometry": { "type": "Point", "coordinates": [ -0.571892149751283, 38.99259623693662 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46500", "NOMBRE": "Sagunto\/Sagunt", "CODIGOINE": "46220", "JURISDICCI": "46220" }, "geometry": { "type": "Point", "coordinates": [ -0.275272652494491, 39.679966357558861 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46185", "NOMBRE": "La Pobla de Vallbona", "CODIGOINE": "46202", "JURISDICCI": "46202" }, "geometry": { "type": "Point", "coordinates": [ -0.552143406994646, 39.591643394718012 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46175", "NOMBRE": "Dome�o", "CODIGOINE": "46114", "JURISDICCI": "46114" }, "geometry": { "type": "Point", "coordinates": [ -0.939539624076244, 39.708559860020245 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46175", "NOMBRE": "Calles", "CODIGOINE": "46079", "JURISDICCI": "46079" }, "geometry": { "type": "Point", "coordinates": [ -0.973527843988178, 39.725625622521925 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46893", "NOMBRE": "Alfarras�", "CODIGOINE": "46027", "JURISDICCI": "46027" }, "geometry": { "type": "Point", "coordinates": [ -0.495357717820536, 38.902624575531945 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46726", "NOMBRE": "Almiser�", "CODIGOINE": "46033", "JURISDICCI": "46033" }, "geometry": { "type": "Point", "coordinates": [ -0.287221412161095, 38.916093144903563 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46721", "NOMBRE": "Potr�es", "CODIGOINE": "46198", "JURISDICCI": "46198" }, "geometry": { "type": "Point", "coordinates": [ -0.193708155755349, 38.915153783274647 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46668", "NOMBRE": "Llocnou d'En Fenollet", "CODIGOINE": "46151", "JURISDICCI": "46151" }, "geometry": { "type": "Point", "coordinates": [ -0.467589862118218, 39.013289603221978 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46837", "NOMBRE": "Quatretonda", "CODIGOINE": "46104", "JURISDICCI": "46104" }, "geometry": { "type": "Point", "coordinates": [ -0.401359929570227, 38.944976947394025 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46750", "NOMBRE": "Simat de la Valldigna", "CODIGOINE": "46231", "JURISDICCI": "46231" }, "geometry": { "type": "Point", "coordinates": [ -0.312557689471918, 39.043861152806812 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46821", "NOMBRE": "Chella", "CODIGOINE": "46107", "JURISDICCI": "46107" }, "geometry": { "type": "Point", "coordinates": [ -0.660035105115804, 39.042742067364081 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46822", "NOMBRE": "Bolbaite", "CODIGOINE": "46073", "JURISDICCI": "46073" }, "geometry": { "type": "Point", "coordinates": [ -0.673854473619841, 39.060065620325886 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46666", "NOMBRE": "Rafelguaraf", "CODIGOINE": "46209", "JURISDICCI": "46209" }, "geometry": { "type": "Point", "coordinates": [ -0.453861842873668, 39.05088062526152 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46190", "NOMBRE": "Riba-roja de T�ria", "CODIGOINE": "46214", "JURISDICCI": "46214" }, "geometry": { "type": "Point", "coordinates": [ -0.572609915358696, 39.545351144246382 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46812", "NOMBRE": "Aielo de Malferit", "CODIGOINE": "46042", "JURISDICCI": "46042" }, "geometry": { "type": "Point", "coordinates": [ -0.587210110548325, 38.878837724753225 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46839", "NOMBRE": "Benisuera", "CODIGOINE": "46069", "JURISDICCI": "46069" }, "geometry": { "type": "Point", "coordinates": [ -0.478240036451202, 38.913313173404312 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46842", "NOMBRE": "Terrateig", "CODIGOINE": "46240", "JURISDICCI": "46240" }, "geometry": { "type": "Point", "coordinates": [ -0.320958267584398, 38.894865566813337 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46726", "NOMBRE": "Llocnou de Sant Jeroni", "CODIGOINE": "46153", "JURISDICCI": "46153" }, "geometry": { "type": "Point", "coordinates": [ -0.284075739315113, 38.912624269683157 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46842", "NOMBRE": "Rugat", "CODIGOINE": "46219", "JURISDICCI": "46219" }, "geometry": { "type": "Point", "coordinates": [ -0.361822703226413, 38.878802979964831 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46870", "NOMBRE": "Ontinyent", "CODIGOINE": "46184", "JURISDICCI": "46184" }, "geometry": { "type": "Point", "coordinates": [ -0.605876870664437, 38.821214596250272 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46890", "NOMBRE": "Agullent", "CODIGOINE": "46004", "JURISDICCI": "46004" }, "geometry": { "type": "Point", "coordinates": [ -0.552122545185967, 38.82241887270807 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46843", "NOMBRE": "R�fol de Salem", "CODIGOINE": "46210", "JURISDICCI": "46210" }, "geometry": { "type": "Point", "coordinates": [ -0.397404325972817, 38.864884683186688 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46869", "NOMBRE": "Atzeneta d'Albaida", "CODIGOINE": "46003", "JURISDICCI": "46003" }, "geometry": { "type": "Point", "coordinates": [ -0.498468959124173, 38.831539392837584 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46869", "NOMBRE": "Carr�cola", "CODIGOINE": "46086", "JURISDICCI": "46086" }, "geometry": { "type": "Point", "coordinates": [ -0.471572539316804, 38.840311772340414 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46269", "NOMBRE": "Tous", "CODIGOINE": "46246", "JURISDICCI": "46246" }, "geometry": { "type": "Point", "coordinates": [ -0.587944433730271, 39.139432412221971 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46130", "NOMBRE": "Massamagrell", "CODIGOINE": "46164", "JURISDICCI": "46164" }, "geometry": { "type": "Point", "coordinates": [ -0.334613284417952, 39.571217103853073 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03811", "NOMBRE": "Gorga", "CODIGOINE": "03073", "JURISDICCI": "03073" }, "geometry": { "type": "Point", "coordinates": [ -0.356578662765078, 38.718627246778134 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03827", "NOMBRE": "Benillup", "CODIGOINE": "03036", "JURISDICCI": "03036" }, "geometry": { "type": "Point", "coordinates": [ -0.378869268626871, 38.753446172340482 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03518", "NOMBRE": "T�rbena", "CODIGOINE": "03127", "JURISDICCI": "03127" }, "geometry": { "type": "Point", "coordinates": [ -0.102116281317504, 38.69319327378502 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03698", "NOMBRE": "Agost", "CODIGOINE": "03002", "JURISDICCI": "03002" }, "geometry": { "type": "Point", "coordinates": [ -0.639714262022356, 38.438092919605133 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03792", "NOMBRE": "Murla", "CODIGOINE": "03091", "JURISDICCI": "03091" }, "geometry": { "type": "Point", "coordinates": [ -0.083255406771844, 38.759899238737155 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03517", "NOMBRE": "Confrides", "CODIGOINE": "03057", "JURISDICCI": "03057" }, "geometry": { "type": "Point", "coordinates": [ -0.268916151086098, 38.683861486496674 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03370", "NOMBRE": "Redov�n", "CODIGOINE": "03111", "JURISDICCI": "03111" }, "geometry": { "type": "Point", "coordinates": [ -0.908284449947003, 38.114780503853055 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03316", "NOMBRE": "Benferri", "CODIGOINE": "03025", "JURISDICCI": "03025" }, "geometry": { "type": "Point", "coordinates": [ -0.962134173587717, 38.14152939511748 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03130", "NOMBRE": "Santa Pola", "CODIGOINE": "03121", "JURISDICCI": "03121" }, "geometry": { "type": "Point", "coordinates": [ -0.556121851838448, 38.193095176307658 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03150", "NOMBRE": "Dolores", "CODIGOINE": "03064", "JURISDICCI": "03064" }, "geometry": { "type": "Point", "coordinates": [ -0.768372416782477, 38.137926638772633 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03158", "NOMBRE": "Catral", "CODIGOINE": "03055", "JURISDICCI": "03055" }, "geometry": { "type": "Point", "coordinates": [ -0.801973539875235, 38.160732478782876 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03360", "NOMBRE": "Callosa de Segura", "CODIGOINE": "03049", "JURISDICCI": "03049" }, "geometry": { "type": "Point", "coordinates": [ -0.875633321287903, 38.124434258510632 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03330", "NOMBRE": "Crevillent", "CODIGOINE": "03059", "JURISDICCI": "03059" }, "geometry": { "type": "Point", "coordinates": [ -0.807975124045904, 38.246486776167735 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03660", "NOMBRE": "Novelda", "CODIGOINE": "03093", "JURISDICCI": "03093" }, "geometry": { "type": "Point", "coordinates": [ -0.766863927903431, 38.384660082967478 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03638", "NOMBRE": "Salinas", "CODIGOINE": "03116", "JURISDICCI": "03116" }, "geometry": { "type": "Point", "coordinates": [ -0.912097176860745, 38.518627159658159 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03570", "NOMBRE": "Villajoyosa\/La Vila Joiosa", "CODIGOINE": "03139", "JURISDICCI": "03139" }, "geometry": { "type": "Point", "coordinates": [ -0.230499474096818, 38.510248597001656 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46792", "NOMBRE": "Aig�es", "CODIGOINE": "03004", "JURISDICCI": "03004" }, "geometry": { "type": "Point", "coordinates": [ -0.36495054644203, 38.500312162905558 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12360", "NOMBRE": "Chert\/Xert", "CODIGOINE": "12052", "JURISDICCI": "12052" }, "geometry": { "type": "Point", "coordinates": [ 0.158937839192295, 40.517675961558908 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12350", "NOMBRE": "Canet lo Roig", "CODIGOINE": "12036", "JURISDICCI": "12036" }, "geometry": { "type": "Point", "coordinates": [ 0.244000220680068, 40.551279053918918 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12591", "NOMBRE": "La Llosa", "CODIGOINE": "12074", "JURISDICCI": "12074" }, "geometry": { "type": "Point", "coordinates": [ -0.205422157821043, 39.76759723763562 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12490", "NOMBRE": "Azu�bar", "CODIGOINE": "12018", "JURISDICCI": "12018" }, "geometry": { "type": "Point", "coordinates": [ -0.368783384664001, 39.834411909779696 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12539", "NOMBRE": "Alquer�as del Ni�o Perdido", "CODIGOINE": "12901", "JURISDICCI": "12901" }, "geometry": { "type": "Point", "coordinates": [ -0.113259724229151, 39.896355987603357 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12530", "NOMBRE": "Borriana\/Burriana", "CODIGOINE": "12032", "JURISDICCI": "12032" }, "geometry": { "type": "Point", "coordinates": [ -0.085988862580082, 39.888230857831694 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12414", "NOMBRE": "Algimia de Almonacid", "CODIGOINE": "12008", "JURISDICCI": "12008" }, "geometry": { "type": "Point", "coordinates": [ -0.442599402484666, 39.914353988297975 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46820", "NOMBRE": "Anna", "CODIGOINE": "46039", "JURISDICCI": "46039" }, "geometry": { "type": "Point", "coordinates": [ -0.647133259179398, 39.020488563360999 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46139", "NOMBRE": "La Pobla de Farnals", "CODIGOINE": "46199", "JURISDICCI": "46199" }, "geometry": { "type": "Point", "coordinates": [ -0.326201976081764, 39.579218623404252 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03726", "NOMBRE": "Benitachell\/el Poble Nou de Benitatxell", "CODIGOINE": "03042", "JURISDICCI": "03042" }, "geometry": { "type": "Point", "coordinates": [ 0.142445720010472, 38.731502489361723 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03469", "NOMBRE": "Campo de Mirra\/el Camp de Mirra", "CODIGOINE": "03051", "JURISDICCI": "03051" }, "geometry": { "type": "Point", "coordinates": [ -0.777563307781513, 38.687739635431214 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46830", "NOMBRE": "Benig�nim", "CODIGOINE": "46062", "JURISDICCI": "46062" }, "geometry": { "type": "Point", "coordinates": [ -0.443825591684319, 38.942048157446891 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12414", "NOMBRE": "Vall de Almonacid", "CODIGOINE": "12125", "JURISDICCI": "12125" }, "geometry": { "type": "Point", "coordinates": [ -0.457765148232834, 39.903026360638322 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46137", "NOMBRE": "La Pobla de Farnals", "CODIGOINE": "46199", "JURISDICCI": "46199" }, "geometry": { "type": "Point", "coordinates": [ -0.28763814629453, 39.564085644680844 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12579", "NOMBRE": "Alcal� de Xivert", "CODIGOINE": "12004", "JURISDICCI": "12004" }, "geometry": { "type": "Point", "coordinates": [ 0.279189130399489, 40.247939215389664 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12166", "NOMBRE": "Sierra Engarcer�n", "CODIGOINE": "12105", "JURISDICCI": "12105" }, "geometry": { "type": "Point", "coordinates": [ -0.0783750801686, 40.227515691186277 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12134", "NOMBRE": "Chodos\/Xodos", "CODIGOINE": "12055", "JURISDICCI": "12055" }, "geometry": { "type": "Point", "coordinates": [ -0.286681263919072, 40.24490555019154 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12124", "NOMBRE": "Villahermosa del R�o", "CODIGOINE": "12130", "JURISDICCI": "12130" }, "geometry": { "type": "Point", "coordinates": [ -0.418668453603954, 40.202311748762419 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12127", "NOMBRE": "Cortes de Arenoso", "CODIGOINE": "12048", "JURISDICCI": "12048" }, "geometry": { "type": "Point", "coordinates": [ -0.542509111098455, 40.186588675976083 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12126", "NOMBRE": "Cortes de Arenoso", "CODIGOINE": "12048", "JURISDICCI": "12048" }, "geometry": { "type": "Point", "coordinates": [ -0.501002941303032, 40.138282348164374 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12125", "NOMBRE": "Zucaina", "CODIGOINE": "12142", "JURISDICCI": "12142" }, "geometry": { "type": "Point", "coordinates": [ -0.4186080518002, 40.13199431008286 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12123", "NOMBRE": "Castillo de Villamalefa", "CODIGOINE": "12041", "JURISDICCI": "12041" }, "geometry": { "type": "Point", "coordinates": [ -0.379925106703482, 40.130341267363072 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12120", "NOMBRE": "Lucena del Cid", "CODIGOINE": "12072", "JURISDICCI": "12072" }, "geometry": { "type": "Point", "coordinates": [ -0.280494821233529, 40.135903583888343 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12122", "NOMBRE": "Figueroles", "CODIGOINE": "12060", "JURISDICCI": "12060" }, "geometry": { "type": "Point", "coordinates": [ -0.235012811071449, 40.116934605822145 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12119", "NOMBRE": "Costur", "CODIGOINE": "12049", "JURISDICCI": "12049" }, "geometry": { "type": "Point", "coordinates": [ -0.17427216648081, 40.11861722203723 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12118", "NOMBRE": "Useras\/Les Useres", "CODIGOINE": "12122", "JURISDICCI": "12122" }, "geometry": { "type": "Point", "coordinates": [ -0.165939950788964, 40.157629890665831 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12192", "NOMBRE": "Vilafam�s", "CODIGOINE": "12128", "JURISDICCI": "12128" }, "geometry": { "type": "Point", "coordinates": [ -0.052218778691099, 40.113478353846922 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12191", "NOMBRE": "La Pobla Tornesa", "CODIGOINE": "12094", "JURISDICCI": "12094" }, "geometry": { "type": "Point", "coordinates": [ 0.00134353113028, 40.102502589917265 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12594", "NOMBRE": "Oropesa del Mar\/Orpesa", "CODIGOINE": "12085", "JURISDICCI": "12085" }, "geometry": { "type": "Point", "coordinates": [ 0.138813723890758, 40.090431843971018 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12130", "NOMBRE": "Sant Joan de Mor�", "CODIGOINE": "12902", "JURISDICCI": "12902" }, "geometry": { "type": "Point", "coordinates": [ -0.137444609784092, 40.058970960522402 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12110", "NOMBRE": "L'Alcora", "CODIGOINE": "12005", "JURISDICCI": "12005" }, "geometry": { "type": "Point", "coordinates": [ -0.214737439105695, 40.074212377473643 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12210", "NOMBRE": "Ribesalbes", "CODIGOINE": "12095", "JURISDICCI": "12095" }, "geometry": { "type": "Point", "coordinates": [ -0.277306052978763, 40.021775412255096 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12230", "NOMBRE": "Fanzara", "CODIGOINE": "12059", "JURISDICCI": "12059" }, "geometry": { "type": "Point", "coordinates": [ -0.315697050663216, 40.018510296534423 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12230", "NOMBRE": "Vallat", "CODIGOINE": "12123", "JURISDICCI": "12123" }, "geometry": { "type": "Point", "coordinates": [ -0.335915517114369, 40.03012791052226 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12230", "NOMBRE": "Espadilla", "CODIGOINE": "12058", "JURISDICCI": "12058" }, "geometry": { "type": "Point", "coordinates": [ -0.356302951087986, 40.026501127473736 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12230", "NOMBRE": "Toga", "CODIGOINE": "12113", "JURISDICCI": "12113" }, "geometry": { "type": "Point", "coordinates": [ -0.366368894903197, 40.041218383048736 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12123", "NOMBRE": "Ludiente", "CODIGOINE": "12073", "JURISDICCI": "12073" }, "geometry": { "type": "Point", "coordinates": [ -0.372402510875954, 40.086590995052724 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12232", "NOMBRE": "Torrechiva", "CODIGOINE": "12118", "JURISDICCI": "12118" }, "geometry": { "type": "Point", "coordinates": [ -0.397940180082139, 40.049214558663998 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12225", "NOMBRE": "Fuentes de Ay�dar", "CODIGOINE": "12064", "JURISDICCI": "12064" }, "geometry": { "type": "Point", "coordinates": [ -0.419926549750768, 40.02106278049736 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12231", "NOMBRE": "Cirat", "CODIGOINE": "12046", "JURISDICCI": "12046" }, "geometry": { "type": "Point", "coordinates": [ -0.462723613097156, 40.054162017076884 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12448", "NOMBRE": "Montanejos", "CODIGOINE": "12079", "JURISDICCI": "12079" }, "geometry": { "type": "Point", "coordinates": [ -0.525010148423128, 40.067067662129595 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12447", "NOMBRE": "Mont�n", "CODIGOINE": "12078", "JURISDICCI": "12078" }, "geometry": { "type": "Point", "coordinates": [ -0.554041153901349, 40.035886006805619 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12428", "NOMBRE": "Puebla de Arenoso", "CODIGOINE": "12092", "JURISDICCI": "12092" }, "geometry": { "type": "Point", "coordinates": [ -0.592118889900745, 40.104711772275323 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12428", "NOMBRE": "Fuente la Reina", "CODIGOINE": "12063", "JURISDICCI": "12063" }, "geometry": { "type": "Point", "coordinates": [ -0.609497992002677, 40.063212068809655 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12428", "NOMBRE": "Villanueva de Viver", "CODIGOINE": "12133", "JURISDICCI": "12133" }, "geometry": { "type": "Point", "coordinates": [ -0.646896457236013, 40.058660632797633 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12429", "NOMBRE": "Pina de Montalgrao", "CODIGOINE": "12090", "JURISDICCI": "12090" }, "geometry": { "type": "Point", "coordinates": [ -0.654394309665359, 40.02083516361138 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46140", "NOMBRE": "Puebla de San Miguel", "CODIGOINE": "46201", "JURISDICCI": "46201" }, "geometry": { "type": "Point", "coordinates": [ -1.145014300426132, 40.044601660773388 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46143", "NOMBRE": "Torrebaja", "CODIGOINE": "46242", "JURISDICCI": "46242" }, "geometry": { "type": "Point", "coordinates": [ -1.258392646533053, 40.095615443194355 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46140", "NOMBRE": "Ademuz", "CODIGOINE": "46001", "JURISDICCI": "46001" }, "geometry": { "type": "Point", "coordinates": [ -1.286600726205763, 40.062536547441589 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46145", "NOMBRE": "Vallanca", "CODIGOINE": "46252", "JURISDICCI": "46252" }, "geometry": { "type": "Point", "coordinates": [ -1.339737933554658, 40.062593292943298 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46141", "NOMBRE": "Castielfabib", "CODIGOINE": "46092", "JURISDICCI": "46092" }, "geometry": { "type": "Point", "coordinates": [ -1.304059415418513, 40.129704927975766 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12429", "NOMBRE": "El Toro", "CODIGOINE": "12115", "JURISDICCI": "12115" }, "geometry": { "type": "Point", "coordinates": [ -0.747627149981288, 39.980940047890641 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12225", "NOMBRE": "Torralba del Pinar", "CODIGOINE": "12116", "JURISDICCI": "12116" }, "geometry": { "type": "Point", "coordinates": [ -0.437582962773449, 39.989477800251066 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12449", "NOMBRE": "Higueras", "CODIGOINE": "12069", "JURISDICCI": "12069" }, "geometry": { "type": "Point", "coordinates": [ -0.501721944178867, 39.984174833685195 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12223", "NOMBRE": "Sueras\/Suera", "CODIGOINE": "12108", "JURISDICCI": "12108" }, "geometry": { "type": "Point", "coordinates": [ -0.331297540950814, 39.951659663862387 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12200", "NOMBRE": "Onda", "CODIGOINE": "12084", "JURISDICCI": "12084" }, "geometry": { "type": "Point", "coordinates": [ -0.264843213055305, 39.964714033299778 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12006", "NOMBRE": "Castell�n de la Plana\/Castell� de la Plana", "CODIGOINE": "12040", "JURISDICCI": "12040" }, "geometry": { "type": "Point", "coordinates": [ -0.04790660251775, 39.982330202234955 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12540", "NOMBRE": "Vila-real", "CODIGOINE": "12135", "JURISDICCI": "12135" }, "geometry": { "type": "Point", "coordinates": [ -0.099953733719233, 39.938309289603275 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12520", "NOMBRE": "Nules", "CODIGOINE": "12082", "JURISDICCI": "12082" }, "geometry": { "type": "Point", "coordinates": [ -0.156295734691262, 39.852507306931173 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12528", "NOMBRE": "Eslida", "CODIGOINE": "12057", "JURISDICCI": "12057" }, "geometry": { "type": "Point", "coordinates": [ -0.307830496154196, 39.881037553591099 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12470", "NOMBRE": "Navajas", "CODIGOINE": "12081", "JURISDICCI": "12081" }, "geometry": { "type": "Point", "coordinates": [ -0.506771410310168, 39.874844853591235 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12413", "NOMBRE": "Castellnovo", "CODIGOINE": "12039", "JURISDICCI": "12039" }, "geometry": { "type": "Point", "coordinates": [ -0.458178639068574, 39.862031470416973 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12469", "NOMBRE": "Teresa", "CODIGOINE": "12110", "JURISDICCI": "12110" }, "geometry": { "type": "Point", "coordinates": [ -0.656892200778402, 39.900111844550629 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12431", "NOMBRE": "Tor�s", "CODIGOINE": "12114", "JURISDICCI": "12114" }, "geometry": { "type": "Point", "coordinates": [ -0.686197480337175, 39.918980493319857 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12430", "NOMBRE": "Bej�s", "CODIGOINE": "12022", "JURISDICCI": "12022" }, "geometry": { "type": "Point", "coordinates": [ -0.706462592843679, 39.909646272333198 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12469", "NOMBRE": "Saca�et", "CODIGOINE": "12097", "JURISDICCI": "12097" }, "geometry": { "type": "Point", "coordinates": [ -0.714865989253616, 39.851542941336056 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46177", "NOMBRE": "Tu�jar", "CODIGOINE": "46247", "JURISDICCI": "46247" }, "geometry": { "type": "Point", "coordinates": [ -1.041920112012845, 39.766681114741061 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46520", "NOMBRE": "Sagunto\/Sagunt", "CODIGOINE": "46220", "JURISDICCI": "46220" }, "geometry": { "type": "Point", "coordinates": [ -0.224722179150689, 39.66366362687895 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46815", "NOMBRE": "La Llosa de Ranes", "CODIGOINE": "46157", "JURISDICCI": "46157" }, "geometry": { "type": "Point", "coordinates": [ -0.53279675507112, 39.018257189285613 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46840", "NOMBRE": "La Pobla del Duc", "CODIGOINE": "46200", "JURISDICCI": "46200" }, "geometry": { "type": "Point", "coordinates": [ -0.420148518312957, 38.903825773257097 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03788", "NOMBRE": "Vall de Gallinera - Beniali", "CODIGOINE": "03136", "JURISDICCI": "03136" }, "geometry": { "type": "Point", "coordinates": [ -0.221129069064087, 38.821774793468258 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03679", "NOMBRE": "Monforte del Cid", "CODIGOINE": "03088", "JURISDICCI": "03088" }, "geometry": { "type": "Point", "coordinates": [ -0.679915242677129, 38.3664716227306 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12512", "NOMBRE": "Rossell", "CODIGOINE": "12096", "JURISDICCI": "12096" }, "geometry": { "type": "Point", "coordinates": [ 0.163382821708947, 40.623781236701532 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12599", "NOMBRE": "Rossell", "CODIGOINE": "12096", "JURISDICCI": "12096" }, "geometry": { "type": "Point", "coordinates": [ 0.274081874086097, 40.632048825210205 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12319", "NOMBRE": "Morella", "CODIGOINE": "12080", "JURISDICCI": "12080" }, "geometry": { "type": "Point", "coordinates": [ -0.019907825716081, 40.662515548490354 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12313", "NOMBRE": "Morella", "CODIGOINE": "12080", "JURISDICCI": "12080" }, "geometry": { "type": "Point", "coordinates": [ -0.081696264786542, 40.726933247083494 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12314", "NOMBRE": "Morella", "CODIGOINE": "12080", "JURISDICCI": "12080" }, "geometry": { "type": "Point", "coordinates": [ -0.125627754634734, 40.658888867729758 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12311", "NOMBRE": "Morella", "CODIGOINE": "12080", "JURISDICCI": "12080" }, "geometry": { "type": "Point", "coordinates": [ -0.176322718403685, 40.691318502561508 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12316", "NOMBRE": "Morella", "CODIGOINE": "12080", "JURISDICCI": "12080" }, "geometry": { "type": "Point", "coordinates": [ -0.091997348995085, 40.608097691044428 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12370", "NOMBRE": "Chert\/Xert", "CODIGOINE": "12052", "JURISDICCI": "12052" }, "geometry": { "type": "Point", "coordinates": [ 0.120574376076817, 40.512265004750773 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12513", "NOMBRE": "Morella", "CODIGOINE": "12080", "JURISDICCI": "12080" }, "geometry": { "type": "Point", "coordinates": [ 0.031794571408827, 40.557128561015872 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12160", "NOMBRE": "Ares del Maestrat", "CODIGOINE": "12014", "JURISDICCI": "12014" }, "geometry": { "type": "Point", "coordinates": [ -0.115080886338499, 40.429738690835315 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12164", "NOMBRE": "Culla", "CODIGOINE": "12051", "JURISDICCI": "12051" }, "geometry": { "type": "Point", "coordinates": [ -0.169410513599094, 40.300440295247945 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12133", "NOMBRE": "Atzeneta del Maestrat", "CODIGOINE": "12001", "JURISDICCI": "12001" }, "geometry": { "type": "Point", "coordinates": [ -0.134691515530032, 40.263392020286318 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12164", "NOMBRE": "Sierra Engarcer�n", "CODIGOINE": "12105", "JURISDICCI": "12105" }, "geometry": { "type": "Point", "coordinates": [ -0.045780948437756, 40.292443331798658 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12184", "NOMBRE": "Alboc�sser", "CODIGOINE": "12003", "JURISDICCI": "12003" }, "geometry": { "type": "Point", "coordinates": [ 0.018559640461223, 40.330174577680779 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12164", "NOMBRE": "Alboc�sser", "CODIGOINE": "12003", "JURISDICCI": "12003" }, "geometry": { "type": "Point", "coordinates": [ -0.000823345090153, 40.357599440216234 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12595", "NOMBRE": "Cabanes", "CODIGOINE": "12033", "JURISDICCI": "12033" }, "geometry": { "type": "Point", "coordinates": [ 0.158756548317928, 40.133888875234014 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12193", "NOMBRE": "Vall d'Alba", "CODIGOINE": "12124", "JURISDICCI": "12124" }, "geometry": { "type": "Point", "coordinates": [ -0.063791576257094, 40.166340143093947 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12131", "NOMBRE": "Useras\/Les Useres", "CODIGOINE": "12122", "JURISDICCI": "12122" }, "geometry": { "type": "Point", "coordinates": [ -0.110184698301727, 40.154133822190012 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12119", "NOMBRE": "L'Alcora", "CODIGOINE": "12005", "JURISDICCI": "12005" }, "geometry": { "type": "Point", "coordinates": [ -0.274788210521129, 40.065961115058464 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12121", "NOMBRE": "L'Alcora", "CODIGOINE": "12005", "JURISDICCI": "12005" }, "geometry": { "type": "Point", "coordinates": [ -0.208977271510602, 40.10364963440545 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12232", "NOMBRE": "Cirat", "CODIGOINE": "12046", "JURISDICCI": "12046" }, "geometry": { "type": "Point", "coordinates": [ -0.428423078099156, 40.063508983476332 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12448", "NOMBRE": "Ara�uel", "CODIGOINE": "12013", "JURISDICCI": "12013" }, "geometry": { "type": "Point", "coordinates": [ -0.498554041347726, 40.105438575855118 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46142", "NOMBRE": "Castielfabib", "CODIGOINE": "46092", "JURISDICCI": "46092" }, "geometry": { "type": "Point", "coordinates": [ -1.281834290228169, 40.107724705685982 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46144", "NOMBRE": "Castielfabib", "CODIGOINE": "46092", "JURISDICCI": "46092" }, "geometry": { "type": "Point", "coordinates": [ -1.250634872473633, 40.128708747266785 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46144", "NOMBRE": "Torrebaja", "CODIGOINE": "46242", "JURISDICCI": "46242" }, "geometry": { "type": "Point", "coordinates": [ -1.256827897975061, 40.118976850050245 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46140", "NOMBRE": "Castielfabib", "CODIGOINE": "46092", "JURISDICCI": "46092" }, "geometry": { "type": "Point", "coordinates": [ -1.419444623156366, 40.120765284502774 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12469", "NOMBRE": "Viver", "CODIGOINE": "12140", "JURISDICCI": "12140" }, "geometry": { "type": "Point", "coordinates": [ -0.649462305797228, 39.952408846052009 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12414", "NOMBRE": "Segorbe", "CODIGOINE": "12104", "JURISDICCI": "12104" }, "geometry": { "type": "Point", "coordinates": [ -0.477109964894562, 39.86289396841434 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12220", "NOMBRE": "Onda", "CODIGOINE": "12084", "JURISDICCI": "12084" }, "geometry": { "type": "Point", "coordinates": [ -0.287202591074461, 39.958349692112321 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12002", "NOMBRE": "Castell�n de la Plana\/Castell� de la Plana", "CODIGOINE": "12040", "JURISDICCI": "12040" }, "geometry": { "type": "Point", "coordinates": [ -0.040732347991887, 39.982617745899681 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12001", "NOMBRE": "Castell�n de la Plana\/Castell� de la Plana", "CODIGOINE": "12040", "JURISDICCI": "12040" }, "geometry": { "type": "Point", "coordinates": [ -0.038275195324366, 39.986303474900964 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12004", "NOMBRE": "Castell�n de la Plana\/Castell� de la Plana", "CODIGOINE": "12040", "JURISDICCI": "12040" }, "geometry": { "type": "Point", "coordinates": [ -0.03730988534784, 39.994727998332465 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12003", "NOMBRE": "Castell�n de la Plana\/Castell� de la Plana", "CODIGOINE": "12040", "JURISDICCI": "12040" }, "geometry": { "type": "Point", "coordinates": [ -0.02449758929577, 39.984811632209968 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12100", "NOMBRE": "Castell�n de la Plana\/Castell� de la Plana", "CODIGOINE": "12040", "JURISDICCI": "12040" }, "geometry": { "type": "Point", "coordinates": [ 0.014378076122498, 39.975509554254359 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12005", "NOMBRE": "Castell�n de la Plana\/Castell� de la Plana", "CODIGOINE": "12040", "JURISDICCI": "12040" }, "geometry": { "type": "Point", "coordinates": [ -0.038190486585836, 39.976271151510488 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12529", "NOMBRE": "Nules", "CODIGOINE": "12082", "JURISDICCI": "12082" }, "geometry": { "type": "Point", "coordinates": [ -0.111055948083555, 39.826928443038895 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46513", "NOMBRE": "Sagunto\/Sagunt", "CODIGOINE": "46220", "JURISDICCI": "46220" }, "geometry": { "type": "Point", "coordinates": [ -0.239986054390604, 39.718207987854463 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "12591", "NOMBRE": "Almenara", "CODIGOINE": "12011", "JURISDICCI": "12011" }, "geometry": { "type": "Point", "coordinates": [ -0.181707060455608, 39.738560679986037 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46530", "NOMBRE": "Sagunto\/Sagunt", "CODIGOINE": "46220", "JURISDICCI": "46220" }, "geometry": { "type": "Point", "coordinates": [ -0.3143363568145, 39.6372152499195 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46127", "NOMBRE": "B�tera", "CODIGOINE": "46070", "JURISDICCI": "46070" }, "geometry": { "type": "Point", "coordinates": [ -0.439897939298206, 39.584537093821986 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46174", "NOMBRE": "Dome�o", "CODIGOINE": "46114", "JURISDICCI": "46114" }, "geometry": { "type": "Point", "coordinates": [ -0.670346293104932, 39.658569175496652 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46351", "NOMBRE": "Chelva", "CODIGOINE": "46106", "JURISDICCI": "46106" }, "geometry": { "type": "Point", "coordinates": [ -1.087536899753411, 39.632122172497276 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "16313", "NOMBRE": "Camporrobles", "CODIGOINE": "46080", "JURISDICCI": "46080" }, "geometry": { "type": "Point", "coordinates": [ -1.325176886056853, 39.740641276479955 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "16321", "NOMBRE": "Sinarcas", "CODIGOINE": "46232", "JURISDICCI": "46232" }, "geometry": { "type": "Point", "coordinates": [ -1.271393466689069, 39.779407247582704 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46321", "NOMBRE": "Utiel", "CODIGOINE": "46249", "JURISDICCI": "46249" }, "geometry": { "type": "Point", "coordinates": [ -1.263360878082192, 39.669046464983879 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46312", "NOMBRE": "Utiel", "CODIGOINE": "46249", "JURISDICCI": "46249" }, "geometry": { "type": "Point", "coordinates": [ -1.167668300765484, 39.62434336317169 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "16312", "NOMBRE": "Sinarcas", "CODIGOINE": "46232", "JURISDICCI": "46232" }, "geometry": { "type": "Point", "coordinates": [ -1.375817118578469, 39.814331545873479 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46339", "NOMBRE": "Camporrobles", "CODIGOINE": "46080", "JURISDICCI": "46080" }, "geometry": { "type": "Point", "coordinates": [ -1.335969980369054, 39.670651496564901 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46313", "NOMBRE": "Utiel", "CODIGOINE": "46249", "JURISDICCI": "46249" }, "geometry": { "type": "Point", "coordinates": [ -1.280124541261761, 39.62050169035971 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46311", "NOMBRE": "Venta del Moro", "CODIGOINE": "46254", "JURISDICCI": "46254" }, "geometry": { "type": "Point", "coordinates": [ -1.361421991586173, 39.521438360955315 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46353", "NOMBRE": "Requena", "CODIGOINE": "46213", "JURISDICCI": "46213" }, "geometry": { "type": "Point", "coordinates": [ -1.254979046492407, 39.476264338418829 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46390", "NOMBRE": "Requena", "CODIGOINE": "46213", "JURISDICCI": "46213" }, "geometry": { "type": "Point", "coordinates": [ -1.154047824432084, 39.519919711282292 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46352", "NOMBRE": "Requena", "CODIGOINE": "46213", "JURISDICCI": "46213" }, "geometry": { "type": "Point", "coordinates": [ -1.166969814799669, 39.430862750640827 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46357", "NOMBRE": "Requena", "CODIGOINE": "46213", "JURISDICCI": "46213" }, "geometry": { "type": "Point", "coordinates": [ -1.102359862961746, 39.400478611127859 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46391", "NOMBRE": "Requena", "CODIGOINE": "46213", "JURISDICCI": "46213" }, "geometry": { "type": "Point", "coordinates": [ -1.010508958457023, 39.468930235777769 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46351", "NOMBRE": "Requena", "CODIGOINE": "46213", "JURISDICCI": "46213" }, "geometry": { "type": "Point", "coordinates": [ -1.061208485203241, 39.595749316299468 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46370", "NOMBRE": "Godelleta", "CODIGOINE": "46136", "JURISDICCI": "46136" }, "geometry": { "type": "Point", "coordinates": [ -0.655387546122257, 39.442897402937241 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46182", "NOMBRE": "Paterna", "CODIGOINE": "46190", "JURISDICCI": "46190" }, "geometry": { "type": "Point", "coordinates": [ -0.485333894071862, 39.52881704780696 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46909", "NOMBRE": "Torrent", "CODIGOINE": "46244", "JURISDICCI": "46244" }, "geometry": { "type": "Point", "coordinates": [ -0.537628068754514, 39.41641629361412 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46901", "NOMBRE": "Torrent", "CODIGOINE": "46244", "JURISDICCI": "46244" }, "geometry": { "type": "Point", "coordinates": [ -0.483354026111946, 39.418221416983606 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46394", "NOMBRE": "Riba-roja de T�ria", "CODIGOINE": "46214", "JURISDICCI": "46214" }, "geometry": { "type": "Point", "coordinates": [ -0.554779142873273, 39.480034490726339 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46184", "NOMBRE": "B�tera", "CODIGOINE": "46070", "JURISDICCI": "46070" }, "geometry": { "type": "Point", "coordinates": [ -0.478064113442945, 39.564336266657698 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46117", "NOMBRE": "San Antonio de Benag�ber", "CODIGOINE": "46903", "JURISDICCI": "46903" }, "geometry": { "type": "Point", "coordinates": [ -0.483691941191449, 39.568675796487867 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46988", "NOMBRE": "Paterna", "CODIGOINE": "46190", "JURISDICCI": "46190" }, "geometry": { "type": "Point", "coordinates": [ -0.464005457914899, 39.514598399981558 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46989", "NOMBRE": "Paterna", "CODIGOINE": "46190", "JURISDICCI": "46190" }, "geometry": { "type": "Point", "coordinates": [ -0.430533861818991, 39.511196067411369 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46980", "NOMBRE": "Paterna", "CODIGOINE": "46190", "JURISDICCI": "46190" }, "geometry": { "type": "Point", "coordinates": [ -0.429798222344355, 39.523242163808526 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46112", "NOMBRE": "Valencia", "CODIGOINE": "46250", "JURISDICCI": "46250" }, "geometry": { "type": "Point", "coordinates": [ -0.404878435141083, 39.539977961856479 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46135", "NOMBRE": "Valencia", "CODIGOINE": "46250", "JURISDICCI": "46250" }, "geometry": { "type": "Point", "coordinates": [ -0.336091267864645, 39.544316098430073 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46131", "NOMBRE": "Valencia", "CODIGOINE": "46250", "JURISDICCI": "46250" }, "geometry": { "type": "Point", "coordinates": [ -0.358453035985663, 39.520595905142827 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46116", "NOMBRE": "Moncada", "CODIGOINE": "46171", "JURISDICCI": "46171" }, "geometry": { "type": "Point", "coordinates": [ -0.408525561213887, 39.562800858737873 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46035", "NOMBRE": "Valencia", "CODIGOINE": "46250", "JURISDICCI": "46250" }, "geometry": { "type": "Point", "coordinates": [ -0.420572541685497, 39.500168905993604 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46015", "NOMBRE": "Valencia", "CODIGOINE": "46250", "JURISDICCI": "46250" }, "geometry": { "type": "Point", "coordinates": [ -0.400762290782691, 39.483074576585537 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46016", "NOMBRE": "Valencia", "CODIGOINE": "46250", "JURISDICCI": "46250" }, "geometry": { "type": "Point", "coordinates": [ -0.383188681110846, 39.517422995489596 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46025", "NOMBRE": "Valencia", "CODIGOINE": "46250", "JURISDICCI": "46250" }, "geometry": { "type": "Point", "coordinates": [ -0.387022923221067, 39.494577302916198 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46019", "NOMBRE": "Valencia", "CODIGOINE": "46250", "JURISDICCI": "46250" }, "geometry": { "type": "Point", "coordinates": [ -0.370407874076778, 39.494896823092056 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46020", "NOMBRE": "Valencia", "CODIGOINE": "46250", "JURISDICCI": "46250" }, "geometry": { "type": "Point", "coordinates": [ -0.357467306954783, 39.486269778344052 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46010", "NOMBRE": "Valencia", "CODIGOINE": "46250", "JURISDICCI": "46250" }, "geometry": { "type": "Point", "coordinates": [ -0.365455311351076, 39.479240334475321 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46009", "NOMBRE": "Valencia", "CODIGOINE": "46250", "JURISDICCI": "46250" }, "geometry": { "type": "Point", "coordinates": [ -0.3791946789127, 39.485151457728577 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46003", "NOMBRE": "Valencia", "CODIGOINE": "46250", "JURISDICCI": "46250" }, "geometry": { "type": "Point", "coordinates": [ -0.375040916626628, 39.477323213420206 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46008", "NOMBRE": "Valencia", "CODIGOINE": "46250", "JURISDICCI": "46250" }, "geometry": { "type": "Point", "coordinates": [ -0.387502203484845, 39.47348897130999 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46018", "NOMBRE": "Valencia", "CODIGOINE": "46250", "JURISDICCI": "46250" }, "geometry": { "type": "Point", "coordinates": [ -0.39964397016721, 39.468536408584285 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46014", "NOMBRE": "Valencia", "CODIGOINE": "46250", "JURISDICCI": "46250" }, "geometry": { "type": "Point", "coordinates": [ -0.402839171925727, 39.457832482693256 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46017", "NOMBRE": "Valencia", "CODIGOINE": "46250", "JURISDICCI": "46250" }, "geometry": { "type": "Point", "coordinates": [ -0.391176685507139, 39.448566397593552 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46026", "NOMBRE": "Valencia", "CODIGOINE": "46250", "JURISDICCI": "46250" }, "geometry": { "type": "Point", "coordinates": [ -0.376958037681738, 39.445690716010887 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46006", "NOMBRE": "Valencia", "CODIGOINE": "46250", "JURISDICCI": "46250" }, "geometry": { "type": "Point", "coordinates": [ -0.374721396450776, 39.457193442341548 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46005", "NOMBRE": "Valencia", "CODIGOINE": "46250", "JURISDICCI": "46250" }, "geometry": { "type": "Point", "coordinates": [ -0.366733392054483, 39.463903366034437 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46007", "NOMBRE": "Valencia", "CODIGOINE": "46250", "JURISDICCI": "46250" }, "geometry": { "type": "Point", "coordinates": [ -0.384307001726327, 39.461347204627621 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46004", "NOMBRE": "Valencia", "CODIGOINE": "46250", "JURISDICCI": "46250" }, "geometry": { "type": "Point", "coordinates": [ -0.369129793373371, 39.46837664849636 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46021", "NOMBRE": "Valencia", "CODIGOINE": "46250", "JURISDICCI": "46250" }, "geometry": { "type": "Point", "coordinates": [ -0.352514744229082, 39.472210890606583 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46022", "NOMBRE": "Valencia", "CODIGOINE": "46250", "JURISDICCI": "46250" }, "geometry": { "type": "Point", "coordinates": [ -0.342449858689752, 39.4710925699911 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46011", "NOMBRE": "Valencia", "CODIGOINE": "46250", "JURISDICCI": "46250" }, "geometry": { "type": "Point", "coordinates": [ -0.32711289024887, 39.472690170870358 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46013", "NOMBRE": "Valencia", "CODIGOINE": "46250", "JURISDICCI": "46250" }, "geometry": { "type": "Point", "coordinates": [ -0.362579629768411, 39.45048351864866 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46024", "NOMBRE": "Valencia", "CODIGOINE": "46250", "JURISDICCI": "46250" }, "geometry": { "type": "Point", "coordinates": [ -0.334781374469311, 39.452720159879625 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46023", "NOMBRE": "Valencia", "CODIGOINE": "46250", "JURISDICCI": "46250" }, "geometry": { "type": "Point", "coordinates": [ -0.348041461767158, 39.459430083572514 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46001", "NOMBRE": "Valencia", "CODIGOINE": "46250", "JURISDICCI": "46250" }, "geometry": { "type": "Point", "coordinates": [ -0.379766904706354, 39.473111028229646 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46012", "NOMBRE": "Valencia", "CODIGOINE": "46250", "JURISDICCI": "46250" }, "geometry": { "type": "Point", "coordinates": [ -0.321585983886883, 39.356098240700099 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46439", "NOMBRE": "Sollana", "CODIGOINE": "46233", "JURISDICCI": "46233" }, "geometry": { "type": "Point", "coordinates": [ -0.39601593003094, 39.301642846965002 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46420", "NOMBRE": "Sueca", "CODIGOINE": "46235", "JURISDICCI": "46235" }, "geometry": { "type": "Point", "coordinates": [ -0.272115479980393, 39.266822578498918 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46419", "NOMBRE": "Sueca", "CODIGOINE": "46235", "JURISDICCI": "46235" }, "geometry": { "type": "Point", "coordinates": [ -0.264727504751542, 39.245379430883474 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46408", "NOMBRE": "Cullera", "CODIGOINE": "46105", "JURISDICCI": "46105" }, "geometry": { "type": "Point", "coordinates": [ -0.22490451632286, 39.185014267428237 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46356", "NOMBRE": "Requena", "CODIGOINE": "46213", "JURISDICCI": "46213" }, "geometry": { "type": "Point", "coordinates": [ -1.13330130510702, 39.295356473272669 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46354", "NOMBRE": "Requena", "CODIGOINE": "46213", "JURISDICCI": "46213" }, "geometry": { "type": "Point", "coordinates": [ -1.292556105312928, 39.418290003256175 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46355", "NOMBRE": "Requena", "CODIGOINE": "46213", "JURISDICCI": "46213" }, "geometry": { "type": "Point", "coordinates": [ -1.083010315568313, 39.33482093034123 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46792", "NOMBRE": "Alzira", "CODIGOINE": "46017", "JURISDICCI": "46017" }, "geometry": { "type": "Point", "coordinates": [ -0.365315985693007, 39.103971318639253 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46409", "NOMBRE": "Cullera", "CODIGOINE": "46105", "JURISDICCI": "46105" }, "geometry": { "type": "Point", "coordinates": [ -0.232952895170992, 39.118290280938474 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46792", "NOMBRE": "Carcaixent", "CODIGOINE": "46083", "JURISDICCI": "46083" }, "geometry": { "type": "Point", "coordinates": [ -0.35709832617032, 39.087688328980043 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46668", "NOMBRE": "Rafelguaraf", "CODIGOINE": "46209", "JURISDICCI": "46209" }, "geometry": { "type": "Point", "coordinates": [ -0.468867226753428, 39.045566931611987 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46293", "NOMBRE": "Beneixida", "CODIGOINE": "46053", "JURISDICCI": "46053" }, "geometry": { "type": "Point", "coordinates": [ -0.544772164770415, 39.046120276425732 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46759", "NOMBRE": "Simat de la Valldigna", "CODIGOINE": "46231", "JURISDICCI": "46231" }, "geometry": { "type": "Point", "coordinates": [ -0.367793660312438, 39.014727661615979 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46749", "NOMBRE": "Carcaixent", "CODIGOINE": "46083", "JURISDICCI": "46083" }, "geometry": { "type": "Point", "coordinates": [ -0.460199313145729, 39.114026451382522 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46728", "NOMBRE": "Gandia", "CODIGOINE": "46131", "JURISDICCI": "46131" }, "geometry": { "type": "Point", "coordinates": [ -0.257935409881655, 38.980195818524663 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46730", "NOMBRE": "Gandia", "CODIGOINE": "46131", "JURISDICCI": "46131" }, "geometry": { "type": "Point", "coordinates": [ -0.166433717398583, 39.003901129145838 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46701", "NOMBRE": "Gandia", "CODIGOINE": "46131", "JURISDICCI": "46131" }, "geometry": { "type": "Point", "coordinates": [ -0.18023578150634, 38.973800285137614 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46780", "NOMBRE": "La Font d'En Carr�s", "CODIGOINE": "46127", "JURISDICCI": "46127" }, "geometry": { "type": "Point", "coordinates": [ -0.143810481459244, 38.915773935062589 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46724", "NOMBRE": "Palma de Gand�a", "CODIGOINE": "46187", "JURISDICCI": "46187" }, "geometry": { "type": "Point", "coordinates": [ -0.221037764892428, 38.925374401741671 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46703", "NOMBRE": "Gandia", "CODIGOINE": "46131", "JURISDICCI": "46131" }, "geometry": { "type": "Point", "coordinates": [ -0.206778248207325, 38.961517335121734 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03789", "NOMBRE": "Pego", "CODIGOINE": "03102", "JURISDICCI": "03102" }, "geometry": { "type": "Point", "coordinates": [ -0.055188216870977, 38.846579240236288 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03709", "NOMBRE": "D�nia", "CODIGOINE": "03063", "JURISDICCI": "03063" }, "geometry": { "type": "Point", "coordinates": [ 0.062506668368915, 38.828069362142173 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03779", "NOMBRE": "D�nia", "CODIGOINE": "03063", "JURISDICCI": "03063" }, "geometry": { "type": "Point", "coordinates": [ 0.0391073885141, 38.850770156031174 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03789", "NOMBRE": "D�nia", "CODIGOINE": "03063", "JURISDICCI": "03063" }, "geometry": { "type": "Point", "coordinates": [ -0.020962404546023, 38.872073977988549 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03789", "NOMBRE": "El R�fol d'Alm�nia", "CODIGOINE": "03110", "JURISDICCI": "03110" }, "geometry": { "type": "Point", "coordinates": [ -0.058331403717146, 38.835752707766147 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46670", "NOMBRE": "X�tiva", "CODIGOINE": "46145", "JURISDICCI": "46145" }, "geometry": { "type": "Point", "coordinates": [ -0.535360164860232, 38.99832903166056 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46659", "NOMBRE": "Canals", "CODIGOINE": "46081", "JURISDICCI": "46081" }, "geometry": { "type": "Point", "coordinates": [ -0.576764035089204, 38.980747991286954 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46811", "NOMBRE": "Enguera", "CODIGOINE": "46118", "JURISDICCI": "46118" }, "geometry": { "type": "Point", "coordinates": [ -0.88219560039639, 38.919920266646898 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46621", "NOMBRE": "Ayora", "CODIGOINE": "46044", "JURISDICCI": "46044" }, "geometry": { "type": "Point", "coordinates": [ -1.108155810337667, 38.942970303518806 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03408", "NOMBRE": "Villena", "CODIGOINE": "03140", "JURISDICCI": "03140" }, "geometry": { "type": "Point", "coordinates": [ -0.951345711012113, 38.765554868201704 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03469", "NOMBRE": "Beneixama", "CODIGOINE": "03023", "JURISDICCI": "03023" }, "geometry": { "type": "Point", "coordinates": [ -0.736910519506791, 38.705485075141581 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03802", "NOMBRE": "Alcoy\/Alcoi", "CODIGOINE": "03009", "JURISDICCI": "03009" }, "geometry": { "type": "Point", "coordinates": [ -0.522824570984376, 38.705485075141581 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03803", "NOMBRE": "Alcoy\/Alcoi", "CODIGOINE": "03009", "JURISDICCI": "03009" }, "geometry": { "type": "Point", "coordinates": [ -0.480566170052545, 38.702341888295408 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03804", "NOMBRE": "Alcoy\/Alcoi", "CODIGOINE": "03009", "JURISDICCI": "03009" }, "geometry": { "type": "Point", "coordinates": [ -0.464850235821699, 38.709675990936468 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03870", "NOMBRE": "Cocentaina", "CODIGOINE": "03056", "JURISDICCI": "03056" }, "geometry": { "type": "Point", "coordinates": [ -0.419099405060791, 38.701643402329594 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03819", "NOMBRE": "Alcoy\/Alcoi", "CODIGOINE": "03009", "JURISDICCI": "03009" }, "geometry": { "type": "Point", "coordinates": [ -0.456119161249007, 38.651003169807979 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03818", "NOMBRE": "Alcoy\/Alcoi", "CODIGOINE": "03009", "JURISDICCI": "03009" }, "geometry": { "type": "Point", "coordinates": [ -0.576957233335068, 38.686975197047474 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "46891", "NOMBRE": "Bufali", "CODIGOINE": "46075", "JURISDICCI": "46075" }, "geometry": { "type": "Point", "coordinates": [ -0.452277488437022, 38.821084502484027 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03829", "NOMBRE": "Cocentaina", "CODIGOINE": "03056", "JURISDICCI": "03056" }, "geometry": { "type": "Point", "coordinates": [ -0.433418367360007, 38.758919251526457 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03841", "NOMBRE": "L'Alqueria d'Asnar", "CODIGOINE": "03017", "JURISDICCI": "03017" }, "geometry": { "type": "Point", "coordinates": [ -0.411119834063368, 38.766043107086645 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03786", "NOMBRE": "La Vall d'Alcal�", "CODIGOINE": "03134", "JURISDICCI": "03134" }, "geometry": { "type": "Point", "coordinates": [ -0.26885967156062, 38.776805415091246 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03791", "NOMBRE": "Orba", "CODIGOINE": "03097", "JURISDICCI": "03097" }, "geometry": { "type": "Point", "coordinates": [ -0.079911090477503, 38.783035594101491 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03599", "NOMBRE": "Callosa d'En Sarri�", "CODIGOINE": "03048", "JURISDICCI": "03048" }, "geometry": { "type": "Point", "coordinates": [ -0.072650366016361, 38.639478151372025 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03518", "NOMBRE": "Callosa d'En Sarri�", "CODIGOINE": "03048", "JURISDICCI": "03048" }, "geometry": { "type": "Point", "coordinates": [ -0.1016375335977, 38.649606197876345 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03599", "NOMBRE": "Altea", "CODIGOINE": "03018", "JURISDICCI": "03018" }, "geometry": { "type": "Point", "coordinates": [ -0.034233637896515, 38.637033450491671 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03720", "NOMBRE": "Senija", "CODIGOINE": "03125", "JURISDICCI": "03125" }, "geometry": { "type": "Point", "coordinates": [ 0.037011930616654, 38.733424513774189 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03723", "NOMBRE": "Alcalal�", "CODIGOINE": "03006", "JURISDICCI": "03006" }, "geometry": { "type": "Point", "coordinates": [ -0.0062941992639, 38.771491998911131 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03759", "NOMBRE": "Alcalal�", "CODIGOINE": "03006", "JURISDICCI": "03006" }, "geometry": { "type": "Point", "coordinates": [ -0.009786629092977, 38.777778372603471 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03795", "NOMBRE": "Orba", "CODIGOINE": "03097", "JURISDICCI": "03097" }, "geometry": { "type": "Point", "coordinates": [ -0.054140487922254, 38.778476858569285 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03724", "NOMBRE": "Teulada", "CODIGOINE": "03128", "JURISDICCI": "03128" }, "geometry": { "type": "Point", "coordinates": [ 0.135498451796623, 38.68941989792782 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03739", "NOMBRE": "J�vea\/X�bia", "CODIGOINE": "03082", "JURISDICCI": "03082" }, "geometry": { "type": "Point", "coordinates": [ 0.144578769352223, 38.75158514888539 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03738", "NOMBRE": "J�vea\/X�bia", "CODIGOINE": "03082", "JURISDICCI": "03082" }, "geometry": { "type": "Point", "coordinates": [ 0.184741712386607, 38.778476858569285 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03737", "NOMBRE": "J�vea\/X�bia", "CODIGOINE": "03082", "JURISDICCI": "03082" }, "geometry": { "type": "Point", "coordinates": [ 0.123624190377761, 38.793843549817218 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03749", "NOMBRE": "D�nia", "CODIGOINE": "03063", "JURISDICCI": "03063" }, "geometry": { "type": "Point", "coordinates": [ 0.084858219275007, 38.797685222629205 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03581", "NOMBRE": "L'Alf�s del Pi", "CODIGOINE": "03011", "JURISDICCI": "03011" }, "geometry": { "type": "Point", "coordinates": [ -0.070554908118915, 38.566137124961408 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03503", "NOMBRE": "Benidorm", "CODIGOINE": "03031", "JURISDICCI": "03031" }, "geometry": { "type": "Point", "coordinates": [ -0.104431477460961, 38.5385469293117 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03501", "NOMBRE": "Benidorm", "CODIGOINE": "03031", "JURISDICCI": "03031" }, "geometry": { "type": "Point", "coordinates": [ -0.131323187144854, 38.538197686328793 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03502", "NOMBRE": "Finestrat", "CODIGOINE": "03069", "JURISDICCI": "03069" }, "geometry": { "type": "Point", "coordinates": [ -0.170438401230515, 38.53470525649972 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03639", "NOMBRE": "Villena", "CODIGOINE": "03140", "JURISDICCI": "03140" }, "geometry": { "type": "Point", "coordinates": [ -0.848668274037252, 38.576614414448642 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03639", "NOMBRE": "Sax", "CODIGOINE": "03123", "JURISDICCI": "03123" }, "geometry": { "type": "Point", "coordinates": [ -0.84587433017399, 38.566486367944322 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03400", "NOMBRE": "Villena", "CODIGOINE": "03140", "JURISDICCI": "03140" }, "geometry": { "type": "Point", "coordinates": [ -0.855303890712498, 38.628651618901891 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03638", "NOMBRE": "Villena", "CODIGOINE": "03140", "JURISDICCI": "03140" }, "geometry": { "type": "Point", "coordinates": [ -0.996747298790113, 38.533657527550993 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03659", "NOMBRE": "El Pin�s\/Pinoso", "CODIGOINE": "03105", "JURISDICCI": "03105" }, "geometry": { "type": "Point", "coordinates": [ -1.069040596252005, 38.366370138738212 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03657", "NOMBRE": "El Pin�s\/Pinoso", "CODIGOINE": "03105", "JURISDICCI": "03105" }, "geometry": { "type": "Point", "coordinates": [ -1.055420119918605, 38.442854351994995 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03658", "NOMBRE": "El Pin�s\/Pinoso", "CODIGOINE": "03105", "JURISDICCI": "03105" }, "geometry": { "type": "Point", "coordinates": [ -0.991857897029405, 38.422249016003441 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03649", "NOMBRE": "Mon�var\/Mon�ver", "CODIGOINE": "03089", "JURISDICCI": "03089" }, "geometry": { "type": "Point", "coordinates": [ -0.962521486465159, 38.415264156345287 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03640", "NOMBRE": "Elda", "CODIGOINE": "03066", "JURISDICCI": "03066" }, "geometry": { "type": "Point", "coordinates": [ -0.810950031883221, 38.441457380063362 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03699", "NOMBRE": "Alacant\/Alicante", "CODIGOINE": "03014", "JURISDICCI": "03014" }, "geometry": { "type": "Point", "coordinates": [ -0.562638271035853, 38.392563362456286 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03113", "NOMBRE": "Alacant\/Alicante", "CODIGOINE": "03014", "JURISDICCI": "03014" }, "geometry": { "type": "Point", "coordinates": [ -0.608039858813852, 38.343669344849211 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03114", "NOMBRE": "Alacant\/Alicante", "CODIGOINE": "03014", "JURISDICCI": "03014" }, "geometry": { "type": "Point", "coordinates": [ -0.556701140326422, 38.320270064994396 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03008", "NOMBRE": "Alacant\/Alicante", "CODIGOINE": "03014", "JURISDICCI": "03014" }, "geometry": { "type": "Point", "coordinates": [ -0.511299552548422, 38.332144326413257 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03007", "NOMBRE": "Alacant\/Alicante", "CODIGOINE": "03014", "JURISDICCI": "03014" }, "geometry": { "type": "Point", "coordinates": [ -0.523523056950191, 38.339827672037231 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03006", "NOMBRE": "Alacant\/Alicante", "CODIGOINE": "03014", "JURISDICCI": "03014" }, "geometry": { "type": "Point", "coordinates": [ -0.528761701693807, 38.351352690473185 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03009", "NOMBRE": "Alacant\/Alicante", "CODIGOINE": "03014", "JURISDICCI": "03014" }, "geometry": { "type": "Point", "coordinates": [ -0.504663935873176, 38.370561054533106 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03003", "NOMBRE": "Alacant\/Alicante", "CODIGOINE": "03014", "JURISDICCI": "03014" }, "geometry": { "type": "Point", "coordinates": [ -0.491392702522684, 38.340875400985951 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03001", "NOMBRE": "Alacant\/Alicante", "CODIGOINE": "03014", "JURISDICCI": "03014" }, "geometry": { "type": "Point", "coordinates": [ -0.485804814796161, 38.344018587832117 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03002", "NOMBRE": "Alacant\/Alicante", "CODIGOINE": "03014", "JURISDICCI": "03014" }, "geometry": { "type": "Point", "coordinates": [ -0.478819955138007, 38.346812531695385 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03004", "NOMBRE": "Alacant\/Alicante", "CODIGOINE": "03014", "JURISDICCI": "03014" }, "geometry": { "type": "Point", "coordinates": [ -0.487201786727791, 38.349955718541551 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03010", "NOMBRE": "Alacant\/Alicante", "CODIGOINE": "03014", "JURISDICCI": "03014" }, "geometry": { "type": "Point", "coordinates": [ -0.487900272693607, 38.362877708909139 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03011", "NOMBRE": "Alacant\/Alicante", "CODIGOINE": "03014", "JURISDICCI": "03014" }, "geometry": { "type": "Point", "coordinates": [ -0.491741945505591, 38.374751970327999 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03112", "NOMBRE": "Alacant\/Alicante", "CODIGOINE": "03014", "JURISDICCI": "03014" }, "geometry": { "type": "Point", "coordinates": [ -0.485106328830345, 38.388023203678486 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03014", "NOMBRE": "Alacant\/Alicante", "CODIGOINE": "03014", "JURISDICCI": "03014" }, "geometry": { "type": "Point", "coordinates": [ -0.482312384967084, 38.367767110669845 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03012", "NOMBRE": "Alacant\/Alicante", "CODIGOINE": "03014", "JURISDICCI": "03014" }, "geometry": { "type": "Point", "coordinates": [ -0.480915413035453, 38.357988307148425 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03013", "NOMBRE": "Alacant\/Alicante", "CODIGOINE": "03014", "JURISDICCI": "03014" }, "geometry": { "type": "Point", "coordinates": [ -0.474629039343114, 38.356242092233892 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03016", "NOMBRE": "Alacant\/Alicante", "CODIGOINE": "03014", "JURISDICCI": "03014" }, "geometry": { "type": "Point", "coordinates": [ -0.456468404231914, 38.363576194874952 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03015", "NOMBRE": "Alacant\/Alicante", "CODIGOINE": "03014", "JURISDICCI": "03014" }, "geometry": { "type": "Point", "coordinates": [ -0.47218433846276, 38.367767110669845 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03559", "NOMBRE": "Alacant\/Alicante", "CODIGOINE": "03014", "JURISDICCI": "03014" }, "geometry": { "type": "Point", "coordinates": [ -0.462056291958437, 38.391864876490473 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03540", "NOMBRE": "Alacant\/Alicante", "CODIGOINE": "03014", "JURISDICCI": "03014" }, "geometry": { "type": "Point", "coordinates": [ -0.420147134009515, 38.368814839618565 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03111", "NOMBRE": "Mutxamel", "CODIGOINE": "03090", "JURISDICCI": "03090" }, "geometry": { "type": "Point", "coordinates": [ -0.450182030539576, 38.444600566909536 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03110", "NOMBRE": "Alacant\/Alicante", "CODIGOINE": "03014", "JURISDICCI": "03014" }, "geometry": { "type": "Point", "coordinates": [ -0.44808657264213, 38.465555145883997 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03110", "NOMBRE": "Busot", "CODIGOINE": "03046", "JURISDICCI": "03046" }, "geometry": { "type": "Point", "coordinates": [ -0.430973666479653, 38.462062716054916 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03139", "NOMBRE": "Elche\/Elx", "CODIGOINE": "03065", "JURISDICCI": "03065" }, "geometry": { "type": "Point", "coordinates": [ -0.600007270206975, 38.228768403472586 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03195", "NOMBRE": "Elche\/Elx", "CODIGOINE": "03065", "JURISDICCI": "03065" }, "geometry": { "type": "Point", "coordinates": [ -0.519681384138206, 38.254263141224847 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03320", "NOMBRE": "Elche\/Elx", "CODIGOINE": "03065", "JURISDICCI": "03065" }, "geometry": { "type": "Point", "coordinates": [ -0.587085279839391, 38.292679869344695 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03295", "NOMBRE": "Elche\/Elx", "CODIGOINE": "03065", "JURISDICCI": "03065" }, "geometry": { "type": "Point", "coordinates": [ -0.615723204437822, 38.277662421079661 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03203", "NOMBRE": "Elche\/Elx", "CODIGOINE": "03065", "JURISDICCI": "03065" }, "geometry": { "type": "Point", "coordinates": [ -0.686619529968083, 38.261597243865907 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03202", "NOMBRE": "Elche\/Elx", "CODIGOINE": "03065", "JURISDICCI": "03065" }, "geometry": { "type": "Point", "coordinates": [ -0.675094511532129, 38.275566963182214 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03207", "NOMBRE": "Elche\/Elx", "CODIGOINE": "03065", "JURISDICCI": "03065" }, "geometry": { "type": "Point", "coordinates": [ -0.688016501899714, 38.284647280737815 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03290", "NOMBRE": "Elche\/Elx", "CODIGOINE": "03065", "JURISDICCI": "03065" }, "geometry": { "type": "Point", "coordinates": [ -0.672300567668868, 38.251469197361587 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03292", "NOMBRE": "Elche\/Elx", "CODIGOINE": "03065", "JURISDICCI": "03065" }, "geometry": { "type": "Point", "coordinates": [ -0.646456586933698, 38.220037328899892 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03294", "NOMBRE": "Elche\/Elx", "CODIGOINE": "03065", "JURISDICCI": "03065" }, "geometry": { "type": "Point", "coordinates": [ -0.677189969429575, 38.181620600780043 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03296", "NOMBRE": "Elche\/Elx", "CODIGOINE": "03065", "JURISDICCI": "03065" }, "geometry": { "type": "Point", "coordinates": [ -0.747737051976929, 38.229117646455492 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03206", "NOMBRE": "Elche\/Elx", "CODIGOINE": "03065", "JURISDICCI": "03065" }, "geometry": { "type": "Point", "coordinates": [ -0.710368052805806, 38.279408635994201 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03205", "NOMBRE": "Elche\/Elx", "CODIGOINE": "03065", "JURISDICCI": "03065" }, "geometry": { "type": "Point", "coordinates": [ -0.720845342293037, 38.268582103524061 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03194", "NOMBRE": "Elche\/Elx", "CODIGOINE": "03065", "JURISDICCI": "03065" }, "geometry": { "type": "Point", "coordinates": [ -0.645059615002068, 38.146347059506368 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03170", "NOMBRE": "San Fulgencio", "CODIGOINE": "03118", "JURISDICCI": "03118" }, "geometry": { "type": "Point", "coordinates": [ -0.716305183515237, 38.128535667378074 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03293", "NOMBRE": "Elche\/Elx", "CODIGOINE": "03065", "JURISDICCI": "03065" }, "geometry": { "type": "Point", "coordinates": [ -0.742847650216221, 38.250770711395766 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03339", "NOMBRE": "Crevillent", "CODIGOINE": "03059", "JURISDICCI": "03059" }, "geometry": { "type": "Point", "coordinates": [ -0.778819677455713, 38.217941871002445 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03158", "NOMBRE": "Crevillent", "CODIGOINE": "03059", "JURISDICCI": "03059" }, "geometry": { "type": "Point", "coordinates": [ -0.79593258361819, 38.178826656916783 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03140", "NOMBRE": "San Fulgencio", "CODIGOINE": "03118", "JURISDICCI": "03118" }, "geometry": { "type": "Point", "coordinates": [ -0.656235390455114, 38.116312162976307 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03689", "NOMBRE": "Orihuela", "CODIGOINE": "03099", "JURISDICCI": "03099" }, "geometry": { "type": "Point", "coordinates": [ -0.964616944362605, 38.272423776336048 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03315", "NOMBRE": "Orihuela", "CODIGOINE": "03099", "JURISDICCI": "03099" }, "geometry": { "type": "Point", "coordinates": [ -0.964616944362605, 38.176032713053523 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03350", "NOMBRE": "Callosa de Segura", "CODIGOINE": "03049", "JURISDICCI": "03049" }, "geometry": { "type": "Point", "coordinates": [ -0.877306198635682, 38.129583396326801 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03316", "NOMBRE": "Orihuela", "CODIGOINE": "03099", "JURISDICCI": "03099" }, "geometry": { "type": "Point", "coordinates": [ -0.955536626807005, 38.114915191044673 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03311", "NOMBRE": "Orihuela", "CODIGOINE": "03099", "JURISDICCI": "03099" }, "geometry": { "type": "Point", "coordinates": [ -0.998842756687559, 38.081038621702632 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03312", "NOMBRE": "Orihuela", "CODIGOINE": "03099", "JURISDICCI": "03099" }, "geometry": { "type": "Point", "coordinates": [ -0.941566907490698, 38.053448426052924 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03313", "NOMBRE": "Orihuela", "CODIGOINE": "03099", "JURISDICCI": "03099" }, "geometry": { "type": "Point", "coordinates": [ -0.870321338977529, 37.995474090890248 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03321", "NOMBRE": "Orihuela", "CODIGOINE": "03099", "JURISDICCI": "03099" }, "geometry": { "type": "Point", "coordinates": [ -0.926898702208575, 38.075101490993198 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03369", "NOMBRE": "Orihuela", "CODIGOINE": "03099", "JURISDICCI": "03099" }, "geometry": { "type": "Point", "coordinates": [ -0.952742682943744, 38.093960612070219 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03317", "NOMBRE": "Orihuela", "CODIGOINE": "03099", "JURISDICCI": "03099" }, "geometry": { "type": "Point", "coordinates": [ -0.937375991695806, 38.092214397155679 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03322", "NOMBRE": "Orihuela", "CODIGOINE": "03099", "JURISDICCI": "03099" }, "geometry": { "type": "Point", "coordinates": [ -0.90943655306319, 38.080689378719725 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03325", "NOMBRE": "Orihuela", "CODIGOINE": "03099", "JURISDICCI": "03099" }, "geometry": { "type": "Point", "coordinates": [ -0.893022132866529, 38.089071210309505 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03314", "NOMBRE": "Orihuela", "CODIGOINE": "03099", "JURISDICCI": "03099" }, "geometry": { "type": "Point", "coordinates": [ -0.860542535456113, 38.092214397155679 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03380", "NOMBRE": "Orihuela", "CODIGOINE": "03099", "JURISDICCI": "03099" }, "geometry": { "type": "Point", "coordinates": [ -0.85041448895179, 38.068116631335045 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03169", "NOMBRE": "Almorad�", "CODIGOINE": "03015", "JURISDICCI": "03015" }, "geometry": { "type": "Point", "coordinates": [ -0.799774256430175, 38.099199256813833 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03176", "NOMBRE": "Algorfa", "CODIGOINE": "03012", "JURISDICCI": "03012" }, "geometry": { "type": "Point", "coordinates": [ -0.750530995840191, 38.063925715540158 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03179", "NOMBRE": "Almorad�", "CODIGOINE": "03015", "JURISDICCI": "03015" }, "geometry": { "type": "Point", "coordinates": [ -0.774279518677914, 38.084880294514619 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03149", "NOMBRE": "Guardamar del Segura", "CODIGOINE": "03076", "JURISDICCI": "03076" }, "geometry": { "type": "Point", "coordinates": [ -0.661124792215822, 38.058337827813631 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03188", "NOMBRE": "Torrevieja", "CODIGOINE": "03133", "JURISDICCI": "03133" }, "geometry": { "type": "Point", "coordinates": [ -0.656584633438022, 38.016079426881802 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03184", "NOMBRE": "Torrevieja", "CODIGOINE": "03133", "JURISDICCI": "03133" }, "geometry": { "type": "Point", "coordinates": [ -0.696049090506591, 37.997569548787695 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03186", "NOMBRE": "Torrevieja", "CODIGOINE": "03133", "JURISDICCI": "03133" }, "geometry": { "type": "Point", "coordinates": [ -0.729576416865729, 37.96229600751402 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03185", "NOMBRE": "Torrevieja", "CODIGOINE": "03133", "JURISDICCI": "03133" }, "geometry": { "type": "Point", "coordinates": [ -0.713860482634883, 37.953564932941326 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03181", "NOMBRE": "Torrevieja", "CODIGOINE": "03133", "JURISDICCI": "03133" }, "geometry": { "type": "Point", "coordinates": [ -0.684873315053545, 37.979408913676494 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03182", "NOMBRE": "Torrevieja", "CODIGOINE": "03133", "JURISDICCI": "03133" }, "geometry": { "type": "Point", "coordinates": [ -0.674396025566314, 37.980456642625214 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03186", "NOMBRE": "Orihuela", "CODIGOINE": "03099", "JURISDICCI": "03099" }, "geometry": { "type": "Point", "coordinates": [ -0.739005977404237, 37.952866446975506 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03193", "NOMBRE": "Orihuela", "CODIGOINE": "03099", "JURISDICCI": "03099" }, "geometry": { "type": "Point", "coordinates": [ -0.775688630447197, 37.938401996255699 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03189", "NOMBRE": "Orihuela", "CODIGOINE": "03099", "JURISDICCI": "03099" }, "geometry": { "type": "Point", "coordinates": [ -0.74913402390856, 37.923530036411265 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03380", "NOMBRE": "Bigastro", "CODIGOINE": "03044", "JURISDICCI": "03044" }, "geometry": { "type": "Point", "coordinates": [ -0.882544843379298, 38.057988584830724 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "30740", "NOMBRE": "Pilar de la Horadada", "CODIGOINE": "03902", "JURISDICCI": "03902" }, "geometry": { "type": "Point", "coordinates": [ -0.766596173053944, 37.851236738949368 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03191", "NOMBRE": "Pilar de la Horadada", "CODIGOINE": "03902", "JURISDICCI": "03902" }, "geometry": { "type": "Point", "coordinates": [ -0.837492498584206, 37.90467091533425 ] } }
+,
+{ "type": "Feature", "properties": { "CP": "03348", "NOMBRE": "Cox", "CODIGOINE": null, "JURISDICCI": null }, "geometry": { "type": "Point", "coordinates": [ -0.885244339162908, 38.145370581674733 ] } }
+
+]
+}
