@@ -1,0 +1,10 @@
+.btncalculate{
+margin-top: 20px;
+}
+.hidden{
+display: none
+}
+.blue{
+background-color: #428BCA;
+font-color: white;
+}

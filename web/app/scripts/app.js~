@@ -1,0 +1,12 @@
+/*global define */
+define(
+	['jquery','cp_muni'], 
+	function ($,cp_muni) {
+    		'use strict';
+		$('#cpinput').keydown(function(event) {
+var a = =,
+	  		alert( "Handler for .keydown() called." );
+		});
+
+    		return 'de Casa al Cole';
+});

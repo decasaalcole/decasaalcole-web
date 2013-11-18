@@ -1,0 +1,48 @@
+body{
+font-size: 1em;
+}
+
+.btncalculate{
+margin-top: 20px;
+}
+.hidden{
+display: none
+}
+.blue{
+background-color: #428BCA;
+color: white;
+}
+.munispanel{
+margin: 10px;
+}
+.dinline:{
+display: inline-block;
+}
+.muniListTime{
+float: left;
+margin-left: 5px;
+margin-right:5px;
+padding-left: 30px;
+}
+.muniListName{
+float: left;
+margin-left: 5px;
+margin-right:5px;
+padding-left: 30px;
+}
+.muniList{
+min-height: 47px;
+}
+.muni-list-group{
+padding:3px;
+}
+.muniListTimeIcon{
+	float: left;
+	width: 20px;
+	height: 20px;
+}
+.muniListNameIcon{
+	float: left;
+	width: 20px;
+	height: 20px;
+}
