@@ -2,129 +2,86 @@
 define(
 	['jquery'], 
 	function ($) {
-    	'use strict';
 
-    	/*var showButtonPanel = function(cp,muni){
-			$('#btncalculate').removeClass('hidden');
-			$('#btncalculate').click([cp,muni],function(e){
-				var cp = e.handleObj.data[0];
-				var muni = e.handleObj.data[1];
-				showColeList(cp,muni);
-			})
-    	};
-
-    	var showColeList = function(cp,muni){
-			var list = getMuniList();
-			var target = $('#resultList');
-			target.empty();
-			for(var i = 0; i < list.length; i++){
-				var muniList = list[i];
-				var elementList = creteElementList(muniList);
-				target.append(elementList);
+		$('#typepublic').click(function(e){
+			if(!$('#typepublic').hasClass('btn-primary')){
+				$('#typepublic').siblings().removeClass('btn-primary').addClass('btn-default');
+				$('#typepublic').removeClass('btn-default').addClass('btn-primary');
 			}
-			$('#infoPanel').addClass('hidden');
-			$('#selectPanel').addClass('hidden');
-			$('#resultPanel').removeClass('hidden');
-
-			$('#btnback').click(function(){
-				$('#infoPanel').removeClass('hidden');
-				$('#selectPanel').removeClass('hidden');
-				$('#resultList').addClass('hidden');
-
-			})
-
-    	};
-
-    	var creteElementList = function(info){		
-
-			var muniTemplate = '<a href="#" class="muniList list-group-item active">';
-			muniTemplate += '<div class="muniListTimeIcon glyphicon glyphicon-time dinline"></div><div class="muniListTime dinline">{{time}}</div>';
-			muniTemplate += '<div class="muniListNameIcon glyphicon glyphicon-globe dinline"></div><div class="muniListName dinline">{{muni}}</div>';
-			muniTemplate += '</a>';
-			var muniHtml =  mustache.to_html(muniTemplate, info);
-
-			var coleTemplate = '<a href="#" class="coleList list-group-item">';
-			coleTemplate += '<div class="coleListName glyphicon glyphicon-home">{{name}}</div>';
-			coleTemplate += '<div class="coleListAddress glyphicon glyphicon-map-marker dinline">{{address}}</div>';
-			coleTemplate += '</a>';
-			var colesHtml = '';
-			for(var i = 0; i < info.coles.length; i++){
-				var infoCole = info.coles[i];
-				colesHtml += mustache.to_html(coleTemplate, infoCole);
-			};
-			var groupHtml = '<div class="muni-list-group list-group">'+muniHtml+colesHtml+'</div>';
-			return groupHtml;
-
-    	};
-
-    	var getMuniList = function(cp,muni){
-    		//TODO Ajax request
-    		return muni_coles.to;
-    	};
-
-    	var showTypeColePanel = function(cp,muni){
-			var panel = $('#typecolepanel');
-			panel.removeClass('hidden');
-			$('#typegroup').children().click(
-				[cp,muni],
-				function(e){
-					var cp = e.data[0];
-					var muni = e.data[1];
-					showButtonPanel(cp,muni);
-				}
-			);
-    	};
-
-
-		var showMunisPanel = function(cp,munis){
-				var panel = $('#munispanel');
-				panel.removeClass('hidden');
-				if(munis.length == 1){
-					panel.append('<h4>Municipio: <span class="label label-success">'+munis[0]+'</span></h4>');
-					showTypeColePanel(cp,munis[0]);
-					//showButtonPanel(cp,munis[0]);
-				}else{
-					panel.append('<div>Selecciona municipio</div>');
-					panel.append('<div id=\"munigroup\" class=\"btn-group\">');					
-					for(var i = 0; i < munis.length; i++){
-						$('#munigroup').append('<div id=\"but'+munis[i]+'\" class=\"btn btn-default btn-xs btn_muni\">'+munis[i]+'</div>');
-						var button = $('#but'+munis[i]);
-						button.data('cp',cp);
-						button.data('muni',munis[i]);
-					}
-					$('.btn_muni').click(function(e){
-						var button = $('#'+this.id);
-						clearMuniButtons();
-						button.removeClass('btn-default');
-						button.addClass('btn-primary');
-						var cp = button.data('cp'); 
-						var muni = button.data('muni');
-						showTypeColePanel(cp,muni); 
-						//showButtonPanel(cp,muni);
-					})
-
-				}
-		};
-
-		var clearMuniButtons = function(){
-			$('.btn_muni').each(function(){
-				if(this.className === 'btn btn-xs btn_muni btn-primary'){
-					this.classList.remove('btn-primary');
-					this.classList.add('btn-default');
-				}
-			})
-		};
-
-
-		$('#cpinput').keyup(function(event) {
-			var cp_value = $('#cpinput').val();
-			if(cp_value.length > 3){
-				var munis = cp_munis[cp_value];
-				if(munis !== undefined && munis.length > 0){
-					showMunisPanel(cp_value,munis);
-				} 
+		})
+		$('#typeprivate').click(function(e){
+			if(!$('#typeprivate').hasClass('btn-primary')){
+				$('#typeprivate').siblings().removeClass('btn-primary').addClass('btn-default');
+				$('#typeprivate').removeClass('btn-default').addClass('btn-primary');
 			}
-		});*/
+		})
+		$('#typeall').click(function(e){
+			if(!$('#typeall').hasClass('btn-primary')){
+				$('#typeall').siblings().removeClass('btn-primary').addClass('btn-default');
+				$('#typeall').removeClass('btn-default').addClass('btn-primary');
+			}
+		})
+		$('#btnlist').click(function(e){
+			if(!$('#btnlist').hasClass('btn-primary')){
+				$('#btnlist').siblings().removeClass('btn-primary').addClass('btn-default');
+				$('#btnlist').removeClass('btn-default').addClass('btn-primary');
+				$('#list').removeClass('hidden');
+				$('#map').addClass('hidden');
+			}
+		})
+		$('#btnmap').click(function(e){
+			if(!$('#btnmap').hasClass('btn-primary')){
+				$('#btnmap').siblings().removeClass('btn-primary').addClass('btn-default');
+				$('#btnmap').removeClass('btn-default').addClass('btn-primary');
+				$('#map').removeClass('hidden');
+				$('#list').addClass('hidden');
+			}
+		})
+		$('#btnback').click(function(e){
+			showSearchPanel();
+		})
+
+		$('#btn-search').click(function(e){
+			var cp = $('#cpvalue').val();
+			var filter = {
+				cp: cp,
+				regimen: null,
+				tipo: null,
+				maxtime: 15
+			}
+			if(cp !== ''){
+				filter.regimen = getRegimen();
+				showResultsPanel();
+			}else{
+
+			}
+		})
+
+		var getRegimen = function(){
+			if($('#typepublic').hasClass('btn-primary')){
+				return 0;
+			} else if($('#typeprivate').hasClass('btn-primary')){
+				return 1;
+			} else {
+				return 0;
+			}
+		}
+
+		var showResultsPanel = function(){
+			$('#formbase').addClass('hidden');
+			$('#btnback').removeClass('hidden');
+			var resultsHeight = $('#formbase').height();
+			$('#results').height(resultsHeight).removeClass('hidden');
+		}
+
+		var showSearchPanel = function(){
+			$('#formbase').removeClass('hidden');
+			$('#btnback').addClass('hidden');
+			$('#btnback').addClass('hidden');
+		}
+
+		var resultsHeight = $(window).height() - $('header').height() - $('footer').height() - 30;
+		$('#formbase').height(resultsHeight).removeClass('hidden');;
 
 
 

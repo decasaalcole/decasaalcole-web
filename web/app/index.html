@@ -29,16 +29,15 @@
                 <div class="headerlogo center"></div>
                 <h1 class="headertitle center">decasaalcole</h1>
                 <div class="headermessage center">Herramienta de c&aacute;lculo de tiempos de viaje desde tu casa a todos los centros educativos de la Comunidad Valenciana</div>
-                <button id="btnback" class="btn btn-default btn-xs hidden">Volver</button>
             </div>
         </header>
 
         <div id="content" class="container">
 
-            <section id="form">
+            <section id="formbase">
                 <div id="formcp" class="formsection">
                     <p class="formtext">Introduce el c&oacute;digo postal donde resides</p>
-                    <input type="text" class="form-control" placeholder="46113"></input>
+                    <input id="cpvalue" type="text" class="form-control" placeholder="46113" values="46113"></input>
                 </div>
                 <div id="formtype" class="formsection">
                     <p class="formtext">Selecciona el tipo de centro</p>            
@@ -49,65 +48,26 @@
                     </div> 
                 </div>
                 <div id="formwarning" class="formsection hidden"></div>
-                <button id="btn-search" class="btn btn-danger">Buscar</button>
+                <button id="btn-search" class="btn btn-success">Buscar</button>
             </section>
 
             <section id="results" class="hidden">
-                <div id="switchResultBtns" class="btn-group">                    
-                    <div id="typepublic" class="btn btn-default btn-xs">Listado</div>
-                    <div id="typeprivate" class="btn btn-default btn-xs">Mapa</div>
+                <div id="switchResultBtns" class="btn-group center">                    
+                    <div id="btnlist" class="btn btn-primary">Listado</div>
+                    <div id="btnmap" class="btn btn-default">Mapa</div>
                 </div>
-                <div id="list" class="">                    
-                    <div id="typepublic" class="btn btn-default btn-xs">Listado</div>
-                    <div id="typeprivate" class="btn btn-default btn-xs">Mapa</div>
-                </div>
-                <div id="map" class="">
-                </div>
+                <div id="list" class=""></div>
+                <div id="map" class="hidden"></div>
             </section>
 
         </div>
 
         <footer>
             <p>♥ from the Decasalcole team</p>
+
+            <button id="btnback" class="btn btn-default btn-xs hidden">Volver</button>
         </footer>
 
-
-
-       <!-- <div class="container">
-            <div class="header">
-                <h1 class="text-muted">de Casa al Cole</h1>
-            </div>
-
-            <div id="infoPanel" class="jumbotron blue">
-                <h3>Maestro, ¿cuanto tiempo te cuesta ir desde tu casa a cualquier colegio de tu región?</h3>
-                <h4>Calcula el tiempo a cualquier colegio en esta web</h4>
-            </div>
-
-            <div id="selectPanel" class="jumbotron">
-	            <div class=""> Introduce tu c&oacute;digo postal</div>
-		        <input id="cpinput" type="text" class="form-control" placeholder="C&oacute;digo postal">		        
-                <div id="munispanel" class="hidden munispanel"> </div>
-                <div id="typecolepanel" class="hidden typecolepanel"> 
-                    <div class=""> Selecciona el tipo de centro</div>
-                    <div id="typegroup" class="btn-group">
-                        <div id="typepublic" class="btn btn-default btn-xs btn_public\">P&uacute;blico</div>
-                        <div id="typeprivate" class="btn btn-default btn-xs btn_private\">Privado</div>
-                        <div id="typeall" class="btn btn-default btn-xs btn_all\">Todos</div>
-                    </div>    
-                </div>
-                <button id="btncalculate" type="button" class="btn btn-primary btncalculate hidden">Calcular tiempos</button>
-            </div>
-
-            <div id="resultPanel" class="jumbotron hidden">
-                <button id="btnback" type="button" class="btn btn-primary btnback">Volver al buscador</button>
-                <div id="resultList" class="panel resultList">
-                </div>
-                
-            </div>
-
-            <div class="footer">
-                <p>♥ from the Decasalcole team</p>
-            </div> -->
 
 
 
