@@ -2,8 +2,10 @@
   "name": "decasaalcole",
   "private": true,
   "dependencies": {
-    "modernizr": "~2.6.2"
+    "modernizr": "~2.6.2",
+    "jquery": "~2.1.1",
+    "bootstrap": "~3.2.0",
+    "mustache": "~0.8.2"
   },
-  "devDependencies": {	
-  }
+  "devDependencies": {}
 }
