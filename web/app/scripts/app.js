@@ -1,10 +1,10 @@
 /*global define */
 define(
-	['jquery','mustache','municoles','cp_muni'], 
-	function ($,mustache,municoles,cp_muni) {
+	['jquery'], 
+	function ($) {
     	'use strict';
 
-    	var showButtonPanel = function(cp,muni){
+    	/*var showButtonPanel = function(cp,muni){
 			$('#btncalculate').removeClass('hidden');
 			$('#btncalculate').click([cp,muni],function(e){
 				var cp = e.handleObj.data[0];
@@ -124,7 +124,7 @@ define(
 					showMunisPanel(cp_value,munis);
 				} 
 			}
-		});
+		});*/
 
 
 

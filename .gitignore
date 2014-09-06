@@ -1,2 +1,8 @@
 libpeerconnection.log
+npm-debug.log
+web/.sass-cache/
+web/.tmp/
+web/app/bower_components
+web/bower_components/
+web/node_modules/
 *~

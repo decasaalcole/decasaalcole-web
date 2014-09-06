@@ -1,48 +1,54 @@
-body{
-font-size: 1em;
+.hidden{
+	display:none;
+}
+.center{
+	text-align: center;
 }
 
-.btncalculate{
-margin-top: 20px;
+header{
+	background-color: #78A6D4;
+	height: 240px;
 }
-.hidden{
-display: none
+section {
+	margin:10px;
 }
-.blue{
-background-color: #428BCA;
-color: white;
+#btn-search{
+	margin:10px;
 }
-.munispanel{
-margin: 10px;
+#formcp input{
+	width: 20%;
+	min-width: 150px;
 }
-.dinline:{
-display: inline-block;
+footer{
+	background-color: #eeeeee;
+	padding: 20px;
 }
-.muniListTime{
-float: left;
-margin-left: 5px;
-margin-right:5px;
-padding-left: 30px;
+.formsection{
+	padding:10px;
 }
-.muniListName{
-float: left;
-margin-left: 5px;
-margin-right:5px;
-padding-left: 30px;
+.headerlogo{
+	width: 100px;
+	height: 50px;
+	background-color: red;
+
+
+	text-align: left;
+	width: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
 }
-.muniList{
-min-height: 47px;
+.headertitle{
+	padding: 10px;
+	color: white;
+	font-size: 16px;
+	font-size: 34px;
 }
-.muni-list-group{
-padding:3px;
+.headermessage{
+	padding: 10px;
+	color: white;
 }
-.muniListTimeIcon{
-	float: left;
-	width: 20px;
-	height: 20px;
-}
-.muniListNameIcon{
-	float: left;
-	width: 20px;
-	height: 20px;
+.fromtext{
+	font-size:18px;
 }

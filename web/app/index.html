@@ -10,8 +10,9 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
         <!-- build:css(.tmp) styles/main.css -->
-        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
 	    <link rel="stylesheet" href="styles/dcac.css">
         <!-- endbuild -->
         <!-- build:js scripts/vendor/modernizr.js -->
@@ -23,13 +24,57 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
+        <header>
+            <div class="container center">
+                <div class="headerlogo center"></div>
+                <h1 class="headertitle center">decasaalcole</h1>
+                <div class="headermessage center">Herramienta de c&aacute;lculo de tiempos de viaje desde tu casa a todos los centros educativos de la Comunidad Valenciana</div>
+                <button id="btnback" class="btn btn-default btn-xs hidden">Volver</button>
+            </div>
+        </header>
 
-        <div class="container">
+        <div id="content" class="container">
+
+            <section id="form">
+                <div id="formcp" class="formsection">
+                    <p class="formtext">Introduce el c&oacute;digo postal donde resides</p>
+                    <input type="text" class="form-control" placeholder="46113"></input>
+                </div>
+                <div id="formtype" class="formsection">
+                    <p class="formtext">Selecciona el tipo de centro</p>            
+                    <div id="typegroup" class="btn-group">
+                        <div id="typepublic" class="btn btn-default">P&uacute;blico</div>
+                        <div id="typeprivate" class="btn btn-default">Privado</div>
+                        <div id="typeall" class="btn btn-primary">Todos</div>
+                    </div> 
+                </div>
+                <div id="formwarning" class="formsection hidden"></div>
+                <button id="btn-search" class="btn btn-danger">Buscar</button>
+            </section>
+
+            <section id="results" class="hidden">
+                <div id="switchResultBtns" class="btn-group">                    
+                    <div id="typepublic" class="btn btn-default btn-xs">Listado</div>
+                    <div id="typeprivate" class="btn btn-default btn-xs">Mapa</div>
+                </div>
+                <div id="list" class="">                    
+                    <div id="typepublic" class="btn btn-default btn-xs">Listado</div>
+                    <div id="typeprivate" class="btn btn-default btn-xs">Mapa</div>
+                </div>
+                <div id="map" class="">
+                </div>
+            </section>
+
+        </div>
+
+        <footer>
+            <p>♥ from the Decasalcole team</p>
+        </footer>
+
+
+
+       <!-- <div class="container">
             <div class="header">
-                <!--<ul class="nav nav-pills pull-right">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                </ul> -->
                 <h1 class="text-muted">de Casa al Cole</h1>
             </div>
 
@@ -62,18 +107,17 @@
 
             <div class="footer">
                 <p>♥ from the Decasalcole team</p>
-            </div>
+            </div> -->
 
-        </div>
 
 
         <!-- build:js scripts/vendor.js -->
         <!-- bower:js -->
-        <script src="bower_components/jquery/jquery.js"></script>
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
         <!-- endbower -->
         <!-- endbuild -->
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. 
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
             function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
@@ -81,7 +125,7 @@
             e.src='//www.google-analytics.com/analytics.js';
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
+        </script> -->
 
         <!-- build:js scripts/main.js -->
         <script data-main="scripts/main" src="bower_components/requirejs/require.js"></script>
