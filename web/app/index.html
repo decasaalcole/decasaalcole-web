@@ -12,6 +12,7 @@
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
         <!-- build:css(.tmp) styles/main.css -->
+        <link rel="stylesheet" href="bower_components/leaflet/dist/leaflet.css">
         <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
 	    <link rel="stylesheet" href="styles/dcac.css">
         <!-- endbuild -->
@@ -33,33 +34,34 @@
         </header>
 
         <div id="content" class="container">
+            <div class="row">
+                <section id="formbase" class="center">
+                    <div id="formcp" class="formsection center">
+                        <p class="formtext">1. Introduce el c&oacute;digo postal donde resides</p>
+                        <input id="cpvalue" class="center" type="text" class="form-control" placeholder="46113" values="46113"></input>
+                    </div>
+                    <div id="formtype" class="formsection center">
+                        <p class="formtext">2. Selecciona el tipo de centro</p>            
+                        <div id="typegroup" class="btn-group">
+                            <div id="typepublic" class="btn btn-default">P&uacute;blico</div>
+                            <div id="typeprivate" class="btn btn-default">Privado</div>
+                            <div id="typeall" class="btn btn-primary">Todos</div>
+                        </div> 
+                    </div>
+                    <div id="formwarning" class="formsection hidden"></div>
+                    <button id="btn-search" class="btn btn-success center"><span class="glyphicon glyphicon-heart-empty"></span>Calcular y ordenar por tiempo</button>
+                </section>
 
-            <section id="formbase" class="center">
-                <div id="formcp" class="formsection center">
-                    <p class="formtext">1. Introduce el c&oacute;digo postal donde resides</p>
-                    <input id="cpvalue" class="center" type="text" class="form-control" placeholder="46113" values="46113"></input>
-                </div>
-                <div id="formtype" class="formsection center">
-                    <p class="formtext">2. Selecciona el tipo de centro</p>            
-                    <div id="typegroup" class="btn-group">
-                        <div id="typepublic" class="btn btn-default">P&uacute;blico</div>
-                        <div id="typeprivate" class="btn btn-default">Privado</div>
-                        <div id="typeall" class="btn btn-primary">Todos</div>
-                    </div> 
-                </div>
-                <div id="formwarning" class="formsection hidden"></div>
-                <button id="btn-search" class="btn btn-success center"><span class="glyphicon glyphicon-heart-empty"></span>Calcular y ordenar por tiempo</button>
-            </section>
-
-            <section id="results" class="hidden">
-                <div id="switchResultBtns" class="btn-group center">                  
-                    <div id="btnlist" class="btn btn-primary"><span class="glyphicon glyphicon-th-list"></span>Listado</div>
-                    <div id="btnmap" class="btn btn-default"><span class="glyphicon glyphicon-globe"></span>Mapa</div>
-                </div>
-                <button id="btnback" class="btn btn-success hidden"><span class="glyphicon glyphicon-arrow-left"></span>Volver</button>
-                <div id="list" class=""></div>
-                <div id="map" class="hidden"></div>
-            </section>
+                <section id="results" class="hidden">
+                    <div id="switchResultBtns" class="btn-group center">                  
+                        <div id="btnlist" class="btn btn-primary"><span class="glyphicon glyphicon-th-list"></span>Listado</div>
+                        <div id="btnmap" class="btn btn-default"><span class="glyphicon glyphicon-globe"></span>Mapa</div>
+                    </div>
+                    <button id="btnback" class="btn btn-success hidden"><span class="glyphicon glyphicon-arrow-left"></span>Volver</button>
+                    <div id="list" class=""></div>
+                    <div id="map" class="hidden"></div>
+                </section>
+            </div>
 
         </div>
 

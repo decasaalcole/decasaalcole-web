@@ -4,6 +4,7 @@ require.config({
         requirejs: '../bower_components/requirejs/require',
         mustache: '../bower_components/mustache/mustache',        
         cartodb: './cartodb',
+        leaflet: '../bower_components/leaflet/dist/leaflet'
     },
     shim: {
         
