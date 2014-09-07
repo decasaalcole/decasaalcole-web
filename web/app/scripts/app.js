@@ -52,7 +52,7 @@ define(
 				cp: cp,
 				regimen: null,
 				tipo: null,
-				maxtime: 100*60
+				maxtime: 60*60
 			}
 			if(cp !== ''){
 				filter.regimen = getRegimen();
@@ -165,16 +165,15 @@ define(
 				rows: data.rows
 			}
 			var tpl = '<table class="table table-striped"><thead><tr>';
-			tpl += '<th>Tiempo</th><th>Id</th><th>Centro</th><th>Municipio</th><th>Direcci&oacute;n</th><th>Enlace</th>';
+			tpl += '<th>Tiempo</th><th>Id</th><th>Centro</th><th>Municipio</th><th>Direcci&oacute;n</th>';
 			tpl += '</tr></thead><tbody>';
 			tpl += '{{#rows}}';
 			tpl += '<tr>';
-			tpl += '<td>{{atime}} min</td>';
+			tpl += '<td>{{minutes}} min</td>';
 			tpl += '<td>{{codigo}}</td>';
 			tpl += '<td><a href="http://www.google.com" target="_blank">{{despecific}}</a></td>';
 			tpl += '<td>{{localidad}}</td>';
-			tpl += '<td>{{direccion}}</td>';
-			tpl += '<td>{{localidad}}</td>';
+			tpl += '<td>{{tipocalle}} {{direccion}} - {{numero}}</td>';
 			tpl += '</tr>';     
 			tpl += '{{/rows}}';
 			tpl += '</tbody></table>';
