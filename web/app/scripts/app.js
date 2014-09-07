@@ -128,6 +128,12 @@ define(
 			return url;
 		}
 
+		var updateSizeMap = function(){
+			var widthMap = $('#map').width()-1;
+			var heightMap = $('#map').height()-1;
+			$('#map').height(heightMap).width(widthMap);
+		}
+
 		var getDataList = function (url){
 			$.ajax({
 				url: url,
