@@ -1,4 +1,4 @@
-// Generated on 2013-10-22 using generator-webapp 0.4.3
+// Generated on 2014-03-05 using generator-webapp 0.4.3
 'use strict';
 
 // # Globbing
@@ -7,11 +7,26 @@
 // use this if you want to recursively match all subfolders:
 // 'test/spec/**/*.js'
 
-module.exports = function (grunt) {
+
+var lrSnippet = require('grunt-contrib-livereload/lib/utils').livereloadSnippet;
+require('date-utils');
+var now = (new Date()).toFormat('YYYYMMDD-HHMI');
+
+var mountFolder = function(connect, dir) {
+    return connect.static(require('path').resolve(dir));
+};
+
+
+var proxySnippet = require('grunt-connect-proxy/lib/utils').proxyRequest;
+
+module.exports = function(grunt) {
     // show elapsed time at the end
     require('time-grunt')(grunt);
     // load all grunt tasks
     require('load-grunt-tasks')(grunt);
+
+    grunt.loadNpmTasks('grunt-connect-proxy');
+    grunt.loadNpmTasks('grunt-shell');
 
     grunt.initConfig({
         // configurable paths
@@ -20,10 +35,6 @@ module.exports = function (grunt) {
             dist: 'dist'
         },
         watch: {
-            compass: {
-                files: ['<%= yeoman.app %>/styles/{,*/}*.{scss,sass}'],
-                tasks: ['compass:server', 'autoprefixer']
-            },
             styles: {
                 files: ['<%= yeoman.app %>/styles/{,*/}*.css'],
                 tasks: ['copy:styles', 'autoprefixer']
@@ -47,22 +58,37 @@ module.exports = function (grunt) {
                 // change this to '0.0.0.0' to access the server from outside
                 hostname: 'localhost'
             },
+            proxies: [
+                {
+                    context: '/geo',
+                    host: 'senegal.prodevelop.es',
+                    port: 80
+                },{
+                    context: '/search',
+                    host: 'senegal.prodevelop.es',
+                    port: 80
+                },{
+                    context: '/mapproxy',
+                    host: 'senegal.prodevelop.es',
+                    port: 80
+                }
+            ],
             livereload: {
                 options: {
                     open: true,
                     base: [
                         '.tmp',
                         '<%= yeoman.app %>'
-                    ]
-                }
-            },
-            test: {
-                options: {
-                    base: [
-                        '.tmp',
-                        'test',
-                        '<%= yeoman.app %>'
-                    ]
+                    ],
+                    middleware: function(connect) {
+                        return [
+                            proxySnippet,
+                            lrSnippet,
+                            connect.static('.tmp'),
+                            connect().use('/bower_components', connect.static('./bower_components')),
+                            connect.static('app'),
+                        ];
+                    }
                 }
             },
             dist: {
@@ -78,8 +104,8 @@ module.exports = function (grunt) {
                     dot: true,
                     src: [
                         '.tmp',
-                        '<%= yeoman.dist %>/*',
-                        '!<%= yeoman.dist %>/.git*'
+                        'dist/**'
+
                     ]
                 }]
             },
@@ -92,43 +118,8 @@ module.exports = function (grunt) {
             all: [
                 'Gruntfile.js',
                 '<%= yeoman.app %>/scripts/{,*/}*.js',
-                '!<%= yeoman.app %>/scripts/vendor/*',
-                'test/spec/{,*/}*.js'
+                '!<%= yeoman.app %>/scripts/vendor/*'
             ]
-        },
-        mocha: {
-            all: {
-                options: {
-                    run: true,
-                    urls: ['http://<%= connect.test.options.hostname %>:<%= connect.test.options.port %>/index.html']
-                }
-            }
-        },
-        compass: {
-            options: {
-                sassDir: '<%= yeoman.app %>/styles',
-                cssDir: '.tmp/styles',
-                generatedImagesDir: '.tmp/images/generated',
-                imagesDir: '<%= yeoman.app %>/images',
-                javascriptsDir: '<%= yeoman.app %>/scripts',
-                fontsDir: '<%= yeoman.app %>/styles/fonts',
-                importPath: '<%= yeoman.app %>/bower_components',
-                httpImagesPath: '/images',
-                httpGeneratedImagesPath: '/images/generated',
-                httpFontsPath: '/styles/fonts',
-                relativeAssets: false,
-                assetCacheBuster: false
-            },
-            dist: {
-                options: {
-                    generatedImagesDir: '<%= yeoman.dist %>/images/generated'
-                }
-            },
-            server: {
-                options: {
-                    debugInfo: true
-                }
-            }
         },
         autoprefixer: {
             options: {
@@ -212,22 +203,6 @@ module.exports = function (grunt) {
                 }]
             }
         },
-        cssmin: {
-            // This task is pre-configured if you do not wish to use Usemin
-            // blocks for your CSS. By default, the Usemin block from your
-            // `index.html` will take care of minification, e.g.
-            //
-            //     <!-- build:css({.tmp,app}) styles/main.css -->
-            //
-            // dist: {
-            //     files: {
-            //         '<%= yeoman.dist %>/styles/main.css': [
-            //             '.tmp/styles/{,*/}*.css',
-            //             '<%= yeoman.app %>/styles/{,*/}*.css'
-            //         ]
-            //     }
-            // }
-        },
         htmlmin: {
             dist: {
                 options: {
@@ -261,8 +236,7 @@ module.exports = function (grunt) {
                         '*.{ico,png,txt}',
                         '.htaccess',
                         'images/{,*/}*.{webp,gif}',
-                        'styles/fonts/{,*/}*.*',
-                        'bower_components/sass-bootstrap/fonts/*.*'
+                        'fonts/{,*/}*.*','img/{,*/}*.*','theme/{,*/}*.*','themes/{,*/}*.*'
                     ]
                 }]
             },
@@ -271,7 +245,10 @@ module.exports = function (grunt) {
                 dot: true,
                 cwd: '<%= yeoman.app %>/styles',
                 dest: '.tmp/styles/',
-                src: '{,*/}*.css'
+                src: [
+                    '{,*/}*.css',
+                    'bower_components/openlayers/theme/default/img'
+                ]
             }
         },
         modernizr: {
@@ -286,14 +263,9 @@ module.exports = function (grunt) {
         },
         concurrent: {
             server: [
-                'compass',
-                'copy:styles'
-            ],
-            test: [
                 'copy:styles'
             ],
             dist: [
-                'compass',
                 'copy:styles',
                 'imagemin',
                 'svgmin',
@@ -307,10 +279,36 @@ module.exports = function (grunt) {
             all: {
                 rjsConfig: '<%= yeoman.app %>/scripts/main.js'
             }
-        }
+        },
+        shell: {
+            dirListing: {
+                command: 'ls'
+            },
+            createTar: {
+                command: 'tar -czf ./deploysTAR/geoportalMARROC-'+now+'.tar.gz dist'
+            },
+            moveSenegal: {
+                command: 'sshpass -p "geoportal" scp ./deploysTAR/geoportalMARROC-'+now+'.tar.gz administrator@senegal.prodevelop.es:/home/administrator/deploysFront/dist' 
+            },
+            copyRequire:{
+                command: 'mkdir -p ./dist/bower_components/requirejs;cp ./bower_components/requirejs/require.js ./dist/bower_components/requirejs/'
+            },
+            copyBootstrap:{
+                command: 'mkdir -p ./dist/bower_components/bootstrap/dist/css;mkdir -p ./dist/bower_components/bootstrap/dist/js;mkdir -p ./dist/bower_components/bootstrap/dist/fonts;cp ./bower_components/bootstrap/dist/js/* ./dist/bower_components/bootstrap/dist/js/;cp ./bower_components/bootstrap/dist/fonts/* ./dist/bower_components/bootstrap/dist/fonts/;cp ./bower_components/bootstrap/dist/css/* ./dist/bower_components/bootstrap/dist/css/'
+            },
+            copyBootstrap2:{
+                command: 'mkdir -p ./dist/styles/js;mkdir -p ./dist/styles/fonts;cp ./bower_components/bootstrap/dist/js/* ./dist/styles/js/;cp ./bower_components/bootstrap/dist/fonts/* ./dist/styles/fonts/'
+            },
+            copyJqueryMinMap:{
+                command: 'cp ./bower_components/jquery/dist/jquery.min.map ./dist/scripts/'
+            },
+            copyImgsThemeOL:{
+                command: 'mkdir -p ./dist/theme/default/img;cp ./bower_components/Openlayers/theme/default/img/* ./dist/theme/default/img/'
+            }        
+        }    
     });
 
-    grunt.registerTask('server', function (target) {
+    grunt.registerTask('server', function(target) {
         if (target === 'dist') {
             return grunt.task.run(['build', 'connect:dist:keepalive']);
         }
@@ -318,21 +316,14 @@ module.exports = function (grunt) {
         grunt.task.run([
             'clean:server',
             'concurrent:server',
+            'configureProxies',
             'autoprefixer',
             'connect:livereload',
             'watch'
         ]);
     });
 
-    grunt.registerTask('test', [
-        'clean:server',
-        'concurrent:test',
-        'autoprefixer',
-        'connect:test',
-        'mocha'
-    ]);
-
-    grunt.registerTask('build', [
+    grunt.registerTask('build2', [
         'clean:dist',
         'useminPrepare',
         'concurrent:dist',
@@ -344,12 +335,39 @@ module.exports = function (grunt) {
         'modernizr',
         'copy:dist',
         'rev',
-        'usemin'
+        'usemin',
+        'shell:copyRequire',
+        'shell:copyBootstrap',
+        'shell:copyJqueryMinMap',
+        'shell:copyImgsThemeOL'
+    ]);
+
+    grunt.registerTask('deploySenegal',[
+        'shell:createTar',
+        'shell:moveSenegal'
+   ]);
+
+    grunt.registerTask('build', [
+        'clean:dist',
+        'useminPrepare',
+        'concurrent:dist',
+        'autoprefixer',
+        'requirejs',
+        'concat',
+        'cssmin',
+        'modernizr',
+        'copy:dist',
+        'usemin',
+        'shell:copyRequire',
+        'shell:copyBootstrap',
+        'shell:copyJqueryMinMap',
+        'shell:copyImgsThemeOL'
     ]);
 
     grunt.registerTask('default', [
         'jshint',
-        'test',
         'build'
     ]);
+
+    grunt.registerTask('ls', ['shell:dirListing']);
 };
