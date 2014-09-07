@@ -93,7 +93,8 @@ define(
 		var doFooterSmall= function(){
 			$('footer').height(20);	
 			var contentSize = $(window).height() - $('header').height() - $('footer').height() -65;
-			$('#content').height(contentSize);	
+			$('#content').height(contentSize);
+			$('#content .row').height(contentSize);		
 		}
 		var doFooterBig= function(){
 			$('#content').height(300);	
@@ -138,19 +139,15 @@ define(
 			if(!xmap){
 				xmap = true;
 				var wmap = $('#results').width() - 20;
-				var hmap = $('#results').height() - 20;
+				var hmap = $('#results').height() - 40;
 				$('#map').height(hmap).width(wmap);
 
-				var map = L.map('map').setView([39, 0], 7);
+				var map = L.map('map').setView([39, 0], 8);
 
 				// add an OpenStreetMap tile layer
-				/*L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+				L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
 				attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-				}).addTo(map);*/
-
-L.tileLayer('http://tile.stamen.com/toner/{z}/{x}/{y}.png', {
-          attribution: 'Stamen'
-        }).addTo(map);
+				}).addTo(map);
 			}
 		}
 
