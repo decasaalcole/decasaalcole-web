@@ -7,10 +7,12 @@
 
 header{
 	background-color: #2c3e50;
-	height: 30%;
+	height: 250px;
 }
 #content{
-	height: 40%;
+	height: 300px;
+	padding-top: 30px;
+
 }
 footer{
 	background-color: #eeeeee;
@@ -22,9 +24,8 @@ section {
 }
 #btn-search{
 	margin:10px;
-	width: 150px;
-	height: 50px;
-	margin-top: 20px;
+	height: 60px;
+	margin-top: 22px;
 }
 #formcp input{
 	width: 20%;
@@ -35,7 +36,7 @@ section {
 	padding:10px;
 }
 #results{
-	height:500px;
+	height:90%;
 	padding: 10px;
 }
 .headerlogo{
@@ -65,10 +66,10 @@ section {
 	font-size:18px;
 }
 #list{
-	background-color: red;
 	height: 95%;
 	width: 100%;
 	margin-top: 10px;
+	overflow: auto;
 }
 #map{
 	background-color: green;
@@ -81,4 +82,10 @@ section {
 }
 footer p{
 	float:right;
+}
+span.glyphicon{
+	margin-right: 5px !important;
+}
+#tableList tbody{
+	overflow: auto;
 }
