@@ -101,7 +101,7 @@ define(
 			$('#content .row').height(contentSize);		
 		}
 		var doFooterBig= function(){
-			$('#content').height(300);	
+			$('#content').height(350);	
 			var footerSize = $(window).height() - $('header').height() - $('#content').height() -65;
 			$('footer').height(footerSize);	
 		}
