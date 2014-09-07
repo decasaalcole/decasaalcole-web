@@ -5,8 +5,7 @@ require.config({
         mustache: '../bower_components/mustache/mustache',   
         leaflet: '../bower_components/leaflet/dist/leaflet',
         cartodbjs: '../bower_components/cartodb.js/dist/cartodb.noleaflet',     
-        cartodb: './cartodb',
-        leaflet: '../bower_components/leaflet/dist/leaflet'
+        cartodb: './cartodb'
     },
     shim: {
         'leaflet': {
@@ -20,6 +19,5 @@ require.config({
 });
 
 require(['app'], function (app) {
-    'use strict';
-    
+    'use strict';    
 });
