@@ -51,7 +51,7 @@ define(
 			var filter = {
 				cp: cp,
 				regimen: null,
-				tipo: null,
+				tipo: 'D',
 				maxtime: 60*60
 			}
 			if(cp !== ''){
