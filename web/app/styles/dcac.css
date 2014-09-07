@@ -72,8 +72,8 @@ section {
 	overflow: auto;
 }
 #map{
-	height: 300px;
-	width: 400px;
+	height: 400px;
+	width: 500px;
 	margin-top: 10px;
 }
 #btnback{

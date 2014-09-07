@@ -3,7 +3,10 @@ define(
 	['jquery','cartodb', 'mustache', 'leaflet'], 
 	function ($, cartodb, mustache, leaflet) {
 
-		var xmap = false;
+		var DCAC = {
+			map : null,
+			carto : null
+		}
 
 		$('#typepublic').click(function(e){
 			if(!$('#typepublic').hasClass('btn-primary')){
@@ -32,8 +35,7 @@ define(
 			}
 		})
 		$('#btnmap').click(function(e){
-			if(!$('#btnmap').hasClass('btn-primary')){
-				createMap();
+			if(!$('#btnmap').hasClass('btn-primary')){				
 				$('#btnmap').siblings().removeClass('btn-primary').addClass('btn-default');
 				$('#btnmap').removeClass('btn-default').addClass('btn-primary');
 				$('#map').removeClass('hidden');
@@ -50,13 +52,15 @@ define(
 				cp: cp,
 				regimen: null,
 				tipo: null,
-				maxtime: 15
+				maxtime: 100*60
 			}
 			if(cp !== ''){
 				filter.regimen = getRegimen();
+				createMap();
+				createCartoDB();
 				var url = getListUrl(filter);
-				var data = getDataList(url);
-				getDataList();
+				getDataList(url);
+				DCAC.carto.getLeafletLayer(filter,DCAC.map);
 				showResultsPanel();
 			}else{
 
@@ -119,8 +123,8 @@ define(
 	
 
 		var getListUrl = function(filter){
-			var cdb = new cartodb({});
-			var url = cdb.getAPIURL(filter);
+			
+			var url = DCAC.carto.getAPIURL(filter);
 			return url;
 		}
 
@@ -130,29 +134,29 @@ define(
 				dataType: 'json',
 				success: function(data){
 					createDataList(data);
-					createDataMap(data);
 				}
 			})
 		}
 
+		var createCartoDB = function(){
+			if(DCAC.carto === null){
+				DCAC.carto = new cartodb({});
+			}
+		}
+
 		var createMap = function(){
-			if(!xmap){
-				xmap = true;
+			if(DCAC.map === null){
 				var wmap = $('#results').width() - 20;
-				var hmap = $('#results').height() - 40;
+				var hmap = $('#results').height() - 50;
 				$('#map').height(hmap).width(wmap);
 
-				var map = L.map('map').setView([39, 0], 8);
+				DCAC.map = L.map('map').setView([39, 0], 8);
 
 				// add an OpenStreetMap tile layer
 				L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
 				attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-				}).addTo(map);
-			}
-		}
-
-		var createDataMap = function(){
-
+				}).addTo(DCAC.map);
+			}			
 		}
 
 		var createDataList = function(data){
@@ -160,7 +164,6 @@ define(
 			var opts = {
 				rows: data.rows
 			}
-
 			var tpl = '<table class="table table-striped"><thead><tr>';
 			tpl += '<th>Tiempo</th><th>Id</th><th>Centro</th><th>Municipio</th><th>Direcci&oacute;n</th><th>Enlace</th>';
 			tpl += '</tr></thead><tbody>';
@@ -168,7 +171,7 @@ define(
 			tpl += '<tr>';
 			tpl += '<td>{{atime}} min</td>';
 			tpl += '<td>{{codigo}}</td>';
-			tpl += '<td><a href="www.google.com" target="_blank">{{despecific}}</a></td>';
+			tpl += '<td><a href="http://www.google.com" target="_blank">{{despecific}}</a></td>';
 			tpl += '<td>{{localidad}}</td>';
 			tpl += '<td>{{direccion}}</td>';
 			tpl += '<td>{{localidad}}</td>';
@@ -179,6 +182,12 @@ define(
 
 			$('#list').html(html);
 		}
+
+		window.onresize = function() {
+			var wmap = $('#results').width() - 20;
+			var hmap = $('#results').height() - 50;
+			$('#map').width(wmap).height(hmap);
+		};
 
 
 
