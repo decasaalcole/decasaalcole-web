@@ -51,8 +51,8 @@ define(
 			var filter = {
 				cp: cp,
 				regimen: null,
-				tipo: 'D',
-				maxtime: 60*60
+				tipo: null,
+				maxtime: null
 			}
 			if(cp !== ''){
 				filter.regimen = getRegimen();
@@ -150,7 +150,7 @@ define(
 				var hmap = $('#results').height() - 50;
 				$('#map').height(hmap).width(wmap);
 
-				DCAC.map = L.map('map').setView([39, 0], 8);
+				DCAC.map = L.map('map').setView([39.25, 0], 7);
 
 				// add an OpenStreetMap tile layer
 				L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
