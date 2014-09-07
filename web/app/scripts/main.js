@@ -6,6 +6,7 @@ require.config({
         leaflet: '../bower_components/leaflet/dist/leaflet',
         cartodbjs: '../bower_components/cartodb.js/dist/cartodb.noleaflet',     
         cartodb: './cartodb',
+        leaflet: '../bower_components/leaflet/dist/leaflet'
     },
     shim: {
         'leaflet': {

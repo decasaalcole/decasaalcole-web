@@ -72,8 +72,7 @@ section {
 	overflow: auto;
 }
 #map{
-	background-color: green;
-	height: 95%;
+	height: 300;
 	width: 100%;
 	margin-top: 10px;
 }

@@ -1,7 +1,9 @@
 /*global define */
 define(
-	['jquery','cartodb', 'mustache'], 
-	function ($, cartodb, mustache) {
+	['jquery','cartodb', 'mustache', 'leaflet'], 
+	function ($, cartodb, mustache, leaflet) {
+
+		var xmap = false;
 
 		$('#typepublic').click(function(e){
 			if(!$('#typepublic').hasClass('btn-primary')){
@@ -31,6 +33,7 @@ define(
 		})
 		$('#btnmap').click(function(e){
 			if(!$('#btnmap').hasClass('btn-primary')){
+				createMap();
 				$('#btnmap').siblings().removeClass('btn-primary').addClass('btn-default');
 				$('#btnmap').removeClass('btn-default').addClass('btn-primary');
 				$('#map').removeClass('hidden');
@@ -51,10 +54,9 @@ define(
 			}
 			if(cp !== ''){
 				filter.regimen = getRegimen();
-				//var url = getListUrl(filter);
-				//var data = getDataList(url);
-				//createDataList(data);
-				createDataList();
+				var url = getListUrl(filter);
+				var data = getDataList(url);
+				getDataList();
 				showResultsPanel();
 			}else{
 
@@ -116,147 +118,50 @@ define(
 	
 
 		var getListUrl = function(filter){
-			var cjs = new cartodb.cartojs();
-			var url = cjs.getAPIURL(filter);
+			var cdb = new cartodb({});
+			var url = cdb.getAPIURL(filter);
 			return url;
 		}
 
 		var getDataList = function (url){
-			var obj = this;
 			$.ajax({
 				url: url,
 				dataType: 'json',
 				success: function(data){
-					obj.createDataList(data);
+					createDataList(data);
+					createDataMap(data);
 				}
 			})
 		}
 
+		var createMap = function(){
+			if(!xmap){
+				xmap = true;
+				var wmap = $('#results').width() - 20;
+				var hmap = $('#results').height() - 20;
+				$('#map').height(hmap).width(wmap);
+
+				var map = L.map('map').setView([39, 0], 7);
+
+				// add an OpenStreetMap tile layer
+				/*L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+				attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+				}).addTo(map);*/
+
+L.tileLayer('http://tile.stamen.com/toner/{z}/{x}/{y}.png', {
+          attribution: 'Stamen'
+        }).addTo(map);
+			}
+		}
+
+		var createDataMap = function(){
+
+		}
+
 		var createDataList = function(data){
-			var data2 = [
-				{
-					a:'5min',
-					b:'xxx',
-					c:'xxx',
-					d:'xxx',
-					e:'xxx',
-					f:'xxx'
-				},
-				{
-					a:'7min',
-					b:'xxx',
-					c:'xxx',
-					d:'xxx',
-					e:'xxx',
-					f:'xxx'
-				},
-				{
-					a:'8min',
-					b:'xxx',
-					c:'xxx',
-					d:'xxx',
-					e:'xxx',
-					f:'xxx'
-				},
-				{
-					a:'5min',
-					b:'xxx',
-					c:'xxx',
-					d:'xxx',
-					e:'xxx',
-					f:'xxx'
-				},
-				{
-					a:'7min',
-					b:'xxx',
-					c:'xxx',
-					d:'xxx',
-					e:'xxx',
-					f:'xxx'
-				},
-				{
-					a:'8min',
-					b:'xxx',
-					c:'xxx',
-					d:'xxx',
-					e:'xxx',
-					f:'xxx'
-				},
-				{
-					a:'5min',
-					b:'xxx',
-					c:'xxx',
-					d:'xxx',
-					e:'xxx',
-					f:'xxx'
-				},
-				{
-					a:'7min',
-					b:'xxx',
-					c:'xxx',
-					d:'xxx',
-					e:'xxx',
-					f:'xxx'
-				},
-				{
-					a:'8min',
-					b:'xxx',
-					c:'xxx',
-					d:'xxx',
-					e:'xxx',
-					f:'xxx'
-				},
-				{
-					a:'5min',
-					b:'xxx',
-					c:'xxx',
-					d:'xxx',
-					e:'xxx',
-					f:'xxx'
-				},
-				{
-					a:'7min',
-					b:'xxx',
-					c:'xxx',
-					d:'xxx',
-					e:'xxx',
-					f:'xxx'
-				},
-				{
-					a:'8min',
-					b:'xxx',
-					c:'xxx',
-					d:'xxx',
-					e:'xxx',
-					f:'xxx'
-				},
-				{
-					a:'5min',
-					b:'xxx',
-					c:'xxx',
-					d:'xxx',
-					e:'xxx',
-					f:'xxx'
-				},
-				{
-					a:'7min',
-					b:'xxx',
-					c:'xxx',
-					d:'xxx',
-					e:'xxx',
-					f:'xxx'
-				},
-				{
-					a:'8min',
-					b:'xxx',
-					c:'xxx',
-					d:'xxx',
-					e:'xxx',
-					f:'xxx'
-				}
-			];
+
 			var opts = {
-				rows: data2
+				rows: data.rows
 			}
 
 			var tpl = '<table class="table table-striped"><thead><tr>';
@@ -264,21 +169,21 @@ define(
 			tpl += '</tr></thead><tbody>';
 			tpl += '{{#rows}}';
 			tpl += '<tr>';
-			tpl += '<td>{{a}}</td>';
-			tpl += '<td>{{b}}</td>';
-			tpl += '<td><a href="www.google.com" target="_blank">{{c}}</a></td>';
-			tpl += '<td>{{d}}</td>';
-			tpl += '<td>{{e}}</td>';
-			tpl += '<td>{{f}}</td>';
+			tpl += '<td>{{atime}} min</td>';
+			tpl += '<td>{{codigo}}</td>';
+			tpl += '<td><a href="www.google.com" target="_blank">{{despecific}}</a></td>';
+			tpl += '<td>{{localidad}}</td>';
+			tpl += '<td>{{direccion}}</td>';
+			tpl += '<td>{{localidad}}</td>';
 			tpl += '</tr>';     
 			tpl += '{{/rows}}';
 			tpl += '</tbody></table>';
 			var html = mustache.to_html(tpl,opts);
 
 			$('#list').html(html);
-
-
 		}
+
+
 
 
     	return 'de Casa al Cole';
