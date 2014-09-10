@@ -6,3 +6,4 @@ web/app/bower_components
 web/bower_components/
 web/node_modules/
 *~
+*.cps
