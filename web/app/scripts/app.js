@@ -5,7 +5,8 @@ define(
 
 		var DCAC = {
 			map : null,
-			carto : null
+			carto : null,
+			mode: 0
 		}
 
 		$('#typepublic').click(function(e){
@@ -40,10 +41,12 @@ define(
 				$('#btnmap').removeClass('btn-default').addClass('btn-primary');
 				$('#map').removeClass('hidden');
 				$('#list').addClass('hidden');
+				//hackShowMap();
 			}
 		})
 		$('#btnback').click(function(e){
 			showSearchPanel();
+			DCAC.mode = 0;
 		})
 
 		$('#btn-search').click(function(e){
@@ -55,17 +58,54 @@ define(
 				maxtime: null
 			}
 			if(cp !== ''){
+				loadingInfo(true);
 				filter.regimen = getRegimen();
 				createMap();
 				createCartoDB();
 				var url = getListUrl(filter);
 				getDataList(url);
 				DCAC.carto.getLeafletLayer(filter,DCAC.map);
-				showResultsPanel();
 			}else{
 
 			}
 		})
+
+		var opts3 = {
+			lines: 6, // The number of lines to draw
+			length: 6, // The length of each line
+			width: 4, // The line thickness
+			radius: 4, // The radius of the inner circle
+			corners: 0, // Corner roundness (0..1)
+			rotate: 0, // The rotation offset
+			direction: 1, // 1: clockwise, -1: counterclockwise
+			color: '#fff', // #rgb or #rrggbb or array of colors
+			speed: 0.8, // Rounds per second
+			trail: 38, // Afterglow percentage
+			shadow: false, // Whether to render a shadow
+			hwaccel: false, // Whether to use hardware acceleration
+			className: 'spinner', // The CSS class to assign to the spinner
+			zIndex: 2e9, // The z-index (defaults to 2000000000)
+			top: '50%', // Top position relative to parent
+			left: '50%' // Left position relative to parent
+		};
+		var target3 = document.getElementById('spin');
+		var spinner = new Spinner(opts3).spin(target3);
+		$('.spinner').hide();
+
+		var hackShowMap = function(){
+			setTimeout(function(){
+
+				$('#map').width($('#results').width()-5);
+				$('#map').width($('#results').width()-6);
+				$('#map').height($('#results').height()-5);
+				$('#map').height($('#results').height()-6);
+				$('#content').width($('#content').width()+1);
+				$('#content').width($('#content').width()-1);
+				$('#content').height($('#content').height()+1);
+				$('#content').height($('#content').height()-1);
+				$(window).width(100);
+			},2000)
+		}
 
 		var getRegimen = function(){
 			if($('#typepublic').hasClass('btn-primary')){
@@ -78,49 +118,21 @@ define(
 		}
 
 		var showResultsPanel = function(){
+			DCAC.mode = 1;
 			$('#formbase').addClass('hidden');
 			$('#btnback').removeClass('hidden');
 			$('#results').removeClass('hidden');
-			doHeaderSmall();
-			doFooterSmall();
+			heightUpdate();
 		}
 
 		var showSearchPanel = function(){
+			DCAC.mode = 0;
 			$('#formbase').removeClass('hidden');
 			$('#results').addClass('hidden');
 			$('#btnback').addClass('hidden');
 			$('#btnback').addClass('hidden');
-			doHeaderBig();
-			doFooterBig();
+			heightUpdate();
 		}
-
-		var doFooterSmall= function(){
-			$('footer').height(20);	
-			var contentSize = $(window).height() - $('header').height() - $('footer').height() -65;
-			$('#content').height(contentSize);
-			$('#content .row').height(contentSize);		
-		}
-		var doFooterBig= function(){
-			$('#content').height(350);	
-			var footerSize = $(window).height() - $('header').height() - $('#content').height() -65;
-			$('footer').height(footerSize);	
-		}
-
-		var doHeaderBig = function(){
-			$('header').height(250);
-			$('.headerlogo').show();			
-			$('.headermessage').show();
-		}
-
-		var doHeaderSmall = function(){
-			$('header').height(90);
-			$('.headerlogo').hide();			
-			$('.headermessage').hide();
-		}
-
-		var footerSize = $(window).height() - $('header').height() - $('#content').height() -65;
-		$('footer').height(footerSize);	
-	
 
 		var getListUrl = function(filter){
 			
@@ -140,8 +152,27 @@ define(
 				dataType: 'json',
 				success: function(data){
 					createDataList(data);
+					loadingInfo(false);
+					showResultsPanel();
+
 				}
 			})
+		}
+
+		var loadingInfo = function(show){
+			if(show){
+				$('.spinner').show();
+				$('#btn-search-spintext').removeClass('hidden');
+				$('#btn-search .glyphicon').hide();
+				$('#btn-search-text').hide();
+				
+
+			}else{
+				$('.spinner').hide();
+				$('#btn-search-spintext').addClass('hidden');
+				$('#btn-search .glyphicon').show();
+				$('#btn-search-text').show();
+			}
 		}
 
 		var createCartoDB = function(){
@@ -152,10 +183,6 @@ define(
 
 		var createMap = function(){
 			if(DCAC.map === null){
-				var wmap = $('#results').width() - 20;
-				var hmap = $('#results').height() - 50;
-				$('#map').height(hmap).width(wmap);
-
 				DCAC.map = L.map('map').setView([39.25, 0], 7);
 
 				// add an OpenStreetMap tile layer
@@ -170,14 +197,24 @@ define(
 			var opts = {
 				rows: data.rows
 			}
+			for(var i = 0; i < opts.rows.length; i++){
+				var reg = opts.rows[i].regimen;
+				if(reg === true){
+					opts.rows[i].reg2 = 'Priv';
+				}else{
+					opts.rows[i].reg2 = 'Pub';
+				}
+
+			}
 			var tpl = '<table class="table table-striped"><thead><tr>';
-			tpl += '<th>Tiempo</th><th>Id</th><th>Centro</th><th>Municipio</th><th>Direcci&oacute;n</th>';
+			tpl += '<th>Tiempo</th><th>R&eacute;gimen</th><th>Id</th><th>Centro</th><th>Municipio</th><th>Direcci&oacute;n</th>';
 			tpl += '</tr></thead><tbody>';
 			tpl += '{{#rows}}';
 			tpl += '<tr>';
 			tpl += '<td>{{minutes}} min</td>';
+			tpl += '<td><span class="label label-primary {{#regimen}}label-danger{{/regimen}}">{{reg2}}</span></td>';
 			tpl += '<td>{{codigo}}</td>';
-			tpl += '<td><a href="http://www.google.com" target="_blank">{{despecific}}</a></td>';
+			tpl += '<td><a href="http://www.cece.gva.es/ocd/areacd/es/centro.asp?codi={{codigo}}" target="_blank">{{despecific}}</a></td>';
 			tpl += '<td>{{localidad}}</td>';
 			tpl += '<td>{{tipocalle}} {{direccion}} - {{numero}}</td>';
 			tpl += '</tr>';     
@@ -188,11 +225,44 @@ define(
 			$('#list').html(html);
 		}
 
+		var heightUpdate = function(){
+			if(DCAC.mode === 0){
+				$('header').height(250);
+				$('footer').height(30);
+				var h = $(window).height()-250-30-40;
+				if(h < 290){
+					h = 290;
+				}
+				$('#content').height(h);				
+				$('#headerLogo').show();			
+				$('#headerMessage').show();
+				$('#headerTitleLogo').addClass('hidden');
+
+			}else{
+				$('header').height(50);
+				$('footer').height(30);
+				var h = $(window).height()-50-30-40;
+				if(h < 290){
+					h = 290;
+				}
+				$('#content').height(h);				
+				$('#results').height(h-30);
+				var ww = $('#content').width()
+				$('#map').height(h-70).width(ww);					
+				$('#headerLogo').hide();			
+				$('#headerMessage').hide();
+				$('#headerTitleLogo').removeClass('hidden');
+			}
+		}
+		heightUpdate();
+
 		window.onresize = function() {
-			var wmap = $('#results').width() - 20;
-			var hmap = $('#results').height() - 50;
-			$('#map').width(wmap).height(hmap);
+			heightUpdate();
 		};
+
+		
+
+		//INIT CONFIG
 
 
 

@@ -13,8 +13,7 @@ require.config({
         },
         'cartodbjs': {
             deps: ['leaflet', 'jquery']
-        },
-        
+        }       
     }
 });
 
