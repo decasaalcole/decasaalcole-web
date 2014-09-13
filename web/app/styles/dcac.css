@@ -25,6 +25,14 @@ header{
 	margin-top: 20px;
 	margin-bottom: 2px;
 }
+#beta{
+	right: 0px;
+	top: 0px;
+	height: 100px;
+	width: 100px;
+	background-image: url("/img/beta.png");
+	position: absolute;
+}
 #headerLogo img{
 	width: 110px;
 	height: 110px;
