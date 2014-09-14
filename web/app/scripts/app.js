@@ -41,12 +41,63 @@ define(
 				$('#btnmap').removeClass('btn-default').addClass('btn-primary');
 				$('#map').removeClass('hidden');
 				$('#list').addClass('hidden');
-				//hackShowMap();
 			}
+		})
+		$('#btnbackabout').click(function(e){
+			window.history.back();
 		})
 		$('#btnback').click(function(e){
 			showSearchPanel();
 			DCAC.mode = 0;
+		})
+		$('#typeinfantil').click(function(e){
+			if($('#typeinfantil').hasClass('btn-primary')){
+				$('#typeinfantil').removeClass('btn-primary').addClass('btn-default');
+			}else{
+				$('#typeinfantil').removeClass('btn-default').addClass('btn-primary');
+			}
+		})
+		$('#typeprimaria').click(function(e){
+			if($('#typeprimaria').hasClass('btn-primary')){
+				$('#typeprimaria').removeClass('btn-primary').addClass('btn-default');
+			}else{
+				$('#typeprimaria').removeClass('btn-default').addClass('btn-primary');
+			}
+		})
+		$('#typeespecial').click(function(e){
+			if($('#typeespecial').hasClass('btn-primary')){
+				$('#typeespecial').removeClass('btn-primary').addClass('btn-default');
+			}else{
+				$('#typeespecial').removeClass('btn-default').addClass('btn-primary');
+			}
+		})
+		$('#typeeso').click(function(e){
+			if($('#typeeso').hasClass('btn-primary')){
+				$('#typeeso').removeClass('btn-primary').addClass('btn-default');
+			}else{
+				$('#typeeso').removeClass('btn-default').addClass('btn-primary');
+			}
+		})
+		$('#typebachiller').click(function(e){
+			if($('#typebachiller').hasClass('btn-primary')){
+				$('#typebachiller').removeClass('btn-primary').addClass('btn-default');
+			}else{
+				$('#typebachiller').removeClass('btn-default').addClass('btn-primary');
+			}
+		})
+		$('#typefp').click(function(e){
+			if($('#typefp').hasClass('btn-primary')){
+				$('#typefp').removeClass('btn-primary').addClass('btn-default');
+			}else{
+				$('#typefp').removeClass('btn-default').addClass('btn-primary');
+			}
+		})
+		$('#typeadultos').click(function(e){
+			if($('#typeadultos').hasClass('btn-primary')){
+				$('#typeadultos').removeClass('btn-primary').addClass('btn-default');
+			}else{
+				$('#typeadultos').removeClass('btn-default').addClass('btn-primary');
+			}
 		})
 
 		$('#btn-search').click(function(e){
@@ -66,7 +117,7 @@ define(
 				getDataList(url);
 				DCAC.carto.getLeafletLayer(filter,DCAC.map);
 			}else{
-
+				showAlertMessage('Introduce el código postal donde resides');
 			}
 		})
 
@@ -154,7 +205,6 @@ define(
 					createDataList(data);
 					loadingInfo(false);
 					showResultsPanel();
-
 				}
 			})
 		}
@@ -192,6 +242,15 @@ define(
 			}			
 		}
 
+		var showAlertMessage = function(text){
+			var info = $('#infoMessage').html();
+			var alert = '<span class="glyphicon glyphicon-warning-sign"></span>'+text;
+			$('#infoMessage').removeClass('alert-info').addClass('alert-danger').html(alert);
+			setTimeout(function(){
+				$('#infoMessage').removeClass('alert-danger').addClass('alert-info').html(info);
+			},4000);
+		}
+
 		var createDataList = function(data){
 
 			var opts = {
@@ -207,16 +266,17 @@ define(
 
 			}
 			var tpl = '<table class="table table-striped"><thead><tr>';
-			tpl += '<th>Tiempo</th><th>R&eacute;gimen</th><th>Id</th><th>Centro</th><th>Municipio</th><th>Direcci&oacute;n</th>';
+			tpl += '<th>Tiempo</th><th>R&eacute;gimen</th><th>Id</th><th>Centro</th><th>Municipio</th><th>Direcci&oacute;n</th><th>Mapa</th>';
 			tpl += '</tr></thead><tbody>';
 			tpl += '{{#rows}}';
 			tpl += '<tr>';
 			tpl += '<td>{{minutes}} min</td>';
-			tpl += '<td><span class="label label-primary {{#regimen}}label-danger{{/regimen}}">{{reg2}}</span></td>';
+			tpl += '<td><span class="label label-info {{#regimen}}label-danger{{/regimen}}">{{reg2}}</span></td>';
 			tpl += '<td>{{codigo}}</td>';
 			tpl += '<td><a href="http://www.cece.gva.es/ocd/areacd/es/centro.asp?codi={{codigo}}" target="_blank">{{despecific}}</a></td>';
 			tpl += '<td>{{localidad}}</td>';
 			tpl += '<td>{{tipocalle}} {{direccion}} - {{numero}}</td>';
+			tpl += '<td><button id="btngomap" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-map-marker"></span></button></td>';
 			tpl += '</tr>';     
 			tpl += '{{/rows}}';
 			tpl += '</tbody></table>';
@@ -234,6 +294,7 @@ define(
 					h = 290;
 				}
 				$('#content').height(h);				
+				$('#about').height(h);				
 				$('#headerLogo').show();			
 				$('#headerMessage').show();
 				$('#headerTitleLogo').addClass('hidden');
@@ -245,7 +306,8 @@ define(
 				if(h < 290){
 					h = 290;
 				}
-				$('#content').height(h);				
+				$('#content').height(h);
+				$('#about').height(h);				
 				$('#results').height(h-30);
 				var ww = $('#content').width()
 				$('#map').height(h-70).width(ww);					
@@ -255,6 +317,7 @@ define(
 			}
 		}
 		heightUpdate();
+		$('#cpvalue').focus();
 
 		window.onresize = function() {
 			heightUpdate();

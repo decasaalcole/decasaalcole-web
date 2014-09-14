@@ -35,7 +35,7 @@
                 </div>
                 <div id="headerTitle" class="center">
                     <div id="headerTitleLogo" class="hidden">
-                        <img src="./img/logo40.png"></img>
+                        <img src="./img/logo110.png"></img>
                     </div>
                     <div id="headerTitleText" >decasaalcole</div>
                 </div>
@@ -48,23 +48,35 @@
                 <section id="formbase" class="center">
                     <div id="formcp" class="formsection center">
                         <p class="formtext">1. Introduce el c&oacute;digo postal donde resides</p>
-                        <input id="cpvalue" class="center" type="text" class="form-control" placeholder="46113" value="46113"></input>
+                        <input id="cpvalue" class="center" type="text" class="form-control" placeholder="46113"></input>
                     </div>
-                    <div id="formwarning" class="formsection hidden"></div>
                     <div id="formtype" class="formsection center">
-                        <p class="formtext">2. Selecciona el tipo de centro</p>            
+                        <p class="formtext">2. Selecciona el r&eacute;gimen del centro</p>            
                         <div id="typegroup" class="btn-group">
                             <div id="typepublic" class="btn btn-default">P&uacute;blico</div>
                             <div id="typeprivate" class="btn btn-default">Privado</div>
                             <div id="typeall" class="btn btn-primary">Todos</div>
                         </div> 
-                    </div>                    
+                    </div>
+                    <div id="formmulti" class="formsection center">
+                        <p class="formtext">3. Selecciona el tipo del centro (m&uacute;ltiple)</p>            
+                        <div id="typegroup" class="btn-group">
+                            <div id="typeinfantil" class="btn btn-primary">Infantil</div>
+                            <div id="typeprimaria" class="btn btn-primary">Primaria</div>
+                            <div id="typeespecial" class="btn btn-primary">Especial</div>
+                            <div id="typeeso" class="btn btn-primary">ESO</div>
+                            <div id="typebachiller" class="btn btn-primary">Bachiller</div>
+                            <div id="typefp" class="btn btn-primary">FP</div>
+                            <div id="typeadultos" class="btn btn-primary">Adultos</div>
+                        </div>
+                    </div>                     
                     <button id="btn-search" class="btn btn-success center">
                         <span id="spin"></span>
                         <span id="btn-search-spintext" class="hidden">Calculando...</span>
                         <span class="glyphicon glyphicon-heart-empty"></span>
                         <span id="btn-search-text">Ordenar centros por tiempo</span>
                     </button>
+                    <div id="infoMessage" class="alert alert-info" role="alert"><span class="glyphicon glyphicon-exclamation-sign"></span> Los tiempos de viaje son aproximados</div>
                 </section>
 
                 <section id="results" class="hidden">
@@ -72,7 +84,7 @@
                         <div id="btnlist" class="btn btn-primary"><span class="glyphicon glyphicon-th-list"></span>Listado</div>
                         <div id="btnmap" class="btn btn-default"><span class="glyphicon glyphicon-globe"></span>Mapa</div>
                     </div>
-                    <button id="btnback" class="btn btn-success hidden"><span class="glyphicon glyphicon-arrow-left"></span>Volver</button>
+                    <button id="btnback" class="btn btn-success hidden"><span class="glyphicon glyphicon-arrow-left"></span>Buscador</button>
                     <div id="list" class=""></div>
                     <div id="map" class="hidden"></div>
                 </section>
@@ -80,9 +92,7 @@
         </div>
 
         <footer>
-            <p>♥ from the Decasalcole team</p>
-
-            <button id="btnback" class="btn btn-success hidden">Volver</button>
+            <a href="./about.html">Motivación y cr&eacute;ditos</a>
         </footer>
 
 

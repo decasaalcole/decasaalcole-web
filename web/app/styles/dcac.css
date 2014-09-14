@@ -26,8 +26,8 @@ header{
 	margin-bottom: 2px;
 }
 #beta{
-	right: 0px;
-	top: 0px;
+	right: -15px;
+	top: -15px;
 	height: 100px;
 	width: 100px;
 	background-image: url("/img/beta.png");
@@ -71,21 +71,23 @@ footer{
 #content{
 	height: 350px;
 }
-
+#infoMessage{
+margin-top: 10px;
+}
 #formcp{
-	padding-top: 15px;
+	padding-top: 12px;
 }
 #btn-search{
 	margin:10px;
 	height: 60px;
-	margin-top: 30px;
+	margin-top: 20px;
 }
 #formcp input{
 	width: 20%;
 	min-width: 150px;
 }
 .formsection{
-	padding:10px;
+	padding:6px;
 }
 #results{
 	height:95%;
@@ -94,7 +96,9 @@ footer{
 	top: 10px;
 	left: 15px;
 }
-
+#btngomap{
+	padding-left: 10px;
+}
 .headerlogomini{
 	width: 40px;
 	height: 40px;
@@ -154,6 +158,28 @@ span.glyphicon{
 }
 .btn, .label{
 	border-radius: 0px !important;
+}
+
+/* ABOUT */
+
+#about{
+	overflow: auto;
+}
+.photo{
+	width:60px;
+	height: 60px;
+	border-radius: 30px;
+}
+#btnbackabout{
+	margin-top: 10px;
+	float: right;
+	margin-right: 10px;
+}
+#aboutInfo{
+	margin-top: 45px;
+}
+#aboutMembers{
+	margin-top: 35px;
 }
 
 
