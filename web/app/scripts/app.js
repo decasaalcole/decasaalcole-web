@@ -174,6 +174,11 @@ define(
 			$('#btnback').removeClass('hidden');
 			$('#results').removeClass('hidden');
 			heightUpdate();
+
+			$('#btnmap').on('click',function(){
+				DCAC.map.invalidateSize();
+			})
+
 		}
 
 		var showSearchPanel = function(){
@@ -189,12 +194,6 @@ define(
 
 			var url = DCAC.carto.getAPIURL(filter);
 			return url;
-		}
-
-		var updateSizeMap = function(){
-			var widthMap = $('#map').width()-1;
-			var heightMap = $('#map').height()-1;
-			$('#map').height(heightMap).width(widthMap);
 		}
 
 		var getDataList = function (url){
