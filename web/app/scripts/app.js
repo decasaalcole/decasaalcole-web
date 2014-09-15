@@ -1,6 +1,6 @@
 /*global define */
 define(
-	['jquery','cartodb', 'mustache', 'leaflet'], 
+	['jquery','cartodb', 'mustache', 'leaflet'],
 	function ($, cartodb, mustache, leaflet) {
 
 		var DCAC = {
@@ -36,7 +36,7 @@ define(
 			}
 		})
 		$('#btnmap').click(function(e){
-			if(!$('#btnmap').hasClass('btn-primary')){				
+			if(!$('#btnmap').hasClass('btn-primary')){
 				$('#btnmap').siblings().removeClass('btn-primary').addClass('btn-default');
 				$('#btnmap').removeClass('btn-default').addClass('btn-primary');
 				$('#map').removeClass('hidden');
@@ -160,11 +160,11 @@ define(
 
 		var getRegimen = function(){
 			if($('#typepublic').hasClass('btn-primary')){
-				return 0;
+				return '0';
 			} else if($('#typeprivate').hasClass('btn-primary')){
-				return 1;
+				return '1';
 			} else {
-				return 0;
+				return '0';
 			}
 		}
 
@@ -186,7 +186,7 @@ define(
 		}
 
 		var getListUrl = function(filter){
-			
+
 			var url = DCAC.carto.getAPIURL(filter);
 			return url;
 		}
@@ -215,7 +215,7 @@ define(
 				$('#btn-search-spintext').removeClass('hidden');
 				$('#btn-search .glyphicon').hide();
 				$('#btn-search-text').hide();
-				
+
 
 			}else{
 				$('.spinner').hide();
@@ -239,7 +239,7 @@ define(
 				L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
 				attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
 				}).addTo(DCAC.map);
-			}			
+			}
 		}
 
 		var showAlertMessage = function(text){
@@ -277,7 +277,7 @@ define(
 			tpl += '<td>{{localidad}}</td>';
 			tpl += '<td>{{tipocalle}} {{direccion}} - {{numero}}</td>';
 			tpl += '<td><button id="btngomap" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-map-marker"></span></button></td>';
-			tpl += '</tr>';     
+			tpl += '</tr>';
 			tpl += '{{/rows}}';
 			tpl += '</tbody></table>';
 			var html = mustache.to_html(tpl,opts);
@@ -293,9 +293,9 @@ define(
 				if(h < 290){
 					h = 290;
 				}
-				$('#content').height(h);				
-				$('#about').height(h);				
-				$('#headerLogo').show();			
+				$('#content').height(h);
+				$('#about').height(h);
+				$('#headerLogo').show();
 				$('#headerMessage').show();
 				$('#headerTitleLogo').addClass('hidden');
 
@@ -307,11 +307,11 @@ define(
 					h = 290;
 				}
 				$('#content').height(h);
-				$('#about').height(h);				
+				$('#about').height(h);
 				$('#results').height(h-30);
 				var ww = $('#content').width()
-				$('#map').height(h-70).width(ww);					
-				$('#headerLogo').hide();			
+				$('#map').height(h-70).width(ww);
+				$('#headerLogo').hide();
 				$('#headerMessage').hide();
 				$('#headerTitleLogo').removeClass('hidden');
 			}
@@ -323,7 +323,7 @@ define(
 			heightUpdate();
 		};
 
-		
+
 
 		//INIT CONFIG
 
