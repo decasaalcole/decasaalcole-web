@@ -10,7 +10,6 @@
     "cartodb.js": "~3.10.2",
     "requirejs": "~2.1.15",
     "spinjs": "~2.0.1",
-    "jquery.simplePagination": "*"
   },
   "devDependencies": {}
 }
