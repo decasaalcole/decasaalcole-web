@@ -116,6 +116,7 @@ define(
 				var url = getListUrl(filter);
 				getDataList(url);
 				DCAC.carto.getLeafletLayer(filter,DCAC.map);
+				DCAC.carto.showCpLocation(cp,DCAC.map);
 			}else{
 				showAlertMessage('Introduce el código postal donde resides');
 			}
@@ -265,7 +266,8 @@ define(
 
 			}
 			var tpl = '<table class="table table-striped"><thead><tr>';
-			tpl += '<th>Tiempo</th><th>R&eacute;gimen</th><th>Id</th><th>Centro</th><th>Municipio</th><th>Direcci&oacute;n</th><th>Mapa</th>';
+			//tpl += '<th>Tiempo</th><th>R&eacute;gimen</th><th>Id</th><th>Centro</th><th>Municipio</th><th>Direcci&oacute;n</th><th>Mapa</th>';
+			tpl += '<th>Tiempo</th><th>R&eacute;gimen</th><th>Id</th><th>Centro</th><th>Municipio</th><th>Direcci&oacute;n</th>';
 			tpl += '</tr></thead><tbody>';
 			tpl += '{{#rows}}';
 			tpl += '<tr>';
@@ -275,7 +277,7 @@ define(
 			tpl += '<td><a href="http://www.cece.gva.es/ocd/areacd/es/centro.asp?codi={{codigo}}" target="_blank">{{despecific}}</a></td>';
 			tpl += '<td>{{localidad}}</td>';
 			tpl += '<td>{{tipocalle}} {{direccion}} - {{numero}}</td>';
-			tpl += '<td><button id="btngomap" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-map-marker"></span></button></td>';
+			//tpl += '<td><button id="btngomap" class="btn btn-primary btn-xs" data-loc="{{location}}"><span class="glyphicon glyphicon-map-marker"></span></button></td>';
 			tpl += '</tr>';
 			tpl += '{{/rows}}';
 			tpl += '</tbody></table>';
