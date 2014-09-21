@@ -90,6 +90,7 @@ define(
 							if(map.mrk){
 								var lalo = L.latLng(lonlat2[1], lonlat2[0]);
 								map.mrk.setLatLng(lalo).update();
+								map.mrk.setPopupContent(cp);
 							}else{
 								map.mrk = L.marker([lonlat2[1], lonlat2[0]]);
 								map.mrk.addTo(map).bindPopup(cp);
