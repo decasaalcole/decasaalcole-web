@@ -114,6 +114,7 @@ define(
 			if(cp !== ''){
 				loadingInfo(true);
 				filter.regimen = getRegimen();
+				filter.tipo = getTypeSchool();
 				createMap();
 				createCartoDB();
 				var url = getListUrl(filter);
@@ -160,6 +161,35 @@ define(
 				$('#content').height($('#content').height()-1);
 				$(window).width(100);
 			},2000)
+		}
+
+		var getTypeSchool = function(){
+			var type = '';
+			if($('#typeadultos').hasClass('btn-primary')){
+					type += 'A'; 							
+			}
+			if($('#typefp').hasClass('btn-primary')){
+					type += 'A';			
+			}
+			if($('#typebachiller').hasClass('btn-primary')){
+					type += 'A';			
+			}
+			if($('#typeeso').hasClass('btn-primary')){
+					type += 'A'; 				
+			}
+			if($('#typeespecial').hasClass('btn-primary')){
+					type += 'B'; 				
+			}
+			if($('#typeprimaria').hasClass('btn-primary')){
+					type += 'C';				
+			}
+			if($('#typeinfantil').hasClass('btn-primary')){
+					type += 'A';				
+			}
+			if(type === ''){
+				type = null;
+			}
+			return type;
 		}
 
 		var getRegimen = function(){
