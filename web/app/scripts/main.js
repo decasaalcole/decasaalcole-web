@@ -5,7 +5,8 @@ require.config({
         mustache: '../bower_components/mustache/mustache',   
         leaflet: '../bower_components/leaflet/dist/leaflet',
         cartodbjs: '../bower_components/cartodb.js/dist/cartodb.noleaflet',     
-        cartodb: './cartodb'
+        cartodb: './cartodb',
+        mapbox: '../bower_components/mapbox.js/mapbox.js'
     },
     shim: {
         'leaflet': {
