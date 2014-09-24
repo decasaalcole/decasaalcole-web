@@ -102,6 +102,9 @@ define(
 
 		$('#btn-search').click(function(e){
 			var cp = $('#cpvalue').val();
+			if(cp.length == 4){
+				cp = '0'+cp;
+			}
 			var filter = {
 				cp: cp,
 				regimen: null,

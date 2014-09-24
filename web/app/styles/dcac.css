@@ -26,10 +26,10 @@ header{
 	margin-bottom: 2px;
 }
 #beta{
-	right: -15px;
-	top: -15px;
-	height: 100px;
-	width: 100px;
+	right: 0px;
+	top: 0px;
+	height: 70px;
+	width: 70px;
 	background-image: url("/img/beta.png");
 	position: absolute;
 }
