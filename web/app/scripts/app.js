@@ -1,7 +1,7 @@
 /*global define */
 define(
-	['jquery','cartodb', 'mustache', 'leaflet'],
-	function ($, cartodb, mustache, leaflet) {
+	['jquery','cartodb', 'mustache', 'leaflet','mapbox'],
+	function ($, cartodb, mustache, leaflet, mapbox) {
 
 		var DCAC = {
 			map : null,
@@ -233,12 +233,16 @@ define(
 
 		var createMap = function(){
 			if(DCAC.map === null){
-				DCAC.map = L.map('map').setView([39.25, 0], 7);
+				//DCAC.map = L.map('map').setView([39.25, 0], 7);
+				DCAC.map = L.mapbox.map('map');
+				L.mapbox.accessToken = 'pk.eyJ1IjoieHVyeG9zYW56IiwiYSI6Ii1ObkhtWkUifQ.BK7TVbrk0v0-1NVn_ndWZw';
 
 				// add an OpenStreetMap tile layer
-				L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-				attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-				}).addTo(DCAC.map);
+				//L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+				//attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+				//}).addTo(DCAC.map);
+				L.mapbox.tileLayer('xurxosanz.jj47g6i7').addTo(DCAC.map);
+				DCAC.map.setView([39.25, 0], 7);
 			}
 		}
 

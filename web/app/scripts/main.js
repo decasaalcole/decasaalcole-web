@@ -6,13 +6,16 @@ require.config({
         leaflet: '../bower_components/leaflet/dist/leaflet',
         cartodbjs: '../bower_components/cartodb.js/dist/cartodb.noleaflet',     
         cartodb: './cartodb',
-        mapbox: '../bower_components/mapbox.js/mapbox.js'
+        mapbox: '../bower_components/mapbox.js/mapbox'
     },
     shim: {
         'leaflet': {
             exports: 'L'
         },
         'cartodbjs': {
+            deps: ['leaflet', 'jquery']
+        },
+        'mapbox': {
             deps: ['leaflet', 'jquery']
         }       
     }

@@ -57,8 +57,8 @@ define(
 			},
 
 			getLeafletLayer:function(filter,map){
-				if(map._layers[25] !== undefined){
-					var lyr = map._layers[25];
+				if(map._layers[30] !== undefined){
+					var lyr = map._layers[30];
 					var sublyr = lyr.getSubLayer(0);
 					sublyr.setSQL(this.getSQL(filter));
 				}else{
