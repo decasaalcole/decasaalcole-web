@@ -9,7 +9,8 @@ require.config({
         bootstrap: '../../bower_components/bootstrap/dist/js/bootstrap',
         spinjs: '../../bower_components/spinjs/spin',
         'cartodb.js': '../../bower_components/cartodb.js/index',
-        'leaflet-src': '../../bower_components/leaflet/dist/leaflet-src'
+        'leaflet-src': '../../bower_components/leaflet/dist/leaflet-src',
+        cookiebar: 'jquery.cookiebar/jquery.cookiebar'
     },
     shim: {
         leaflet: {
@@ -24,6 +25,11 @@ require.config({
         mapbox: {
             deps: [
                 'leaflet',
+                'jquery'
+            ]
+        },
+        cookiebar: {
+            deps: [
                 'jquery'
             ]
         }
