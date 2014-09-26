@@ -1,23 +1,32 @@
 require.config({
     paths: {
-        jquery: '../bower_components/jquery/dist/jquery',
-        requirejs: '../bower_components/requirejs/require',
-        mustache: '../bower_components/mustache/mustache',   
-        leaflet: '../bower_components/leaflet/dist/leaflet',
-        cartodbjs: '../bower_components/cartodb.js/dist/cartodb.noleaflet',     
-        cartodb: './cartodb',
-        mapbox: '../bower_components/mapbox.js/mapbox'
+        jquery: '../../bower_components/jquery/dist/jquery',
+        requirejs: '../../bower_components/requirejs/require',
+        mustache: '../../bower_components/mustache/mustache',
+        leaflet: '../../bower_components/leaflet/dist/leaflet',
+        cartodbjs: '../bower_components/cartodb.js/dist/cartodb.noleaflet',
+        mapbox: '../../bower_components/mapbox.js/mapbox',
+        bootstrap: '../../bower_components/bootstrap/dist/js/bootstrap',
+        spinjs: '../../bower_components/spinjs/spin',
+        'cartodb.js': '../../bower_components/cartodb.js/index',
+        'leaflet-src': '../../bower_components/leaflet/dist/leaflet-src'
     },
     shim: {
-        'leaflet': {
+        leaflet: {
             exports: 'L'
         },
-        'cartodbjs': {
-            deps: ['leaflet', 'jquery']
+        cartodbjs: {
+            deps: [
+                'leaflet',
+                'jquery'
+            ]
         },
-        'mapbox': {
-            deps: ['leaflet', 'jquery']
-        }       
+        mapbox: {
+            deps: [
+                'leaflet',
+                'jquery'
+            ]
+        }
     }
 });
 
