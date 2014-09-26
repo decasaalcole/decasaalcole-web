@@ -134,7 +134,7 @@ define(
 			if(cp !== ''){
 				loadingInfo(true);
 				filter.regimen = getRegimen();
-				filter.tipo = getTypeSchool();
+				//filter.tipo = getTypeSchool(); //FIXME
 				createMap();
 				createCartoDB();
 				var url = getListUrl(filter);
@@ -218,7 +218,7 @@ define(
 			} else if($('#typeprivate').hasClass('btn-primary')){
 				return '1';
 			} else {
-				return '0';
+				return null;
 			}
 		}
 
