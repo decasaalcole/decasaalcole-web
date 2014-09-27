@@ -29,6 +29,18 @@ define(
             ga('send', 'pageview');
         }
 
+        /*if ("geolocation" in navigator) {
+			navigator.geolocation.getCurrentPosition(function(position) {
+				getLonLatCloseCp(position.coords.longitude, position.coords.latitude);
+			});
+ 		}
+
+ 		var getLonLatCloseCp = function(lon,lat){
+
+
+ 		}*/
+
+
 		$('#typepublic').click(function(e){
 			if(!$('#typepublic').hasClass('btn-primary')){
 				$('#typepublic').siblings().removeClass('btn-primary').addClass('btn-default');
