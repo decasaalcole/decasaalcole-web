@@ -110,7 +110,11 @@ margin-top: 10px;
 	margin-top: 25px;	
 	background-image: url("../img/logo40.png") !important;
 }
-
+p span{
+	font-size: 19px;
+	color:#2C3E50;
+	font-weight: bold;
+}
 
 .fromtext{
 	font-size:18px;
