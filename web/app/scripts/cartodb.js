@@ -30,7 +30,7 @@ define(
 
 
 		cartojs.prototype = {
-			sql : 'with ftimes as (select cp_to cp, from_dist dist, from_time atime from times where cp_from = \'{{cp}}\'), ttimes as (select cp_from cp, to_dist dist, to_time atime from times where cp_to = \'{{cp}}\'), totaltimes as (select * from ftimes union select * from ttimes union select \'{{cp}}\' cp, 0 dist, 0 atime) select c.cartodb_id, c.the_geom, c.the_geom_webmercator, c.regimen, c.despecific, c.localidad, c.tipocalle, c.direccion, c.numero, c.codigo, ((t.atime)/60)::integer minutes, (t.dist/1000)::integer kms from coles_cp c join totaltimes t on c.cp = t.cp {{&where}} order by t.atime, t.dist',
+			sql : 'with ftimes as (select cp_to cp, from_dist dist, from_time atime from times where cp_from = \'{{cp}}\'), ttimes as (select cp_from cp, to_dist dist, to_time atime from times where cp_to = \'{{cp}}\'), totaltimes as (select * from ftimes union select * from ttimes union select \'{{cp}}\' cp, 0 dist, 0 atime) select c.cartodb_id, c.the_geom, ST_astext(c.the_geom) as tgeom, c.the_geom_webmercator, c.regimen, c.despecific, c.localidad, c.tipocalle, c.direccion, c.numero, c.codigo, ((t.atime)/60)::integer minutes, (t.dist/1000)::integer kms from coles_cp c join totaltimes t on c.cp = t.cp {{&where}} order by t.atime, t.dist',
 
 			sqlcp : 'select st_astext(the_geom) pto from cp where cp = {{cp}}',
 
@@ -97,7 +97,7 @@ define(
 							var lonlat =pto.substring(6,pto.length-1);
 							var lonlat2 = lonlat.split(' ');
 							if(map.mrk){
-								var lalo = L.latLng(lonlat2[1], lonlat2[0]);
+								var lalo = [lonlat2[1], lonlat2[0]];
 								map.mrk.setLatLng(lalo).update();
 								map.mrk.setPopupContent(cp);
 							}else{
@@ -111,6 +111,28 @@ define(
 						}
 					}
 				})
+			},
+
+			showSchoolMarker: function(lon,lat,map,title){
+				if(map.mrk2){
+					var lalo = [lat, lon];
+					map.mrk2.setLatLng(lalo).update();
+					map.mrk2.setPopupContent(title);
+				}else{
+					var myIcon = L.icon({
+					    iconUrl: '/scripts/themes/css/images/marker-icon2.png',
+					    shadowUrl: '/scripts/themes/css/images/marker-shadow.png',
+					    iconSize:     [25, 41], // size of the icon
+					    shadowSize:   [41, 41],
+					    iconAnchor: [12, 41],
+					    popupAnchor: [0, -41]
+					});
+					map.mrk2 = L.marker([lat, lon],{
+						icon: myIcon
+					});
+					map.mrk2.addTo(map).bindPopup(title);
+				}
+
 			},
 
 			getCpClose:function(lon,lat,div){

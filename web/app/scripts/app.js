@@ -9,6 +9,39 @@ define(
 			mode: 0
 		}
 
+		var heightUpdate = function(){
+			if(DCAC.mode === 0){
+				$('header').height(250);
+				$('footer').height(30);
+				var h = $(window).height()-250-30-40;
+				if(h < 290){
+					h = 290;
+				}
+				$('#content').height(h);
+				$('#about').height(h);
+				$('#headerLogo').show();
+				$('#headerMessage').show();
+				$('#headerTitleLogo').addClass('hidden');
+
+			}else{
+				$('header').height(50);
+				$('footer').height(30);
+				var h = $(window).height()-50-30-40;
+				if(h < 290){
+					h = 290;
+				}
+				$('#content').height(h);
+				$('#about').height(h);
+				$('#results').height(h-30);
+				var ww = $('#content').width()
+				$('#map').height(h-70).width(ww);
+				$('#headerLogo').hide();
+				$('#headerMessage').hide();
+				$('#headerTitleLogo').removeClass('hidden');
+			}
+		}
+		heightUpdate();
+
 		$(document).ready(function(){
 			$.cookieBar({
 				message: 'Estamos usando cookies para mejorar el servicio',
@@ -35,6 +68,7 @@ define(
 			}
 		}
 
+		
 		createCartoDB();
 
         if ("geolocation" in navigator) {
@@ -46,9 +80,26 @@ define(
  		var getLonLatCloseCp = function(lon,lat,div){
  			var cp = DCAC.carto.getCpClose(lon,lat,div);
  			if(cp && cp.length > 0){
- 				$('#cpvalue').val(cp);
+ 				if($('#cpvalue').val().length == 0){
+ 					$('#cpvalue').val(cp);
+ 				}
  			}
  		}
+
+ 		var hackShowMap = function(){
+			setTimeout(function(){
+
+				$('#map').width($('#results').width()-5);
+				$('#map').width($('#results').width()-6);
+				$('#map').height($('#results').height()-5);
+				$('#map').height($('#results').height()-6);
+				$('#content').width($('#content').width()+1);
+				$('#content').width($('#content').width()-1);
+				$('#content').height($('#content').height()+1);
+				$('#content').height($('#content').height()-1);
+				$(window).width(100);
+			},2000)
+		}
 
 
 		$('#typepublic').click(function(e){
@@ -77,12 +128,15 @@ define(
 				$('#map').addClass('hidden');
 			}
 		})
+		var gotoMap = function(){
+			$('#btnmap').siblings().removeClass('btn-primary').addClass('btn-default');
+			$('#btnmap').removeClass('btn-default').addClass('btn-primary');
+			$('#map').removeClass('hidden');
+			$('#list').addClass('hidden');
+		}
 		$('#btnmap').click(function(e){
 			if(!$('#btnmap').hasClass('btn-primary')){
-				$('#btnmap').siblings().removeClass('btn-primary').addClass('btn-default');
-				$('#btnmap').removeClass('btn-default').addClass('btn-primary');
-				$('#map').removeClass('hidden');
-				$('#list').addClass('hidden');
+				gotoMap();
 			}
 		})
 		$('#btnbackabout').click(function(e){
@@ -190,20 +244,7 @@ define(
 		var spinner = new Spinner(opts3).spin(target3);
 		$('.spinner').hide();
 
-		var hackShowMap = function(){
-			setTimeout(function(){
 
-				$('#map').width($('#results').width()-5);
-				$('#map').width($('#results').width()-6);
-				$('#map').height($('#results').height()-5);
-				$('#map').height($('#results').height()-6);
-				$('#content').width($('#content').width()+1);
-				$('#content').width($('#content').width()-1);
-				$('#content').height($('#content').height()+1);
-				$('#content').height($('#content').height()-1);
-				$(window).width(100);
-			},2000)
-		}
 
 		var getTypeSchool = function(){
 			var type = '';
@@ -347,11 +388,11 @@ define(
 				}else{
 					opts.rows[i].reg2 = 'Pub';
 				}
+				opts.rows[i].lonlat = opts.rows[i].tgeom.substring(6,opts.rows[i].tgeom.length-1);
 
 			}
 			var tpl = '<table class="table table-striped"><thead><tr>';
 			tpl += '<th>Tiempo</th><th>R&eacute;gimen</th><th>Id</th><th>Centro</th><th>Municipio</th><th>Direcci&oacute;n</th><th>Mapa</th>';
-			//tpl += '<th>Tiempo</th><th>R&eacute;gimen</th><th>Id</th><th>Centro</th><th>Municipio</th><th>Direcci&oacute;n</th>';
 			tpl += '</tr></thead><tbody>';
 			tpl += '{{#rows}}';
 			tpl += '<tr>';
@@ -361,46 +402,28 @@ define(
 			tpl += '<td><a href="http://www.cece.gva.es/ocd/areacd/es/centro.asp?codi={{codigo}}" target="_blank">{{despecific}}</a></td>';
 			tpl += '<td>{{localidad}}</td>';
 			tpl += '<td>{{tipocalle}} {{direccion}} - {{numero}}</td>';
-			tpl += '<td><button id="btngomap" class="btn btn-primary btn-xs" data-loc="{{location}}"><span class="glyphicon glyphicon-map-marker"></span></button></td>';
+			tpl += '<td><button id="btngomap" class="btn btn-primary btn-xs btnpto" data-cole="{{despecific}}" data-lonlat="{{lonlat}}"><span class="glyphicon glyphicon-map-marker"></span></button></td>';
 			tpl += '</tr>';
 			tpl += '{{/rows}}';
 			tpl += '</tbody></table>';
 			var html = mustache.to_html(tpl,opts);
 
 			$('#list').html(html);
+			$('.btnpto').click([],function(){
+				gotoMap();
+				var lonlat = $(this).data('lonlat');
+				var cole = $(this).data('cole');
+				var ll = lonlat.split(' ');
+				var lon = ll[0];
+				var lat = ll[1];
+				DCAC.carto.showSchoolMarker(lon,lat,DCAC.map,cole);
+				DCAC.map.panTo([lat,lon]).setZoom(14);
+				//hackShowMap();				
+			})
+
 		}
 
-		var heightUpdate = function(){
-			if(DCAC.mode === 0){
-				$('header').height(250);
-				$('footer').height(30);
-				var h = $(window).height()-250-30-40;
-				if(h < 290){
-					h = 290;
-				}
-				$('#content').height(h);
-				$('#about').height(h);
-				$('#headerLogo').show();
-				$('#headerMessage').show();
-				$('#headerTitleLogo').addClass('hidden');
 
-			}else{
-				$('header').height(50);
-				$('footer').height(30);
-				var h = $(window).height()-50-30-40;
-				if(h < 290){
-					h = 290;
-				}
-				$('#content').height(h);
-				$('#about').height(h);
-				$('#results').height(h-30);
-				var ww = $('#content').width()
-				$('#map').height(h-70).width(ww);
-				$('#headerLogo').hide();
-				$('#headerMessage').hide();
-				$('#headerTitleLogo').removeClass('hidden');
-			}
-		}
 		heightUpdate();
 		$('#cpvalue').focus();
 
