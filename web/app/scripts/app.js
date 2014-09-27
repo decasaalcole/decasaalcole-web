@@ -29,16 +29,26 @@ define(
             ga('send', 'pageview');
         }
 
-        /*if ("geolocation" in navigator) {
+		var createCartoDB = function(){
+			if(DCAC.carto === null){
+				DCAC.carto = new cartodb({});
+			}
+		}
+
+		createCartoDB();
+
+        if ("geolocation" in navigator) {
 			navigator.geolocation.getCurrentPosition(function(position) {
-				getLonLatCloseCp(position.coords.longitude, position.coords.latitude);
+				getLonLatCloseCp(position.coords.longitude, position.coords.latitude,'cpvalue');
 			});
  		}
 
- 		var getLonLatCloseCp = function(lon,lat){
-
-
- 		}*/
+ 		var getLonLatCloseCp = function(lon,lat,div){
+ 			var cp = DCAC.carto.getCpClose(lon,lat,div);
+ 			if(cp && cp.length > 0){
+ 				$('#cpvalue').val(cp);
+ 			}
+ 		}
 
 
 		$('#typepublic').click(function(e){
@@ -148,7 +158,6 @@ define(
 				filter.regimen = getRegimen();
 				//filter.tipo = getTypeSchool(); //FIXME
 				createMap();
-				createCartoDB();
 				var url = getListUrl(filter);
 				getDataList(url);
 				DCAC.carto.getLeafletLayer(filter,DCAC.map);
@@ -300,11 +309,7 @@ define(
 			}
 		}
 
-		var createCartoDB = function(){
-			if(DCAC.carto === null){
-				DCAC.carto = new cartodb({});
-			}
-		}
+
 
 		var createMap = function(){
 			if(DCAC.map === null){
@@ -345,8 +350,8 @@ define(
 
 			}
 			var tpl = '<table class="table table-striped"><thead><tr>';
-			//tpl += '<th>Tiempo</th><th>R&eacute;gimen</th><th>Id</th><th>Centro</th><th>Municipio</th><th>Direcci&oacute;n</th><th>Mapa</th>';
-			tpl += '<th>Tiempo</th><th>R&eacute;gimen</th><th>Id</th><th>Centro</th><th>Municipio</th><th>Direcci&oacute;n</th>';
+			tpl += '<th>Tiempo</th><th>R&eacute;gimen</th><th>Id</th><th>Centro</th><th>Municipio</th><th>Direcci&oacute;n</th><th>Mapa</th>';
+			//tpl += '<th>Tiempo</th><th>R&eacute;gimen</th><th>Id</th><th>Centro</th><th>Municipio</th><th>Direcci&oacute;n</th>';
 			tpl += '</tr></thead><tbody>';
 			tpl += '{{#rows}}';
 			tpl += '<tr>';
@@ -356,7 +361,7 @@ define(
 			tpl += '<td><a href="http://www.cece.gva.es/ocd/areacd/es/centro.asp?codi={{codigo}}" target="_blank">{{despecific}}</a></td>';
 			tpl += '<td>{{localidad}}</td>';
 			tpl += '<td>{{tipocalle}} {{direccion}} - {{numero}}</td>';
-			//tpl += '<td><button id="btngomap" class="btn btn-primary btn-xs" data-loc="{{location}}"><span class="glyphicon glyphicon-map-marker"></span></button></td>';
+			tpl += '<td><button id="btngomap" class="btn btn-primary btn-xs" data-loc="{{location}}"><span class="glyphicon glyphicon-map-marker"></span></button></td>';
 			tpl += '</tr>';
 			tpl += '{{/rows}}';
 			tpl += '</tbody></table>';
@@ -402,12 +407,6 @@ define(
 		window.onresize = function() {
 			heightUpdate();
 		};
-
-
-
-		//INIT CONFIG
-
-
 
 
     	return 'de Casa al Cole';

@@ -1,7 +1,7 @@
 define(
 	['mustache','leaflet','cartodbjs'],
 	function (mustache,leaflet,cartodbjs) {
-		console.log("pasando por cartodb");
+		
 
 		function cartojs(options){
 			this.url = options.url || 'http://decasaalcole.cartodb.com';
@@ -34,6 +34,8 @@ define(
 
 			sqlcp : 'select st_astext(the_geom) pto from cp where cp = {{cp}}',
 
+			sqlclosecp: 'select ST_Distance(ST_Transform(cp.the_geom,25830), ST_Transform(ST_GeomFromText(\'POINT({{lon}} {{lat}})\',\'4326\'),25830)) as dist,cp from cp order by dist asc limit 1',
+
 			getURL : function() {
 				return this.url;
 			},
@@ -50,6 +52,13 @@ define(
 					cp: filter.cp
 				};
 				return filter && filter.cp ? mustache.render(this.sqlcp,view) : null;
+			},
+			getCloseCpSQL:function(lon,lat){
+				var config = {
+					lon: lon,
+					lat: lat
+				};
+				return mustache.render(this.sqlclosecp,config);
 			},
 			getAPIURL:function(filter){
 				//http://decasaalcole.cartodb.com/api/v2/sql?q=
@@ -98,6 +107,22 @@ define(
 						}else{
 							if(map.mrk){
 								map.removeLayer(map.mrk);
+							}
+						}
+					}
+				})
+			},
+
+			getCpClose:function(lon,lat,div){
+				var url = this.url + "/api/v2/sql?q=" + encodeURI(this.getCloseCpSQL(lon,lat));
+				$.ajax({
+					url: url,
+					dataType: "json",
+					success: function(data){
+						if(data.rows.length > 0){
+							var cp = data.rows[0].cp;
+							if(cp && cp.toString().length > 0){
+								$('#'+div).val(cp);
 							}
 						}
 					}
