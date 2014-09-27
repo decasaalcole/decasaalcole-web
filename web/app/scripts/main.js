@@ -8,8 +8,8 @@ require.config({
         mapbox: '../../bower_components/mapbox.js/mapbox',
         bootstrap: '../../bower_components/bootstrap/dist/js/bootstrap',
         spinjs: '../../bower_components/spinjs/spin',
-        'cartodb.js': '../../bower_components/cartodb.js/index',
-        'leaflet-src': '../../bower_components/leaflet/dist/leaflet-src',
+        //'cartodb.js': '../../bower_components/cartodb.js/index',
+        //'leaflet-src': '../../bower_components/leaflet/dist/leaflet-src',
         cookiebar: 'jquery.cookiebar/jquery.cookiebar'
     },
     shim: {

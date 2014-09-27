@@ -141,6 +141,7 @@ define(
 				getDataList(url);
 				DCAC.carto.getLeafletLayer(filter,DCAC.map);
 				DCAC.carto.showCpLocation(cp,DCAC.map);
+				addLegend();
 			}else{
 				showAlertMessage('Introduce el código postal donde resides');
 			}
@@ -232,7 +233,16 @@ define(
 			$('#btnmap').on('click',function(){
 				DCAC.map.invalidateSize();
 			})
+		}
 
+		var addLegend = function(){
+			var html = '<div clas="legElem"><div class="icon icon30"></div><div class="legElem">hasta 30 min</div></div>';
+			html += '<div clas="legElem"><div class="icon icon60"></div><div class="legElem">hasta 60 min</div></div>';
+			html += '<div clas="legElem"><div class="icon icon90"></div><div class="legElem">hasta 90 min</div></div>';
+			html += '<div clas="legElem"><div class="icon icon120"></div><div class="legElem">hasta 120 min</div></div>';
+			html += '<div clas="legElem"><div class="icon icon150"></div><div class="legElem">hasta 150 min</div></div>';
+			html += '<div clas="legElem"><div class="icon icon180"></div><div class="legElem">m&aacute;s de 150 min</div></div>';
+			$('#legend').html(html);
 		}
 
 		var showSearchPanel = function(){

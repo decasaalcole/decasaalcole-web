@@ -186,6 +186,49 @@ span.glyphicon{
 	margin-top: 35px;
 }
 
+#legend{
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	z-index: 9999999;
+	background: #fff;
+	margin: 2px;
+	padding: 5px;
+	opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+.icon{
+	width: 8px;
+	height: 8px;
+	border-radius: 4px;
+	margin-left: 4px;
+	display: inline-block;
+
+}
+.icon30{
+	background: #FFFFB2;
+}
+.icon60{
+	background: #FED977;
+}
+.icon90{
+	background: #FEB24E;
+}
+.icon120{
+	background: #FD8E3E;
+}
+.icon150{
+	background: #FC522D;
+}
+.icon180{
+	background: #E31C1E;
+}
+.legElem{
+	display: inline-block;
+	margin-left: 3px;
+	margin-left: 3px;
+	font-size: 10px;
+}
 
 
 
