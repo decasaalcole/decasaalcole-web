@@ -9,28 +9,34 @@ define(
 
 		function getWhere(filter){
 			var conditions = [];
-			if (filter.regimen && filter.regimen !== undefined ){
-				var reg = filter.regimen === '0' ? 'false' : 'true';
+			if (filter.regimen && filter.regimen !== '2' ){
+				var reg = filter.regimen === '0' ? 'true' : 'false';
 				conditions.push("regimen = " + reg);
 			}
 			if (filter.maxtime){
 				conditions.push("atime < " + filter.maxtime);
 			}
-			if (filter.tipo){
-				conditions.push("nived like '%"+filter.tipo+"%'");
+			if (filter.tipo && filter.tipo.length > 0){
+				if (filter.tipo.length == 1){					
+					conditions.push("nived like '%"+filter.tipo[0]+"%'");
+				}else if (filter.tipo.length > 1){
+					var subconditions = "( nived like '%"+filter.tipo[0]+"%'";
+					for(var i = 1; i < filter.tipo.length; i++){
+						subconditions += " or nived like '%"+filter.tipo[i]+"%'";
+					}
+					subconditions += ' )';
+					conditions.push(subconditions);
+				}				
 			}
-
 			if (conditions.length>0){
-				return "WHERE " + conditions.join(" AND ")
+				return "WHERE " + conditions.join(" AND ");
 			} else {
 				return "";
 			}
 		}
 
-
-
 		cartojs.prototype = {
-			sql : 'with ftimes as (select cp_to cp, from_dist dist, from_time atime from times where cp_from = \'{{cp}}\'), ttimes as (select cp_from cp, to_dist dist, to_time atime from times where cp_to = \'{{cp}}\'), totaltimes as (select * from ftimes union select * from ttimes union select \'{{cp}}\' cp, 0 dist, 0 atime) select c.cartodb_id, c.the_geom, ST_astext(c.the_geom) as tgeom, c.the_geom_webmercator, c.regimen, c.despecific, c.localidad, c.tipocalle, c.direccion, c.numero, c.codigo, ((t.atime)/60)::integer minutes, (t.dist/1000)::integer kms from coles_cp c join totaltimes t on c.cp = t.cp {{&where}} order by t.atime, t.dist',
+			sql : 'with ftimes as (select cp_to cp, from_dist dist, from_time atime from times where cp_from = \'{{cp}}\'), ttimes as (select cp_from cp, to_dist dist, to_time atime from times where cp_to = \'{{cp}}\'), totaltimes as (select * from ftimes union select * from ttimes union select \'{{cp}}\' cp, 0 dist, 0 atime) select c.cartodb_id, c.the_geom, ST_astext(c.the_geom) as tgeom, c.the_geom_webmercator, c.regimen, c.dgenerica, c.dabreviada, c.localidad, c.tipocalle, c.direccion, c.numero, c.codigo, ((t.atime)/60)::integer minutes, (t.dist/1000)::integer kms from coles_cp2 c join totaltimes t on c.cp = t.cp {{&where}} order by t.atime, t.dist',
 
 			sqlcp : 'select st_astext(the_geom) pto from cp where cp = {{cp}}',
 

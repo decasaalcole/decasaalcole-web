@@ -168,6 +168,13 @@ define(
 					$('#typeadultos').removeClass('btn-default').addClass('btn-primary');
 				}
 			})
+			$('#typeotros').click(function(e){
+				if($('#typeotros').hasClass('btn-primary')){
+					$('#typeotros').removeClass('btn-primary').addClass('btn-default');
+				}else{
+					$('#typeotros').removeClass('btn-default').addClass('btn-primary');
+				}
+			})
 		}
 
 		var prepareLoadingSpinner = function(){
@@ -223,7 +230,7 @@ define(
 			} else if($('#typeprivate').hasClass('btn-primary')){
 				return '1';
 			} else {
-				return null;
+				return '2';
 			}
 		}
 
@@ -237,27 +244,30 @@ define(
 		}
 
 		var getTypeSchool = function(){
-			var type = '';
+			var type = [];
 			if($('#typeadultos').hasClass('btn-primary')){
-					type += 'A'; 							
+					type.push('G'); 							
 			}
 			if($('#typefp').hasClass('btn-primary')){
-					type += 'A';			
+					type.push('F');		
 			}
 			if($('#typebachiller').hasClass('btn-primary')){
-					type += 'A';			
+					type.push('E');			
 			}
 			if($('#typeeso').hasClass('btn-primary')){
-					type += 'A'; 				
+					type.push('D');				
 			}
 			if($('#typeespecial').hasClass('btn-primary')){
-					type += 'B'; 				
+					type.push('C');				
 			}
 			if($('#typeprimaria').hasClass('btn-primary')){
-					type += 'C';				
+					type.push('B');			
 			}
 			if($('#typeinfantil').hasClass('btn-primary')){
-					type += 'A';				
+					type.push('A');			
+			}
+			if($('#typeotros').hasClass('btn-primary')){
+					type.push('H');				
 			}
 			if(type === ''){
 				type = null;
@@ -313,17 +323,18 @@ define(
 
 			}
 			var tpl = '<table class="table table-striped"><thead><tr>';
-			tpl += '<th>Tiempo</th><th>R&eacute;gimen</th><th>Id</th><th>Centro</th><th>Municipio</th><th>Direcci&oacute;n</th><th>Mapa</th>';
+			tpl += '<th>Tiempo</th><th>R&eacute;gimen</th><th>Id</th><th>Tipo</th><th>Centro</th><th>Municipio</th><th>Direcci&oacute;n</th><th>Mapa</th>';
 			tpl += '</tr></thead><tbody>';
 			tpl += '{{#rows}}';
 			tpl += '<tr>';
 			tpl += '<td>{{minutes}} min</td>';
 			tpl += '<td><span class="label label-info {{#regimen}}label-danger{{/regimen}}">{{reg2}}</span></td>';
 			tpl += '<td>{{codigo}}</td>';
-			tpl += '<td><a href="http://www.cece.gva.es/ocd/areacd/es/centro.asp?codi={{codigo}}" target="_blank">{{despecific}}</a></td>';
+			tpl += '<td>{{dgenerica}}</td>';
+			tpl += '<td><a href="http://www.cece.gva.es/ocd/areacd/es/centro.asp?codi={{codigo}}" target="_blank">{{dabreviada}}</a></td>';
 			tpl += '<td>{{localidad}}</td>';
 			tpl += '<td>{{tipocalle}} {{direccion}} - {{numero}}</td>';
-			tpl += '<td><button id="btngomap" class="btn btn-primary btn-xs btnpto" data-cole="{{despecific}}" data-lonlat="{{lonlat}}"><span class="glyphicon glyphicon-map-marker"></span></button></td>';
+			tpl += '<td><button id="btngomap" class="btn btn-primary btn-xs btnpto" data-cole="{{dabreviada}}" data-lonlat="{{lonlat}}"><span class="glyphicon glyphicon-map-marker"></span></button></td>';
 			tpl += '</tr>';
 			tpl += '{{/rows}}';
 			tpl += '</tbody></table>';
@@ -372,7 +383,7 @@ define(
 				if(cp !== ''){
 					showLoadingInfo(true);
 					filter.regimen = getRegime();
-					//filter.tipo = getTypeSchool();
+					filter.tipo = getTypeSchool();
 					createMap();
 					var url = DCAC.carto.getAPIURL(filter);
 					getResultsList(url);

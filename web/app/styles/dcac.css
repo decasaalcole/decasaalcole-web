@@ -26,11 +26,11 @@ header{
 	margin-bottom: 2px;
 }
 #beta{
-	right: 0px;
+	right: 10px;
 	top: 0px;
-	height: 70px;
-	width: 70px;
-	background-image: url("/img/beta.png");
+	height: 67px;
+	width: 80px;
+	background-image: url("/img/beta2.png");
 	position: absolute;
 }
 #headerLogo img{
@@ -228,6 +228,13 @@ span.glyphicon{
 	margin-left: 3px;
 	margin-left: 3px;
 	font-size: 10px;
+}
+.btn80{
+	width: 80px;
+}
+#typegroup1{
+margin-right: -5px;
+margin-left: -5px;
 }
 
 
