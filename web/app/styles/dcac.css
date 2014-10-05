@@ -30,7 +30,7 @@ header{
 	top: 0px;
 	height: 67px;
 	width: 80px;
-	background-image: url("/img/beta2.png");
+	background-image: url("../img/beta2.png");
 	position: absolute;
 }
 #headerLogo img{

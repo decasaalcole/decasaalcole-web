@@ -247,7 +247,10 @@ module.exports = function(grunt) {
                 dest: '.tmp/styles/',
                 src: [
                     '{,*/}*.css',
-                    'bower_components/openlayers/theme/default/img'
+                    '../scripts/jquery.cookiebar/jquery.cookiebar.css',
+                    '../bower_components/leaflet/dist/leaflet.css',
+                    '../bower_components/mapbox.js/mapbox.css',
+                    '../bower_components/cartodb.js/dist/cartodb.css'
                 ]
             }
         },
@@ -284,27 +287,15 @@ module.exports = function(grunt) {
             dirListing: {
                 command: 'ls'
             },
-            createTar: {
-                command: 'tar -czf ./deploysTAR/geoportalMARROC-'+now+'.tar.gz dist'
-            },
-            moveSenegal: {
-                command: 'sshpass -p "geoportal" scp ./deploysTAR/geoportalMARROC-'+now+'.tar.gz administrator@senegal.prodevelop.es:/home/administrator/deploysFront/dist' 
-            },
             copyRequire:{
                 command: 'mkdir -p ./dist/bower_components/requirejs;cp ./bower_components/requirejs/require.js ./dist/bower_components/requirejs/'
             },
             copyBootstrap:{
                 command: 'mkdir -p ./dist/bower_components/bootstrap/dist/css;mkdir -p ./dist/bower_components/bootstrap/dist/js;mkdir -p ./dist/bower_components/bootstrap/dist/fonts;cp ./bower_components/bootstrap/dist/js/* ./dist/bower_components/bootstrap/dist/js/;cp ./bower_components/bootstrap/dist/fonts/* ./dist/bower_components/bootstrap/dist/fonts/;cp ./bower_components/bootstrap/dist/css/* ./dist/bower_components/bootstrap/dist/css/'
             },
-            copyBootstrap2:{
-                command: 'mkdir -p ./dist/styles/js;mkdir -p ./dist/styles/fonts;cp ./bower_components/bootstrap/dist/js/* ./dist/styles/js/;cp ./bower_components/bootstrap/dist/fonts/* ./dist/styles/fonts/'
-            },
             copyJqueryMinMap:{
                 command: 'cp ./bower_components/jquery/dist/jquery.min.map ./dist/scripts/'
-            },
-            copyImgsThemeOL:{
-                command: 'mkdir -p ./dist/theme/default/img;cp ./bower_components/Openlayers/theme/default/img/* ./dist/theme/default/img/'
-            }        
+            }       
         }    
     });
 
@@ -323,30 +314,6 @@ module.exports = function(grunt) {
         ]);
     });
 
-    grunt.registerTask('build2', [
-        'clean:dist',
-        'useminPrepare',
-        'concurrent:dist',
-        'autoprefixer',
-        'requirejs',
-        'concat',
-        'cssmin',
-        'uglify',
-        'modernizr',
-        'copy:dist',
-        'rev',
-        'usemin',
-        'shell:copyRequire',
-        'shell:copyBootstrap',
-        'shell:copyJqueryMinMap',
-        'shell:copyImgsThemeOL'
-    ]);
-
-    grunt.registerTask('deploySenegal',[
-        'shell:createTar',
-        'shell:moveSenegal'
-   ]);
-
     grunt.registerTask('build', [
         'clean:dist',
         'useminPrepare',
@@ -360,8 +327,7 @@ module.exports = function(grunt) {
         'usemin',
         'shell:copyRequire',
         'shell:copyBootstrap',
-        'shell:copyJqueryMinMap',
-        'shell:copyImgsThemeOL'
+        'shell:copyJqueryMinMap'
     ]);
 
     grunt.registerTask('default', [
