@@ -10,7 +10,7 @@ define(
 		function getWhere(filter){
 			var conditions = [];
 			if (filter.regimen && filter.regimen !== '2' ){
-				var reg = filter.regimen === '0' ? 'false' : 'true';
+				var reg = filter.regimen === '0' ? 'true' : 'false';
 				conditions.push("regimen = " + reg);
 			}
 			if (filter.maxtime){

@@ -331,9 +331,9 @@ define(
 			for(var i = 0; i < opts.rows.length; i++){
 				var reg = opts.rows[i].regimen;
 				if(reg === true){
-					opts.rows[i].reg2 = 'Priv';
-				}else{
 					opts.rows[i].reg2 = 'Pub';
+				}else{
+					opts.rows[i].reg2 = 'Priv';
 				}
 				opts.rows[i].lonlat = opts.rows[i].tgeom.substring(6,opts.rows[i].tgeom.length-1);
 

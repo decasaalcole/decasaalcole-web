@@ -131,7 +131,6 @@ p span{
 	margin-top: 10px;
 }
 #btnback{
-	float:right;
 }
 footer p{
 	float:right;
@@ -176,7 +175,6 @@ span.glyphicon{
 }
 #btnbackabout{
 	margin-top: 10px;
-	float: right;
 	margin-right: 10px;
 }
 #aboutInfo{
@@ -250,6 +248,10 @@ margin-left: -5px;
 }
 .iconPinBlue{
 	background-image: url("../img/blue.png") !important;
+}
+
+#switchResultBtns{
+	float: right;
 }
 
 
