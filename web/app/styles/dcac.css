@@ -238,4 +238,19 @@ margin-left: -5px;
 }
 
 
+.iconPin{
+	height: 20px;
+	width: 12px;
+	display: inline-block;
+
+}
+.iconPinRed{
+	background-image: url("../img/red.png") !important;
+
+}
+.iconPinBlue{
+	background-image: url("../img/blue.png") !important;
+}
+
+
 

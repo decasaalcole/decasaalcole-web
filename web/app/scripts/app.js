@@ -243,6 +243,17 @@ define(
 			}
 		}
 
+		var resetMap = function(){
+
+			if(DCAC.map){
+				
+				if(DCAC.map.mrk2){
+					DCAC.map.mrk2.setLatLng([0,0]).update();
+				}
+				DCAC.map.setView([39.25, 0], 7);
+			}
+		}
+
 		var getTypeSchool = function(){
 			var type = [];
 			if($('#typeadultos').hasClass('btn-primary')){
@@ -284,6 +295,10 @@ define(
 			$('#btnmap').on('click',function(){
 				DCAC.map.invalidateSize();
 			})
+			$('#list').removeClass('hidden');
+			$('#map').addClass('hidden');
+			$('#btnlist').siblings().removeClass('btn-primary').addClass('btn-default');
+			$('#btnlist').removeClass('btn-default').addClass('btn-primary');
 		}
 
 		var getResultsList = function (url){
@@ -294,6 +309,7 @@ define(
 					createResultsList(data);
 					showLoadingInfo(false);
 					showResultsPanel();
+					resetMap();
 				}
 			})
 		}
@@ -361,6 +377,8 @@ define(
 			html += '<div clas="legElem"><div class="icon icon120"></div><div class="legElem">hasta 120 min</div></div>';
 			html += '<div clas="legElem"><div class="icon icon150"></div><div class="legElem">hasta 150 min</div></div>';
 			html += '<div clas="legElem"><div class="icon icon180"></div><div class="legElem">m&aacute;s de 150 min</div></div>';
+			html += '<div clas="legElem"><div class="iconPin iconPinBlue"></div><div class="legElem">Código postal</div></div>';
+			html += '<div clas="legElem"><div class="iconPin iconPinRed"></div><div class="legElem">Colegio</div></div>';
 			$('#legend').html(html);
 		}
 
@@ -399,6 +417,7 @@ define(
 
 
 		var goToSearchPanel = function(){
+			resetMap();
 			DCAC.mode = 0;
 			$('#formbase').removeClass('hidden');
 			$('#results').addClass('hidden');
