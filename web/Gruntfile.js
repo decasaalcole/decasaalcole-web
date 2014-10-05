@@ -59,19 +59,6 @@ module.exports = function(grunt) {
                 hostname: 'localhost'
             },
             proxies: [
-                {
-                    context: '/geo',
-                    host: 'senegal.prodevelop.es',
-                    port: 80
-                },{
-                    context: '/search',
-                    host: 'senegal.prodevelop.es',
-                    port: 80
-                },{
-                    context: '/mapproxy',
-                    host: 'senegal.prodevelop.es',
-                    port: 80
-                }
             ],
             livereload: {
                 options: {
@@ -322,6 +309,7 @@ module.exports = function(grunt) {
         'requirejs',
         'concat',
         'cssmin',
+        'uglify',
         'modernizr',
         'copy:dist',
         'usemin',
