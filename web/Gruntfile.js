@@ -282,7 +282,13 @@ module.exports = function(grunt) {
             },
             copyJqueryMinMap:{
                 command: 'cp ./bower_components/jquery/dist/jquery.min.map ./dist/scripts/'
-            }       
+            },
+            copyPins:{
+                command: 'mkdir -p ./dist/scripts/themes/css/images; cp ./app/scripts/themes/css/images/* ./dist/scripts/themes/css/images;'
+            },
+            copyPins2:{
+                command: 'mkdir -p ./dist/styles/images; cp ./app/bower_components/mapbox.js/images/* ./dist/styles/images;'
+            }      
         }    
     });
 
@@ -315,7 +321,9 @@ module.exports = function(grunt) {
         'usemin',
         'shell:copyRequire',
         'shell:copyBootstrap',
-        'shell:copyJqueryMinMap'
+        'shell:copyJqueryMinMap',
+        'shell:copyPins',
+        'shell:copyPins2'
     ]);
 
     grunt.registerTask('default', [

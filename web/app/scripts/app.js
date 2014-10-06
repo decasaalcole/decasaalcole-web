@@ -31,8 +31,8 @@ define(
 				$('header').height(250);
 				$('footer').height(30);
 				var h = $(window).height()-250-30-40;
-				if(h < 290){
-					h = 290;
+				if(h < 430){
+					h = 430;
 				}
 				$('#content').height(h);
 				$('#about').height(h);
@@ -44,8 +44,8 @@ define(
 				$('header').height(50);
 				$('footer').height(30);
 				var h = $(window).height()-50-30-40;
-				if(h < 290){
-					h = 290;
+				if(h < 430){
+					h = 430;
 				}
 				$('#content').height(h);
 				$('#about').height(h);
@@ -299,6 +299,7 @@ define(
 			$('#map').addClass('hidden');
 			$('#btnlist').siblings().removeClass('btn-primary').addClass('btn-default');
 			$('#btnlist').removeClass('btn-default').addClass('btn-primary');
+			$('#beta').hide();
 		}
 
 		var getResultsList = function (url){
@@ -398,10 +399,11 @@ define(
 					tipo: null,
 					maxtime: null
 				}
-				if(cp !== ''){
+				var schoolType = getTypeSchool();
+				if(cp !== '' && schoolType.length > 0){
 					showLoadingInfo(true);
 					filter.regimen = getRegime();
-					filter.tipo = getTypeSchool();
+					filter.tipo = schoolType;
 					createMap();
 					var url = DCAC.carto.getAPIURL(filter);
 					getResultsList(url);
@@ -409,7 +411,11 @@ define(
 					DCAC.carto.showCpLocation(cp,DCAC.map);
 					addMapLegend();
 				}else{
-					showAlertMessage('Introduce el código postal donde resides');
+					var message = 'Introduce el código postal donde resides'
+					if(schoolType.length == 0){
+						message = 'Selecciona un tipo de centro';
+					}
+					showAlertMessage(message);
 				}
 			})
 		}
@@ -423,6 +429,7 @@ define(
 			$('#results').addClass('hidden');
 			$('#btnback').addClass('hidden');
 			$('#btnback').addClass('hidden');
+			$('#beta').show();
 			updateHeightComponents();
 		}
 
@@ -459,7 +466,9 @@ define(
 			setFunctionalyOthersButtons();
 		}
 
+
 		initializeContext();
+
 
 
     	return 'de Casa al Cole';

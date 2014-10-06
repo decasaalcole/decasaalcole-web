@@ -80,7 +80,7 @@ margin-top: 10px;
 #btn-search{
 	margin:10px;
 	height: 60px;
-	margin-top: 20px;
+	margin-top: 15px;
 }
 #formcp input{
 	width: 20%;
@@ -175,7 +175,7 @@ span.glyphicon{
 }
 #btnbackabout{
 	margin-top: 10px;
-	margin-right: 10px;
+	margin-left: 10px;
 }
 #aboutInfo{
 	margin-top: 45px;
