@@ -8,6 +8,7 @@ define(
 			carto : null,
 			mode: 0
 		}
+		window.DCAC = DCAC;
 
 		var insertAdviceCookies = function(){
 			$.cookieBar({
@@ -50,8 +51,9 @@ define(
 				$('#content').height(h);
 				$('#about').height(h);
 				$('#results').height(h-30);
-				var ww = $('#content').width()
+				var ww = $('#content').width();
 				$('#map').height(h-70).width(ww);
+				$('#list').height(h-70).width(ww);
 				$('#headerLogo').hide();
 				$('#headerMessage').hide();
 				$('#headerTitleLogo').removeClass('hidden');
@@ -320,7 +322,10 @@ define(
 			$('#btnmap').removeClass('btn-default').addClass('btn-primary');
 			$('#map').removeClass('hidden');
 			$('#list').addClass('hidden');
-			DCAC.mode = 0;
+			DCAC.mode = 1;			
+			DCAC.carto.getLeafletLayer(DCAC.filter,DCAC.map);
+			DCAC.carto.showCpLocation(DCAC.filter.cp,DCAC.map);
+			addMapLegend();
 		}
 
 
@@ -393,7 +398,7 @@ define(
 				if(cp.length == 4){
 					cp = '0'+cp;
 				}
-				var filter = {
+				DCAC.filter = {
 					cp: cp,
 					regimen: null,
 					tipo: null,
@@ -402,14 +407,14 @@ define(
 				var schoolType = getTypeSchool();
 				if(cp !== '' && schoolType.length > 0){
 					showLoadingInfo(true);
-					filter.regimen = getRegime();
-					filter.tipo = schoolType;
+					DCAC.filter.regimen = getRegime();
+					DCAC.filter.tipo = schoolType;
 					createMap();
-					var url = DCAC.carto.getAPIURL(filter);
+					var url = DCAC.carto.getAPIURL(DCAC.filter);
 					getResultsList(url);
-					DCAC.carto.getLeafletLayer(filter,DCAC.map);
-					DCAC.carto.showCpLocation(cp,DCAC.map);
-					addMapLegend();
+					//DCAC.carto.getLeafletLayer(filter,DCAC.map);
+					//DCAC.carto.showCpLocation(cp,DCAC.map);
+					//addMapLegend();
 				}else{
 					var message = 'Introduce el código postal donde resides'
 					if(schoolType.length == 0){

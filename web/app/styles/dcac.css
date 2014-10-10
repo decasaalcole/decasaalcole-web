@@ -65,11 +65,12 @@ footer{
 	background-color: #eeeeee;
 	padding: 20px;
 	height: 120px;
+	text-align: right;
 }
 
 /* BODY */
 #content{
-	height: 350px;
+	height: 750px;
 }
 #infoMessage{
 margin-top: 10px;
