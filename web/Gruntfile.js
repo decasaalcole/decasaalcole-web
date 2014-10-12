@@ -288,7 +288,10 @@ module.exports = function(grunt) {
             },
             copyPins2:{
                 command: 'mkdir -p ./dist/styles/images; cp ./app/bower_components/mapbox.js/images/* ./dist/styles/images;'
-            }      
+            },
+            copyLeaflet:{
+                command: 'mkdir -p ./dist/scripts/images;cp ./bower_components/leaflet/dist/images/* ./dist/scripts/images/;'
+            }
         }    
     });
 
@@ -323,7 +326,8 @@ module.exports = function(grunt) {
         'shell:copyBootstrap',
         'shell:copyJqueryMinMap',
         'shell:copyPins',
-        'shell:copyPins2'
+        'shell:copyPins2',
+        'shell:copyLeaflet'
     ]);
 
     grunt.registerTask('default', [
