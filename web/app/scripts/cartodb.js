@@ -86,7 +86,12 @@ define(
 					    sql: sql,
 					    cartocss: '#times{marker-fill-opacity: 1; marker-line-color: #FFF; marker-line-width: 0; marker-line-opacity: 1; marker-width: 10; marker-fill: #FFFFB2; marker-allow-overlap: true; } #times [ minutes <= 500] {marker-fill: #B10026; } #times [ minutes <= 180] {marker-fill: #E31A1C; } #times [ minutes <= 150] {marker-fill: #FC4E2A; } #times [ minutes <= 120] {marker-fill: #FD8D3C; } #times [ minutes <= 90] {marker-fill: #FEB24C; } #times [ minutes <= 60] {marker-fill: #FED976; } #times [ minutes <= 30] {marker-fill: #FFFFB2;}'
 					  }]
-					}).addTo(map);
+					}).addTo(map).on('done', function(layer) {
+					   console.log("Cargada");
+					   layer.invalidate();
+					  }).on('error', function(err) {
+					    console.log("some error occurred: " + err);
+					  });
 					
 				}
 			},

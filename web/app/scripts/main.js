@@ -17,7 +17,8 @@ require.config({
         cartodbjs: {
             deps: [
                 'leaflet',
-                'jquery'
+                'jquery',
+                'mapbox'
             ]
         },
         mapbox: {
