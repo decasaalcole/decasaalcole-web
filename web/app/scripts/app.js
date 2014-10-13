@@ -32,8 +32,8 @@ define(
 				$('header').height(250);
 				$('footer').height(30);
 				var h = $(window).height()-250-30-40;
-				if(h < 430){
-					h = 430;
+				if(h < 445){
+					h = 445;
 				}
 				$('#content').height(h);
 				$('#about').height(h);
@@ -45,8 +45,8 @@ define(
 				$('header').height(50);
 				$('footer').height(30);
 				var h = $(window).height()-50-30-40;
-				if(h < 430){
-					h = 430;
+				if(h < 445){
+					h = 445;
 				}
 				$('#content').height(h);
 				$('#about').height(h);
