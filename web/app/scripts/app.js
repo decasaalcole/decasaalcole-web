@@ -322,10 +322,7 @@ define(
 			$('#btnmap').removeClass('btn-default').addClass('btn-primary');
 			$('#map').removeClass('hidden');
 			$('#list').addClass('hidden');
-			DCAC.mode = 1;			
-			DCAC.carto.getLeafletLayer(DCAC.filter,DCAC.map);
-			DCAC.carto.showCpLocation(DCAC.filter.cp,DCAC.map);
-			addMapLegend();
+			DCAC.mode = 1;
 		}
 
 
@@ -412,9 +409,9 @@ define(
 					createMap();
 					var url = DCAC.carto.getAPIURL(DCAC.filter);
 					getResultsList(url);
-					//DCAC.carto.getLeafletLayer(filter,DCAC.map);
-					//DCAC.carto.showCpLocation(cp,DCAC.map);
-					//addMapLegend();
+					DCAC.carto.getLeafletLayer(DCAC.filter,DCAC.map);
+					DCAC.carto.showCpLocation(cp,DCAC.map);
+					addMapLegend();
 				}else{
 					var message = 'Introduce el código postal donde resides'
 					if(schoolType.length == 0){
