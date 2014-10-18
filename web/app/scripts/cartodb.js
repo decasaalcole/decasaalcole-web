@@ -79,7 +79,7 @@ define(
 				}else{
 					// create a layer with 1 sublayer
 					var sql = this.getSQL(filter);
-					var css = '#times{marker-fill-opacity: 1; marker-line-color: #FFF; marker-line-width: 0; marker-line-opacity: 1; marker-width: 10; marker-fill: #FFFFB2; marker-allow-overlap: true; } #times [ minutes <= 500] {marker-fill: #B10026; } #times [ minutes <= 180] {marker-fill: #E31A1C; } #times [ minutes <= 150] {marker-fill: #FC4E2A; } #times [ minutes <= 120] {marker-fill: #FD8D3C; } #times [ minutes <= 90] {marker-fill: #FEB24C; } #times [ minutes <= 60] {marker-fill: #FED976; } #times [ minutes <= 30] {marker-fill: #FFFFB2;}' +
+					var css = '#times{marker-fill-opacity: 1; marker-line-color: #FFF; marker-line-width: 0; marker-line-opacity: 1; marker-width: 12; marker-fill: #FFFFB2; marker-allow-overlap: true; } #times [ minutes <= 500] {marker-fill: #B10026; } #times [ minutes <= 180] {marker-fill: #E31A1C; } #times [ minutes <= 150] {marker-fill: #FC4E2A; } #times [ minutes <= 120] {marker-fill: #FD8D3C; } #times [ minutes <= 90] {marker-fill: #FEB24C; } #times [ minutes <= 60] {marker-fill: #FED976; } #times [ minutes <= 30] {marker-fill: #FFFFB2;}' +
 					          '#times::labels [zoom>10] {text-name: [dabreviada]; text-face-name: \'DejaVu Sans Book\'; text-size: 11; text-label-position-tolerance: 10; text-fill: #8f5902; text-halo-fill: #FFF; text-halo-radius: 1.5; text-dy: -10; text-allow-overlap: false; text-placement: point; text-placement-type: simple;}';
 
 					cartodb.createLayer(map, {
@@ -104,6 +104,14 @@ define(
 					cp: cp
 				}				
 				var url = this.url + "/api/v2/sql?q=" + encodeURI(this.getCpSQL(opts));
+				var cpIcon = L.icon({
+				    iconUrl: '/scripts/themes/css/images/marker-icon.png',
+				    shadowUrl: '/scripts/themes/css/images/marker-shadow.png',
+				    iconSize:     [25, 41], // size of the icon
+				    shadowSize:   [41, 41],
+				    iconAnchor: [12, 41],
+				    popupAnchor: [0, -41]
+				});
 				$.ajax({
 					url: url,
 					dataType: "json",
@@ -117,7 +125,7 @@ define(
 								map.mrk.setLatLng(lalo).update();
 								map.mrk.setPopupContent(cp);
 							}else{
-								map.mrk = L.marker([lonlat2[1], lonlat2[0]]);
+								map.mrk = L.marker([lonlat2[1], lonlat2[0]],{icon:cpIcon});
 								map.mrk.addTo(map).bindPopup(cp);
 							}
 						}else{

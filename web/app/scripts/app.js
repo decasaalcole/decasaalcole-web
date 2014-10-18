@@ -238,9 +238,14 @@ define(
 
 		var createMap = function(){
 			if(DCAC.map === null){				
-				DCAC.map = L.mapbox.map('map');
-				L.mapbox.accessToken = 'pk.eyJ1IjoieHVyeG9zYW56IiwiYSI6Ii1ObkhtWkUifQ.BK7TVbrk0v0-1NVn_ndWZw';
-				L.mapbox.tileLayer('xurxosanz.jj47g6i7').addTo(DCAC.map);
+				//DCAC.map = L.mapbox.map('map');
+				//L.mapbox.accessToken = 'pk.eyJ1IjoieHVyeG9zYW56IiwiYSI6Ii1ObkhtWkUifQ.BK7TVbrk0v0-1NVn_ndWZw';
+				//L.mapbox.tileLayer('xurxosanz.jj47g6i7').addTo(DCAC.map);
+				//
+				DCAC.map = L.map('map');
+				L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+				    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+				}).addTo(DCAC.map);
 				DCAC.map.setView([39.25, 0], 7);
 			}
 		}
@@ -332,11 +337,16 @@ define(
 				rows: data.rows
 			}
 			for(var i = 0; i < opts.rows.length; i++){
-				var reg = opts.rows[i].regimen;
+				var x = opts.rows[i];
+				var reg = x.regimen;
 				if(reg === true){
-					opts.rows[i].reg2 = 'Pub';
+					x.reg2 = 'Pub';
 				}else{
-					opts.rows[i].reg2 = 'Priv';
+					x.reg2 = 'Priv';
+				}
+				var cod = x.codigo.toString().substring(0,1);
+				if(cod == 3){
+					x.codigo = '0'+x.codigo;
 				}
 				opts.rows[i].lonlat = opts.rows[i].tgeom.substring(6,opts.rows[i].tgeom.length-1);
 
