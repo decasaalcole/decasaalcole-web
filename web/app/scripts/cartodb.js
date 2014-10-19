@@ -1,7 +1,7 @@
 define(
 	['mustache','leaflet','cartodbjs'],
 	function (mustache,leaflet,cartodbjs) {
-		
+
 
 		function cartojs(options){
 			this.url = options.url || 'http://decasaalcole.cartodb.com';
@@ -17,7 +17,7 @@ define(
 				conditions.push("atime < " + filter.maxtime);
 			}
 			if (filter.tipo && filter.tipo.length > 0){
-				if (filter.tipo.length == 1){					
+				if (filter.tipo.length == 1){
 					conditions.push("nived like '%"+filter.tipo[0]+"%'");
 				}else if (filter.tipo.length > 1){
 					var subconditions = "( nived like '%"+filter.tipo[0]+"%'";
@@ -26,7 +26,7 @@ define(
 					}
 					subconditions += ' )';
 					conditions.push(subconditions);
-				}				
+				}
 			}
 			if (conditions.length>0){
 				return "WHERE " + conditions.join(" AND ");
@@ -95,14 +95,14 @@ define(
 					  }).on('error', function(err) {
 					    console.log("some error occurred: " + err);
 					  });
-					
+
 				}
 			},
 
 			showCpLocation:function(cp,map){
 				var opts={
 					cp: cp
-				}				
+				}
 				var url = this.url + "/api/v2/sql?q=" + encodeURI(this.getCpSQL(opts));
 				var cpIcon = L.icon({
 				    iconUrl: '/scripts/themes/css/images/marker-icon.png',

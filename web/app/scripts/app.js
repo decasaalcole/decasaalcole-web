@@ -1,7 +1,7 @@
 /*global define */
 define(
-	['jquery','cartodb', 'mustache', 'leaflet','mapbox', 'cookiebar'],
-	function ($, cartodb, mustache, leaflet, mapbox, cookiebar) {
+	['jquery','cartodb', 'mustache', 'leaflet','cookiebar'],
+	function ($, cartodb, mustache, leaflet, cookiebar) {
 
 		var DCAC = {
 			map : null,
@@ -237,11 +237,7 @@ define(
 		}
 
 		var createMap = function(){
-			if(DCAC.map === null){				
-				//DCAC.map = L.mapbox.map('map');
-				//L.mapbox.accessToken = 'pk.eyJ1IjoieHVyeG9zYW56IiwiYSI6Ii1ObkhtWkUifQ.BK7TVbrk0v0-1NVn_ndWZw';
-				//L.mapbox.tileLayer('xurxosanz.jj47g6i7').addTo(DCAC.map);
-				//
+			if(DCAC.map === null){
 				DCAC.map = L.map('map');
 				L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
 				    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
@@ -253,7 +249,7 @@ define(
 		var resetMap = function(){
 
 			if(DCAC.map){
-				
+
 				if(DCAC.map.mrk2){
 					DCAC.map.mrk2.setLatLng([0,0]).update();
 				}
@@ -264,28 +260,28 @@ define(
 		var getTypeSchool = function(){
 			var type = [];
 			if($('#typeadultos').hasClass('btn-primary')){
-					type.push('G'); 							
+					type.push('G');
 			}
 			if($('#typefp').hasClass('btn-primary')){
-					type.push('F');		
+					type.push('F');
 			}
 			if($('#typebachiller').hasClass('btn-primary')){
-					type.push('E');			
+					type.push('E');
 			}
 			if($('#typeeso').hasClass('btn-primary')){
-					type.push('D');				
+					type.push('D');
 			}
 			if($('#typeespecial').hasClass('btn-primary')){
-					type.push('C');				
+					type.push('C');
 			}
 			if($('#typeprimaria').hasClass('btn-primary')){
-					type.push('B');			
+					type.push('B');
 			}
 			if($('#typeinfantil').hasClass('btn-primary')){
-					type.push('A');			
+					type.push('A');
 			}
 			if($('#typeotros').hasClass('btn-primary')){
-					type.push('H');				
+					type.push('H');
 			}
 			if(type === ''){
 				type = null;
@@ -455,19 +451,19 @@ define(
 				window.history.back();
 			})
 			$('#btnback').click(function(e){
-				goToSearchPanel();				
+				goToSearchPanel();
 			})
 		}
 
 
 		////////// BASE
 		var initializeContext = function(){
-			//cookies and 
+			//cookies and
 			insertAdviceCookies();
 			//adjust height
 			updateHeightComponents();
 			onResizeWindow();
-			// create carto db object			
+			// create carto db object
 			createCartoDB();
 			// geolocation
 			getCpFromGeolocationAPI();

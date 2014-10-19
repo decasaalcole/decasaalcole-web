@@ -236,7 +236,6 @@ module.exports = function(grunt) {
                     '{,*/}*.css',
                     '../scripts/jquery.cookiebar/jquery.cookiebar.css',
                     '../bower_components/leaflet/dist/leaflet.css',
-                    '../bower_components/mapbox.js/mapbox.css',
                     '../bower_components/cartodb.js/dist/cartodb.css'
                 ]
             }
@@ -286,13 +285,10 @@ module.exports = function(grunt) {
             copyPins:{
                 command: 'mkdir -p ./dist/scripts/themes/css/images; cp ./app/scripts/themes/css/images/* ./dist/scripts/themes/css/images;'
             },
-            copyPins2:{
-                command: 'mkdir -p ./dist/styles/images; cp ./app/bower_components/mapbox.js/images/* ./dist/styles/images;'
-            },
             copyLeaflet:{
                 command: 'mkdir -p ./dist/scripts/images;cp ./bower_components/leaflet/dist/images/* ./dist/scripts/images/;'
             }
-        }    
+        }
     });
 
     grunt.registerTask('server', function(target) {
@@ -326,7 +322,6 @@ module.exports = function(grunt) {
         'shell:copyBootstrap',
         'shell:copyJqueryMinMap',
         'shell:copyPins',
-        'shell:copyPins2',
         'shell:copyLeaflet'
     ]);
 

@@ -5,7 +5,6 @@ require.config({
         mustache: '../../bower_components/mustache/mustache',
         leaflet: '../../bower_components/leaflet/dist/leaflet',
         cartodbjs: '../bower_components/cartodb.js/dist/cartodb.noleaflet',
-        mapbox: '../../bower_components/mapbox.js/mapbox',
         bootstrap: '../../bower_components/bootstrap/dist/js/bootstrap',
         spinjs: '../../bower_components/spinjs/spin',
         cookiebar: 'jquery.cookiebar/jquery.cookiebar'
@@ -15,13 +14,6 @@ require.config({
             exports: 'L'
         },
         cartodbjs: {
-            deps: [
-                'leaflet',
-                'jquery',
-                'mapbox'
-            ]
-        },
-        mapbox: {
             deps: [
                 'leaflet',
                 'jquery'
@@ -36,5 +28,5 @@ require.config({
 });
 
 require(['app'], function (app) {
-    'use strict';    
+    'use strict';
 });
