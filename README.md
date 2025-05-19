@@ -1,3 +1,6 @@
+> [!Important]
+> The current version of the website is maintained at https://github.com/decasaalcole/decasaalcole.github.io
+
 De Casa al Cole
 ================
 
